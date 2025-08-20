@@ -1,0 +1,1444 @@
+<!DOCTYPE html>
+
+
+
+
+<html lang="en" itemscope itemtype="http://schema.org/WebPage"  manifest="/manifest.appcache">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Plan</title>
+    <meta name="description" content="冰河魔法师的标准日本语学习日志">
+
+    
+
+    <!-- Social: Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@wizicer">
+    <meta name="twitter:title" content="Plan">
+    <meta name="twitter:description" content="冰河魔法师的标准日本语学习日志">
+    
+    <meta property="twitter:image:src" content="http://localhost:4000/assets/img/blog-image.png">
+    
+
+    <!-- Social: Facebook / Open Graph -->
+    <meta property="og:url" content="http://localhost:4000/plan/">
+    <meta property="og:title" content="Plan">
+    
+    <meta property="og:image" content="http://localhost:4000/assets/img/blog-image.png">
+    
+    <meta property="og:description" content="冰河魔法师的标准日本语学习日志">
+    <meta property="og:site_name" content="冰河标日学习日志">
+
+    <!-- Social: Google+ / Schema.org  -->
+    <meta itemprop="name" content="Plan"/>
+    <meta itemprop="description" content="冰河魔法师的标准日本语学习日志">
+    <meta itemprop="image" content="http://localhost:4000/assets/img/blog-image.png"/>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="./assets/icons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="./assets/icons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="./assets/icons/manifest.json">
+    <link rel="mask-icon" href="./assets/icons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="./assets/icons/favicon.ico">
+    <meta name="msapplication-config" content="./assets/icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/3rd/bootstrap/css/bootstrap.min.css" title="theme">
+    <link rel="stylesheet" href="./assets/3rd/dataTables/dataTables.bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/3rd/dataTables/buttons.bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/3rd/dataTables/responsive.bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/3rd/font-awesome/css/font-awesome.min.css">
+
+    <link rel="canonical" href="http://localhost:4000/plan/">
+    <link rel="alternate" type="application/rss+xml" title="冰河标日学习日志" href="http://localhost:4000/feed.xml" />
+    <script src="./assets/3rd/jquery/jquery-1.12.4.min.js"></script>
+    <script src="./assets/3rd/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./assets/3rd/dataTables/jquery.dataTables.min.js"></script>
+    <script src="./assets/3rd/dataTables/dataTables.bootstrap.min.js"></script>
+    <script src="./assets/3rd/dataTables/dataTables.buttons.min.js"></script>
+    <script src="./assets/3rd/dataTables/buttons.bootstrap.min.js"></script>
+    <script src="./assets/3rd/dataTables/buttons.colVis.min.js"></script>
+    <script src="./assets/3rd/dataTables/dataTables.responsive.min.js"></script>
+    <script src="./assets/3rd/dataTables/responsive.bootstrap.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script>
+      var basethemeurl = "./assets/3rd/bootstrap/css/";
+    </script>
+</head>
+
+    <body>
+
+        <div id="wrapper">
+            <div class="overlay"></div>
+        
+            <!-- Sidebar -->
+            <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+    <ul class="nav sidebar-nav">
+        <li class="sidebar-brand"><a href="./index.html">冰河标日</a></li>
+        <li id="mobilemenu" class="hidden-sm hidden-md hidden-lg"><a href="./uwp/menu.html">课程</a></li>
+        
+            <li><a href="./tools/grammar.html">语法</a></li>
+        
+            <li><a href="./tools/wordlist.html">单词</a></li>
+        
+            <li><a href="./about/index.html">关于</a></li>
+        
+        <li id="rssfeed" class="hidden-xs"><a class="feed" href="./feed.xml" title="Atom/RSS feed">订阅RSS</a></li>
+        <li id="gobackCordova" style="display: none;"><a class="feed" href="./../../index.html" title="Go Back">回到新版</a></li>
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">主题风格<span class="caret"></span></a>
+            <ul class="dropdown-menu" id="theme-dropdown" role="menu">
+                <li><a href="#" data-theme="bootstrap" class="theme-link">明亮通透</a></li>
+                <li><a href="#" data-theme="paper" class="theme-link">轻快剪纸</a></li>
+                <li><a href="#" data-theme="slate" class="theme-link">蓝黑风格</a></li>
+                <li><a href="#" data-theme="darkly" class="theme-link">纯黑风格</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+<script>
+$(document).ready(function() {
+    if (/[?&]cordova=/.test(location.search)) {
+        $("#rssfeed").hide();
+        $("#gobackCordova").show();
+    }
+});
+</script>
+
+
+            <!-- Page Content -->
+            <div id="page-content-wrapper">
+                <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+                    <span class="hamb-top bg-primary"></span>
+                    <span class="hamb-middle bg-primary"></span>
+                    <span class="hamb-bottom bg-primary"></span>
+                </button>
+                <a id="goback" href="javascript: history.go(-1)" class="hidden-md hidden-lg hidden-sm"><i class="fa fa-arrow-left fa-2x"></i></a>
+                <div class="container">
+                    
+
+
+
+<header class="page-header">
+  <div class="jumbotron">
+    <h1>Plan</h1>
+    <p></p>
+  </div>
+</header>
+
+<article>
+  <p>学习目标：0-N2<br />
+完成时间：2016年7月-2017年12月<br />
+阶段目标：</p>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />[160718~160724]  五十音</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />[160725~161016]  标日初上</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />[161017~170108]  标日初下</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />[170109~170402]  标日中上</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />[170403~170625]  标日中下</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />[170626~171008]  专项复习</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />[171009~171217]  真题练习</li>
+</ul>
+
+<p>细致目标：</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">完成</th>
+      <th>周次</th>
+      <th>起始日期</th>
+      <th>目标</th>
+      <th> </th>
+      <th style="text-align: center">完成</th>
+      <th>周次</th>
+      <th>起始日期</th>
+      <th>目标</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">✓</td>
+      <td>第1周</td>
+      <td>160718</td>
+      <td>五十音</td>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td>第38周</td>
+      <td>170403</td>
+      <td>中级17、18课</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">✓</td>
+      <td>第2周</td>
+      <td>160725</td>
+      <td>初级1、2课</td>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td>第39周</td>
+      <td>170410</td>
+      <td>中级18、19课</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">✓</td>
+      <td>第3周</td>
+      <td>160801</td>
+      <td>初级3、4课</td>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td>第40周</td>
+      <td>170417</td>
+      <td>中级20、21课</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">✓</td>
+      <td>第4周</td>
+      <td>160808</td>
+      <td>初级5、6课</td>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td>第41周</td>
+      <td>170424</td>
+      <td>中级21、22课</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">✓</td>
+      <td>第5周</td>
+      <td>160815</td>
+      <td>初级7、8课</td>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td>第42周</td>
+      <td>170501</td>
+      <td>中级23、24课</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">✓</td>
+      <td>第6周</td>
+      <td>160822</td>
+      <td>初级9、10课</td>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td>第43周</td>
+      <td>170508</td>
+      <td>中级24、25课</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">✓</td>
+      <td>第7周</td>
+      <td>160829</td>
+      <td>初级11~13课</td>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td>第44周</td>
+      <td>170515</td>
+      <td>中级26、27课</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">✓</td>
+      <td>第8周</td>
+      <td>160905</td>
+      <td>初级14~15课</td>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td>第45周</td>
+      <td>170522</td>
+      <td>中级27、28课</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td>第9周</td>
+      <td>160912</td>
+      <td>初级16~18课</td>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td>第46周</td>
+      <td>170529</td>
+      <td>中级29、30课</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td>第10周</td>
+      <td>160919</td>
+      <td>初级19~21课</td>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td>第47周</td>
+      <td>170605</td>
+      <td>中级30、31课</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td>第11周</td>
+      <td>160926</td>
+      <td>缓冲时间</td>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td>第48周</td>
+      <td>170612</td>
+      <td>中级32课</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td>第12周</td>
+      <td>161003</td>
+      <td>缓冲时间</td>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td>第49周</td>
+      <td>170619</td>
+      <td>缓冲时间</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td>第13周</td>
+      <td>161010</td>
+      <td>初级22~24课</td>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td>第50周</td>
+      <td>170626</td>
+      <td>进入复习</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td>第14周</td>
+      <td>161017</td>
+      <td>初级25~27课</td>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td>第51周</td>
+      <td>170703</td>
+      <td>语法专项</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td>第15周</td>
+      <td>161024</td>
+      <td>初级28~30课</td>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td>第52周</td>
+      <td>170710</td>
+      <td>阅读专项</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td>第16周</td>
+      <td>161031</td>
+      <td>缓冲时间</td>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td>第53周</td>
+      <td>170717</td>
+      <td>听力专项</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td>第17周</td>
+      <td>161107</td>
+      <td>初级31~33课</td>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td>第54周</td>
+      <td>170724</td>
+      <td>语法专项</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td>第18周</td>
+      <td>161114</td>
+      <td>初级34~36课</td>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td>第55周</td>
+      <td>170731</td>
+      <td>阅读专项</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td>第19周</td>
+      <td>161121</td>
+      <td>缓冲时间</td>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td>第56周</td>
+      <td>170807</td>
+      <td>听力专项</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td>第20周</td>
+      <td>161128</td>
+      <td>初级37~39课</td>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td>第57周</td>
+      <td>170814</td>
+      <td>语法专项</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td>第21周</td>
+      <td>161205</td>
+      <td>初级40~42课</td>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td>第58周</td>
+      <td>170821</td>
+      <td>阅读专项</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td>第22周</td>
+      <td>161212</td>
+      <td>缓冲时间</td>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td>第59周</td>
+      <td>170828</td>
+      <td>听力专项</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td>第23周</td>
+      <td>161219</td>
+      <td>初级43~45课</td>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td>第60周</td>
+      <td>170904</td>
+      <td>语法专项</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td>第24周</td>
+      <td>161226</td>
+      <td>初级46~48课</td>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td>第61周</td>
+      <td>170911</td>
+      <td>阅读专项</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td>第25周</td>
+      <td>170102</td>
+      <td>缓冲时间</td>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td>第62周</td>
+      <td>170918</td>
+      <td>听力专项</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td>第26周</td>
+      <td>170109</td>
+      <td>中级1、2课</td>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td>第63周</td>
+      <td>170925</td>
+      <td>语法专项</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td>第27周</td>
+      <td>170116</td>
+      <td>中级2、3课</td>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td>第64周</td>
+      <td>171002</td>
+      <td>阅读专项</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td>第28周</td>
+      <td>170123</td>
+      <td>中级4、5课</td>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td>第65周</td>
+      <td>171009</td>
+      <td>真题学习</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td>第29周</td>
+      <td>170130</td>
+      <td>中级5、6课</td>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td>第66周</td>
+      <td>171016</td>
+      <td>真题学习</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td>第30周</td>
+      <td>170206</td>
+      <td>中级7、8课</td>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td>第67周</td>
+      <td>171023</td>
+      <td>真题学习</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td>第31周</td>
+      <td>170213</td>
+      <td>中级8、9课</td>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td>第68周</td>
+      <td>171030</td>
+      <td>真题学习</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td>第32周</td>
+      <td>170220</td>
+      <td>中级10、11课</td>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td>第69周</td>
+      <td>171106</td>
+      <td>真题练习</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td>第33周</td>
+      <td>170227</td>
+      <td>中级11、12课</td>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td>第70周</td>
+      <td>171113</td>
+      <td>真题练习</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td>第34周</td>
+      <td>170306</td>
+      <td>中级13、14课</td>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td>第71周</td>
+      <td>171120</td>
+      <td>真题练习</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td>第35周</td>
+      <td>170313</td>
+      <td>中级14、15课</td>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td>第72周</td>
+      <td>171127</td>
+      <td>真题练习</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td>第36周</td>
+      <td>170320</td>
+      <td>中级16课</td>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td>第73周</td>
+      <td>171204</td>
+      <td>真题练习</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td>第37周</td>
+      <td>170327</td>
+      <td>缓冲时间</td>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td>第74周</td>
+      <td>171211</td>
+      <td>真题练习</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>序</th>
+      <th style="text-align: center">课</th>
+      <th style="text-align: center">熟读课文</th>
+      <th style="text-align: center">朗读作业</th>
+      <th style="text-align: center">翻译作业</th>
+      <th style="text-align: center">日语听写</th>
+      <th style="text-align: center">中文听写</th>
+      <th style="text-align: center">课文翻译</th>
+      <th style="text-align: center">扩展单词</th>
+      <th style="text-align: center">课后练习</th>
+      <th style="text-align: center">同步练习</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td style="text-align: center">第1课</td>
+      <td style="text-align: center">V</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">V</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td style="text-align: center">第2课</td>
+      <td style="text-align: center">V</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">V</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td style="text-align: center">第3课</td>
+      <td style="text-align: center">V</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">V</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td style="text-align: center">第4课</td>
+      <td style="text-align: center">V</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">V</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td style="text-align: center">单元末</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td style="text-align: center">第5课</td>
+      <td style="text-align: center">V</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">V</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td style="text-align: center">第6课</td>
+      <td style="text-align: center">V</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">V</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td style="text-align: center">第7课</td>
+      <td style="text-align: center">V</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">V</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td style="text-align: center">第8课</td>
+      <td style="text-align: center">V</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">V</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td style="text-align: center">单元末</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td style="text-align: center">第9课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td style="text-align: center">第10课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td style="text-align: center">第11课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td style="text-align: center">第12课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td style="text-align: center">单元末</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td style="text-align: center">第13课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td style="text-align: center">第14课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td style="text-align: center">第15课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td style="text-align: center">第16课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td style="text-align: center">单元末</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td style="text-align: center">第17课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td style="text-align: center">第18课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td style="text-align: center">第19课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td style="text-align: center">第20课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td style="text-align: center">单元末</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td style="text-align: center">第21课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td style="text-align: center">第22课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td style="text-align: center">第23课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td style="text-align: center">第24课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td style="text-align: center">单元末</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td style="text-align: center">第25课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td style="text-align: center">第26课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td style="text-align: center">第27课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>34</td>
+      <td style="text-align: center">第28课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td style="text-align: center">单元末</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>36</td>
+      <td style="text-align: center">第29课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>37</td>
+      <td style="text-align: center">第30课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>38</td>
+      <td style="text-align: center">第31课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>39</td>
+      <td style="text-align: center">第32课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>40</td>
+      <td style="text-align: center">单元末</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>41</td>
+      <td style="text-align: center">第33课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>42</td>
+      <td style="text-align: center">第34课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>43</td>
+      <td style="text-align: center">第35课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>44</td>
+      <td style="text-align: center">第36课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>45</td>
+      <td style="text-align: center">单元末</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>46</td>
+      <td style="text-align: center">第37课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>47</td>
+      <td style="text-align: center">第38课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>48</td>
+      <td style="text-align: center">第39课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>49</td>
+      <td style="text-align: center">第40课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>50</td>
+      <td style="text-align: center">单元末</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>51</td>
+      <td style="text-align: center">第41课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>52</td>
+      <td style="text-align: center">第42课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>53</td>
+      <td style="text-align: center">第43课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>54</td>
+      <td style="text-align: center">第44课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>55</td>
+      <td style="text-align: center">单元末</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>56</td>
+      <td style="text-align: center">第45课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>57</td>
+      <td style="text-align: center">第46课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>58</td>
+      <td style="text-align: center">第47课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>59</td>
+      <td style="text-align: center">第48课</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>60</td>
+      <td style="text-align: center">单元末</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+</table>
+
+
+</article>
+
+<hr />
+
+<nav class="share navbar navbar-default">
+    <div class="navbar-header"><h4 class="navbar-text">分享到</h4></div>
+    <ul class="nav navbar-nav">
+        <li>
+            <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://localhost:4000./plan/%20via%20&#64;wizicer&hashtags="
+            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </li>
+        <li>
+            <a aria-label="Share on Facebook"href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000./plan/"
+            onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
+                <i class="fa fa-facebook-official"></i>
+            </a>
+        </li>
+        <li>
+            <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://localhost:4000./plan/"
+            onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
+                <i class="fa fa-google-plus"></i>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+<section class="author" itemprop="author">
+    <div class="media well" itemscope itemtype="http://schema.org/Person">
+        <div class="media-left">
+            <img itemprop="image" class="img-rounded" src="./assets/img/blog-author.jpg" alt="">
+        </div>
+        <div class="media-body">
+            <h3 class="name">
+                <a itemprop="name" href="https://plus.google.com/+/posts">冰河魔法师</a>
+            </h3>
+            <p class="desc">C#资深架构师</p>
+            <p><a itemprop="email" class="email" href="mailto:icer@icerdesign.com"><i class="fa fa-envelope"></i>icer@icerdesign.com</a></p>
+            <p><a itemprop="github" class="github" href="https://github.com/wizicer"><i class="fa fa-github"></i>github.com/wizicer</a></p>
+        </div>
+    </div>
+</section>
+
+
+
+
+                    <hr />
+                    
+<footer>
+    <p>
+        本站由<a href="http://icerdesign.com">冰河魔法师</a>开发制作，站点生成由<a href="http://jekyllrb.com/" target="_blank">Jekyll</a>提供。
+        <a href="https://github.com/wizicer/LearnJapan/issues/new?title=Plan页面发现错误&body=%E5%9C%A8%E9%A1%B5%E9%9D%A2%3Chttp%3A%2F%2Flocalhost%3A4000%2Fplan%2F%3E%E5%8F%91%E7%8E%B0%E9%94%99%E8%AF%AF%E3%80%82%0A%E9%94%99%E8%AF%AF%E6%98%AF%EF%BC%9A&assignee=wizicer&labels[]=content" target="_blank">发现错误？</a>
+    </p>
+</footer>
+
+<div style="display:none;">
+    <script language="javascript" type="text/javascript" src="http://js.users.51.la/17278963.js">
+    </script>
+</div>
+
+
+
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
