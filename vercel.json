@@ -1,8 +1,8 @@
 {
-  "buildCommand": "jekyll build",
+  "buildCommand": "bundle exec jekyll build",
   "outputDirectory": "_site",
-  "installCommand": "gem install jekyll bundler && bundle install",
-  "devCommand": "jekyll serve --port $PORT",
+  "installCommand": "gem install bundler && bundle install",
+  "devCommand": "bundle exec jekyll serve --port $PORT",
   "framework": null,
   "routes": [
     {

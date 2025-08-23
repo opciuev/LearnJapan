@@ -1,6 +1,6 @@
 CACHE MANIFEST
 
-# rev 2025-08-21 00:14:25 +0800
+# rev 2025-08-23 18:31:15 +0800
 
 CACHE:
 index.html
@@ -57,6 +57,14 @@ index.html
 
 
 /tools/midoricard.html
+/middleclass/Middle-Unit8-text.html
+/middleclass/Middle-Unit7-text.html
+/middleclass/Middle-Unit6-text.html
+/middleclass/Middle-Unit5-text.html
+/middleclass/Middle-Unit4-text.html
+/middleclass/Middle-Unit3-text.html
+/middleclass/Middle-Unit2-text.html
+/middleclass/Middle-Unit1-text.html
 /grammar/auxiliary-verb.html
 /notebook/verb-vt-vi.html
 /grammar/verb-all-table.html
@@ -70,12 +78,24 @@ index.html
 /grammar/verb-imi.html
 /grammar/verb-all.html
 /word/lesson26-greetings.html
+/class/Unit12-text.html
+/class/Unit11-text.html
+/class/Unit10-text.html
+/class/Unit9-text.html
+/class/Unit8-text.html
+/class/Unit7-text.html
 /grammar/adjective.html
 /grammar/verb.html
 /word/lesson20-traffic.html
 /word/lesson20-hobby.html
 /word/lesson19-sports.html
 /word/lesson15-notice.html
+/class/Unit6-text.html
+/class/Unit5-text.html
+/class/Unit4-text.html
+/class/Unit3-text.html
+/class/Unit2-text.html
+/class/Unit1-text.html
 /word/lesson17-life.html
 /word/lesson16-body-parts.html
 /word/words-spring.html

@@ -1,0 +1,13 @@
+{
+  "buildCommand": "jekyll build",
+  "outputDirectory": "_site",
+  "installCommand": "gem install jekyll bundler && bundle install",
+  "devCommand": "jekyll serve --port $PORT",
+  "framework": null,
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ]
+} 
