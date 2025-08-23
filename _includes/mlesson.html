@@ -16,12 +16,47 @@
 </div>
  
 ## 语法点
-{% assign findingNum = include.num | prepend: '0' | slice: -2, 2 | prepend: "m" %}
-{% assign gs = site.data.grammar | where_exp: "item", "item.lesson contains findingNum" %}
-| 句型、表达             | 简释                     | 解释                    |
-| ----                   | ----                     | ----                    | {% for grammar in gs %}
-| {{grammar.expression}} | {{grammar.shortexplain}} | {{grammar.explanation}} | {% endfor %}
-{:#grammartable}
+{% assign lessonNum = include.num | prepend: '0' | slice: -2, 2 | prepend: "m" %}
+{% assign gs = site.data.grammar | where_exp: "item", "item.lesson == lessonNum" %}
+
+<button class="btn btn-default btn-sm start-grammar-translate">开始语法练习</button>
+
+{% for grammar in gs %}
+<div class="grammar-item" data-grammar-id="{{grammar.idx}}">
+  <h3 class="grammar-expression">{{grammar.expression}}</h3>
+  {% if grammar.shortexplain and grammar.shortexplain != "" %}
+    <div class="grammar-short">{{grammar.shortexplain}}</div>
+  {% endif %}
+  <div class="grammar-explanation">{{grammar.explanation}}</div>
+  
+  {% if grammar.examples and grammar.examples.size > 0 %}
+  <div class="grammar-examples">
+    <h4>例句</h4>
+    {% for example in grammar.examples %}
+      {% if example.type == "sentence" %}
+        <div class="example-sentence">
+          <div class="japanese">{{example.japanese}}</div>
+          <div class="chinese translation">{{example.chinese}}</div>
+          <button class="btn btn-xs example-translate-btn"><i class="fa fa-pencil-square-o"></i>翻译</button>
+        </div>
+      {% elsif example.type == "dialogue" %}
+        <div class="example-dialogue">
+          <h5>对话</h5>
+          {% for line in example.conversation %}
+            <div class="dialogue-line">
+              <span class="span class="speaker">{{line.speaker}}:</span>
+              <div class="japanese">{{example.japanese}}</div>
+              <div class="chinese translation">{{example.chinese}}</div>
+              <button class="btn btn-xs example-translate-btn"><i class="fa fa-pencil-square-o"></i>翻译</button>
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+  {% endif %}
+</div>
+{% endfor %}
 
 ## 生词表
 

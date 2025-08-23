@@ -1,0 +1,3073 @@
+- idx: 1
+  lesson: '021'
+  expression: ～後で，～
+  shortexplain: ''
+  explanation: '[动（た形）]/[名+の]+後（あと）で ：表示一个动作之后发生另一个动作。“……之后”'
+  examples:
+  - japanese: 宿題{しゅくだい}を終{お}わった後{あと}で、テレビを見{み}ます。
+    chinese: 写完作业后，看电视。
+    type: sentence
+  - japanese: お風呂{ふろ}に入{はい}った後{あと}で、本{ほん}を読{よ}みました。
+    chinese: 洗完澡后，看了书。
+    type: sentence
+- idx: 2
+  lesson: 009
+  expression: あまり～(否定)
+  shortexplain: ''
+  explanation: あまり[形1／动（否定）]：表示程度不高，“不太……”
+  examples:
+  - japanese: この映画{えいが}はあまり面白{おもしろ}くないです。
+    chinese: 这部电影不太有趣。
+    type: sentence
+  - type: dialogue
+    conversation:
+    - speaker: A
+      japanese: 昨日{きのう}の試験{しけん}はどうでしたか。
+      chinese: 昨天的考试怎么样？
+    - speaker: B
+      japanese: あまりよくできませんでした。
+      chinese: 做得不太好。
+- idx: 3
+  lesson: '004'
+  expression: (～に～が)あります/います
+  shortexplain: ''
+  explanation: 名[场所]に　名[物／人]が　あります／います。 “某处有某物/人”
+  examples:
+  - japanese: 机{つくえ}の上{うえ}に本{ほん}があります。
+    chinese: 桌子上有书。
+    type: sentence
+  - japanese: 公園{こうえん}に子供{こども}たちがいます。
+    chinese: 公园里有孩子们。
+    type: sentence
+- idx: 4
+  lesson: '004'
+  expression: (～は～に)あります/います
+  shortexplain: ''
+  explanation: 名[物／人]は　名[场所]に　あります／います。 “某物/人在某处”
+  examples:
+  - japanese: 本{ほん}は机{つくえ}の上{うえ}にあります。
+    chinese: 书在桌子上。
+    type: sentence
+  - japanese: 田中{たなか}さんは図書館{としょかん}にいます。
+    chinese: 田中先生在图书馆。
+    type: sentence
+- idx: 5
+  lesson: '011'
+  expression: (～で～が)あります
+  shortexplain: ''
+  explanation: '[场所]＋で＋[事件]＋が＋あります 表示在某处发生某事。'
+- idx: 6
+  lesson: '016'
+  expression: (～は～が)あります/います
+  shortexplain: ''
+  explanation: 表示“所有”“拥有”   =持っていますか
+- idx: 7
+  lesson: '003'
+  expression: ～(は)いくらですか
+  shortexplain: ''
+  explanation: '[名]は　いくらですか。 询问价钱'
+  examples:
+  - japanese: 駅{えき}の前{まえ}に銀行{ぎんこう}があります。
+    chinese: 车站前面有银行。
+    type: sentence
+  - japanese: この近{ちか}くにコンビニがありますか。
+    chinese: 这附近有便利店吗？
+    type: sentence
+- idx: 8
+  lesson: '005'
+  expression: いつ～ますか
+  shortexplain: ''
+  explanation: いつ [动]ますか いつ：何时？ 不能加“に” 询问具体时间：“何時に”
+- idx: 9
+  lesson: '005'
+  expression: 今～時～分です
+  shortexplain: ''
+  explanation: 今～時～分です。
+- idx: 10
+  lesson: '007'
+  expression: ～か～
+  shortexplain: ''
+  explanation: '[名A]+か+[名B]：表示选择，“A或B”。'
+  examples:
+  - japanese: コーヒーか紅茶{こうちゃ}を飲{の}みましょう。
+    chinese: 喝咖啡或红茶吧。
+    type: sentence
+  - japanese: 土曜日{どようび}か日曜日{にちようび}に行{い}きます。
+    chinese: 星期六或星期天去。
+    type: sentence
+- idx: 11
+  lesson: '016'
+  expression: ～が，～ [转折]
+  shortexplain: ''
+  explanation: '[小句]が、[小句]：[转折] 连接两个小句，表示转折，“可是，但是”。'
+- idx: 12
+  lesson: '024'
+  expression: ～が，～ [铺垫]
+  shortexplain: ''
+  explanation: '[小句]が、[小句]：[铺垫]'
+- idx: 13
+  lesson: 019
+  expression: ～が～
+  shortexplain: ''
+  explanation: 提示主语。旧信息用“は”，新信息用“が”。疑问词作主语时，一定用“が”（新信息）。
+- idx: 14
+  lesson: 019
+  expression: ～が～です
+  shortexplain: ''
+  explanation: '[名词]が　[动词] 中立叙述（叙述直接观察的事物）'
+- idx: 15
+  lesson: '023'
+  expression: ～か～(では)ないか～
+  shortexplain: ''
+  explanation: 形式：重复谓语部分的肯定和否定形式 用法：用这一对反义词表示状况的一种反复。
+- idx: 16
+  lesson: '023'
+  expression: ～かったり～かったりです
+  shortexplain: ''
+  explanation: 形1かった　形1かった+ り＋です 用法：表示状态或者状况有多种可能。
+- idx: 17
+  lesson: '023'
+  expression: ～かどうか～
+  shortexplain: ''
+  explanation: 一般疑问句 → [小句] 简体 ＋ か　どうか 注意：二类形／名（去掉だ）＋ か　どうか
+- idx: 18
+  lesson: '022'
+  expression: ～かな
+  shortexplain: ''
+  explanation: 放在简体形疑问小句的结尾。用于自言自语。存在听话人的场合下，用于向对方传达一种不太有把握的信息或寻求确认。
+- idx: 19
+  lesson: '011'
+  expression: ～から～ [原因、理由]
+  shortexplain: ''
+  explanation: '[敬体／简体小句（原因）]＋から、……[敬体／简体小句]。から[接续助词]：接在表示理由、原因的小句的句尾，“因为……”。'
+- idx: 20
+  lesson: '006'
+  expression: ～から～
+  shortexplain: ''
+  explanation: 名[场所]から[动] ～から：空间的起点
+- idx: 21
+  lesson: '005'
+  expression: ～から～まで
+  shortexplain: ''
+  explanation: 名[时间]から名[时间]まで 起点→终点
+- idx: 22
+  lesson: '006'
+  expression: ～から～まで
+  shortexplain: ''
+  explanation: ～から：①时间的起点②空间的起点 ～まで：①时间的终点②空间的终点
+- idx: 23
+  lesson: 018
+  expression: ～くします
+  shortexplain: ''
+  explanation: '[一类形]します 词尾い变く。通过主语的意志行动使事物发生改变 “使～变得/变成～”'
+- idx: 24
+  lesson: 018
+  expression: ～くなります
+  shortexplain: ''
+  explanation: '[一类形]なります 词尾い变く。表示自发地性质或状态的变化，“～变得～”。'
+- idx: 25
+  lesson: '007'
+  expression: (～を)ください
+  shortexplain: ''
+  explanation: '[名]+を　ください：请给我……'
+- idx: 26
+  lesson: '013'
+  expression: ～くらい/ぐらい
+  shortexplain: ''
+  explanation: 前接数量词，表示大概的数量，“大概~”“~左右”
+- idx: 27
+  lesson: '022'
+  expression: ～けど，～ [转折] [铺垫]
+  shortexplain: ''
+  explanation: '[小句]けど、[小句]：[转折][铺垫] 只用于口语、前接简体形式。'
+- idx: 28
+  lesson: '002'
+  expression: この/その/あの～は～です
+  shortexplain: ''
+  explanation: この（近称）／その（中称）／あの（远称）　[名]は　[名]です 指示连体词
+- idx: 29
+  lesson: '002'
+  expression: これ/それ/あれは～です
+  shortexplain: ''
+  explanation: これ／それ／あれは　[名]です。 事物指示词：これ／それ／あれ
+- idx: 30
+  lesson: '003'
+  expression: ここ/そこ/あそこは～です
+  shortexplain: ''
+  explanation: ここ／そこ／あそこは[名]です ここ：近称 そこ：中称 あそこ：远称 どこ：不确定地
+- idx: 31
+  lesson: '003'
+  expression: こちら/そちら/あちら/どちら
+  shortexplain: ''
+  explanation: “ここ／そこ／あそこ／どこ”的礼貌说法。
+- idx: 32
+  lesson: '020'
+  expression: (～は) ～ことができます
+  shortexplain: ''
+  explanation: '[名(人)]＋は＋[动(基本形)]＋ことが　できます：表示可能。表示 ①能力 ②条件允许'
+- idx: 33
+  lesson: '020'
+  expression: (～は) ～ことです
+  shortexplain: ''
+  explanation: '[名]＋は＋[动（基本形）]＋ことです：“~是~”'
+- idx: 34
+  lesson: '010'
+  expression: そして，～
+  shortexplain: ''
+  explanation: そして：表示并列关系，“而且”“然后”。
+- idx: 35
+  lesson: '017'
+  expression: (～を)～たいです
+  shortexplain: ''
+  explanation: '[名]を　[动(连用形)]+たいです：（我）想……（做某事） ～たい：按形1活用'
+- idx: 36
+  lesson: '021'
+  expression: ～たことがあります
+  shortexplain: ''
+  explanation: '[动（た形）]+ことが　あります ：表示有此经历，“（曾经）~过”。'
+- idx: 37
+  lesson: '023'
+  expression: ～だったり～だったりです
+  shortexplain: ''
+  explanation: 形2/名だった　形2/名だった+り＋です  用法：表示状态或者状况有多种可能。另外往往会用一对反义词表示状况的一种反复。
+- idx: 38
+  lesson: '021'
+  expression: ～たほうがいいです
+  shortexplain: ''
+  explanation: '[动（た形／ない形）]+ほうが　いいです：表示建议，忠告“~比较好”'
+- idx: 39
+  lesson: '023'
+  expression: ～たり～たりします
+  shortexplain: ''
+  explanation: '[动]たり　[动]たり　します。形式：动た形 + り 用法：用于列举若干有代表性的动作，同时暗示还有其他同类事物。'
+- idx: 40
+  lesson: '002'
+  expression: だれですか/何ですか
+  shortexplain: ''
+  explanation: 何:[疑]什么（询问事物） だれ:[疑]谁（询问人）
+- idx: 41
+  lesson: '014'
+  expression: ～て～[相继发生]
+  shortexplain: ''
+  explanation: '[动]て　[动]：相继发生、并列、手段、弱因果的关系，或前者为后者的伴随状况。'
+- idx: 42
+  lesson: '016'
+  expression: ～て～[并列]
+  shortexplain: ''
+  explanation: '[一类形]て　[一二类形] 一类形容词的て形：词尾的“い”变成“くて”。'
+- idx: 43
+  lesson: '006'
+  expression: ～で～
+  shortexplain: ''
+  explanation: 名[交通工具]+で+动：表示交通手段。
+- idx: 44
+  lesson: '007'
+  expression: ～で～
+  shortexplain: ''
+  explanation: '[名]（场所）+で+动：表示动作进行的场所 (～に：表示存在的场所)'
+- idx: 45
+  lesson: 008
+  expression: ～で～
+  shortexplain: ''
+  explanation: '[名]+で+[动]：①手段方法；②原材料'
+- idx: 46
+  lesson: '016'
+  expression: ～で～[并列]
+  shortexplain: ''
+  explanation: '[二类形/名词]で　[一二类形/名词] 二类形容词的て形：词干+で'
+- idx: 47
+  lesson: '012'
+  expression: ～でいちばん～は～です
+  shortexplain: ''
+  explanation: 名1[场所/时间]でいちばん [一二类形][名2]は[名3]です。在名1范围内，最名2的是名3
+- idx: 48
+  lesson: '015'
+  expression: ～ています[正在进行]
+  shortexplain: ''
+  explanation: 表示动作或者变化正在进行。前接带有持续性的动作或者变化。
+- idx: 49
+  lesson: '016'
+  expression: ～ています[结果状态]
+  shortexplain: ''
+  explanation: 表示动作或变化结束后留下的结果状态。（多为瞬间性动词或表示变化动词）
+- idx: 50
+  lesson: '014'
+  expression: ～てから～[相继发生]
+  shortexplain: ''
+  explanation: '[动]てから　[动]：相继发生。强调先后顺序不可逆，“……之后……”'
+- idx: 51
+  lesson: '014'
+  expression: ～てください
+  shortexplain: ''
+  explanation: '[动]て　ください：“请（你）……”。请求对方做某事。'
+- idx: 52
+  lesson: '003'
+  expression: ～ですか，～ですか
+  shortexplain: ''
+  explanation: '[名]は　[名]ですか、[名]ですか。 选择疑问句 “是……还是……？”'
+- idx: 53
+  lesson: '010'
+  expression: ても，～
+  shortexplain: ''
+  explanation: でも：表示转折关系，“但是”。一般只用于口语。
+- idx: 54
+  lesson: '015'
+  expression: ～てはいけません
+  shortexplain: ''
+  explanation: 表示禁止，“不可以”
+- idx: 55
+  lesson: '015'
+  expression: ～てもいいです
+  shortexplain: ''
+  explanation: 表示许可，“可以……”
+- idx: 56
+  lesson: '004'
+  expression: ～と～[并列]
+  shortexplain: ''
+  explanation: '[名]と　[名]　并列。 表示并列，“A和B”。'
+- idx: 57
+  lesson: '006'
+  expression: ～と～
+  shortexplain: ''
+  explanation: 名[人]+と+动：共同做某事的对象，“和~（一起做某事）” ～と一緒に：“和……一起”
+- idx: 58
+  lesson: '012'
+  expression: ～と～とどちらが～ですか
+  shortexplain: ''
+  explanation: '[名A]と　[名B]と　どちらが　[一类形/二类形]ですか。 “A和B，哪个更……?”'
+- idx: 59
+  lesson: '024'
+  expression: (～は)～と言いました
+  shortexplain: ''
+  explanation: 名[人]は　[小句（简体形）]と　言いました：引用第三者说话的内容
+- idx: 60
+  lesson: '024'
+  expression: ～と思います
+  shortexplain: ''
+  explanation: '[小句（简体形）]と　思います：引用说话人的思考内容。'
+- idx: 61
+  lesson: '024'
+  expression: どうして～のですか/んですか
+  shortexplain: ''
+  explanation: 用于寻求与某前提状况相关的说明和解释。
+- idx: 62
+  lesson: '011'
+  expression: どうしてですか
+  shortexplain: ''
+  explanation: 询问理由。“为什么？” 回答多用“句子+から”
+- idx: 63
+  lesson: '010'
+  expression: (～は)どうですか
+  shortexplain: ''
+  explanation: どうですか：询问对方的感想，“如何，怎么样？”  询问过去的感想：どうでしたか。
+- idx: 64
+  lesson: '003'
+  expression: (～は)どこですか
+  shortexplain: ''
+  explanation: 询问存在的场所
+- idx: 65
+  lesson: '012'
+  expression: どの～/どれ/どこ/いつ/何がいちばん～ですか
+  shortexplain: ''
+  explanation: 在三个以上事物中询问哪一个更具有形容词的性质
+- idx: 66
+  lesson: '002'
+  expression: どれ～/どの～
+  shortexplain: ''
+  explanation: どれ／どの　[名] “哪一个”，用于三个以上（含三个）事物中不确定是哪一个时。
+- idx: 67
+  lesson: '010'
+  expression: どんな～
+  shortexplain: ''
+  explanation: どんな＋名：询问人或事物的性质，“什么样的”。
+- idx: 68
+  lesson: 019
+  expression: ～ないでください
+  shortexplain: ''
+  explanation: '[动]ないで　ください：表示否定的命令，“请勿……”'
+- idx: 69
+  lesson: 019
+  expression: ～なくてもいいです
+  shortexplain: ''
+  explanation: '[动]なくても　いいです：“不必……，不……也可以” “ない→なく”＋“ても　いいです”'
+- idx: 70
+  lesson: 019
+  expression: ～なければなりません
+  shortexplain: ''
+  explanation: '[动]なければ　なりません：表示必须。 [动]“ない→なければ” ＋“なりません”'
+- idx: 71
+  lesson: '006'
+  expression: に/で/へ/から/まで/と+は
+  shortexplain: ''
+  explanation: 助词“へ、から、まで、と、で” “に／で／へ／から／まで／と”＋は←复合形式表示对比
+- idx: 72
+  lesson: '005'
+  expression: ～に～
+  shortexplain: ''
+  explanation: 具体的时间+に：动作发生的时间点
+- idx: 73
+  lesson: 008
+  expression: ～に～
+  shortexplain: ''
+  explanation: 名[人]+に 间接宾语＋に：动作行为的对象　会います。
+- idx: 74
+  lesson: '013'
+  expression: ～に～
+  shortexplain: ''
+  explanation: 名[时间段]＋に＋名[次数]＋[动]：表示频率
+- idx: 75
+  lesson: '015'
+  expression: ～に～
+  shortexplain: ''
+  explanation: 名[附着点/目的地]＋に＋[动]：附着点，着落点。移动行为的目的地。
+- idx: 76
+  lesson: 008
+  expression: (～は)～に～をあげます
+  shortexplain: ''
+  explanation: 名1[人]は 名2[人]に 名3[物]を あげます “名1给名2~”。名2不能是“我“或”我方人员“
+- idx: 77
+  lesson: 008
+  expression: (～は)～に～をもらいます
+  shortexplain: ''
+  explanation: 名1[人]は　名2[人]に　名3[物]を　もらいます  ＂名1从名2处得到名3＂。
+- idx: 78
+  lesson: 018
+  expression: ～にします
+  shortexplain: ''
+  explanation: '[二类形/名]にします 通过主语的意志行动使事物发生改变 “使～变得/变成～”'
+- idx: 79
+  lesson: 018
+  expression: ～になります
+  shortexplain: ''
+  explanation: '[二类形/名]になります 示性质或状态的变化，“～变得～”。'
+- idx: 80
+  lesson: '004'
+  expression: ～ね[确认]
+  shortexplain: ''
+  explanation: 终助词：ね [确认] 当说话人就某事征求听话人的同意时，句尾用助词“ね”，读升调。
+- idx: 81
+  lesson: '002'
+  expression: ～の
+  shortexplain: ''
+  explanation: ''
+- idx: 82
+  lesson: '001'
+  expression: ～の～[从属机构、国家] [属性]
+  shortexplain: ''
+  explanation: '[名1]の　[名2]　[从属关系][属性] の：助词，连接名词与名词。'
+  examples:
+  - japanese: 李{り}さんは中国人{ちゅうごくじん}です。
+    chinese:  小李是中国人。
+    type: sentence
+  - japanese: わたしは日本人{にほんじん}です。
+    chinese: 我是日本人。
+    type: sentence
+  - japanese: わたしは王です。
+    chinese: 我姓王
+    type: sentence
+- idx: 83
+  lesson: '002'
+  expression: ～の～[所属]
+  shortexplain: ''
+  explanation: '[名]の　[名]（所属） 连接两个名词，表示所属关系、内容等'
+- idx: 84
+  lesson: '024'
+  expression: ～のです/んです
+  shortexplain: ''
+  explanation: ～のです／んです：[关联] 用于表达与某前提状况相关的说明和解释。
+- idx: 85
+  lesson: '012'
+  expression: ～の中で～がいちばん～です
+  shortexplain: ''
+  explanation: '[名1]の　中で　[名2]が　いちばん　[一类形/二类形]です。在名1的范围内，名2最……'
+- idx: 86
+  lesson: '001'
+  expression: ～は～
+  shortexplain: ''
+  explanation: ～は：助词，提示主题。（读作wa）
+- idx: 87
+  lesson: '005'
+  expression: ～は～[对比]
+  shortexplain: ''
+  explanation: ～は：表示对比
+- idx: 88
+  lesson: '011'
+  expression: ～は～が～です
+  shortexplain: ''
+  explanation: '[名1]は [名2]が 一类形/二类形です。使用表达情感的形容词，表示名1对名2的情感。'
+- idx: 89
+  lesson: '011'
+  expression: ～は～が分かります/できます
+  shortexplain: ''
+  explanation: '[名1]は [名2]が [动]ます／[一二类形]です。使用有关能力的词语，表示是否有能力。'
+- idx: 90
+  lesson: 009
+  expression: ～は～ (か)ったです
+  shortexplain: ''
+  explanation: '[形1]做谓语时的过去肯定形式 → 把“い”变为“かった”＋“です”。'
+- idx: 91
+  lesson: '010'
+  expression: ～は～でした
+  shortexplain: ''
+  explanation: 过去肯定：名词＋“は”＋二类形容词＋“でした”。
+- idx: 92
+  lesson: '001'
+  expression: ～は～です
+  shortexplain: ''
+  explanation: '[名1]は　[名2]です。～は：助词，提示主题。～です：助动词，表示断定。'
+- idx: 93
+  lesson: '010'
+  expression: ～は～です
+  shortexplain: ''
+  explanation: 肯定：名词＋“は”＋二类形容词＋“です”
+- idx: 94
+  lesson: '003'
+  expression: ～は～です
+  shortexplain: ''
+  explanation: ～は+ [场所名词] +です。“……在……”
+- idx: 95
+  lesson: 009
+  expression: ～は～(い)です
+  shortexplain: ''
+  explanation: '[名]＋は＋[一类形]＋です  名词具有性质'
+- idx: 96
+  lesson: '001'
+  expression: ～は～ですか
+  shortexplain: ''
+  explanation: '[名1]は　[名2]ですか。 ～か：疑问助词，接在句尾表示疑问。念升调。'
+- idx: 97
+  lesson: '001'
+  expression: ～は～では(じゃ)ありません
+  shortexplain: ''
+  explanation: 否定：[名1]は　[名2]では　ありません。
+- idx: 98
+  lesson: '010'
+  expression: ～は～では(じゃ)ありません
+  shortexplain: ''
+  explanation: 否定：名词＋“は”＋二类形容词＋“では／じゃ　ありません”。
+- idx: 99
+  lesson: '010'
+  expression: ～は～では(じゃ)ありませんでした
+  shortexplain: ''
+  explanation: 过去否定：名词＋“は”＋二类形容词＋“では／じゃ　ありませんでした”。
+- idx: 100
+  lesson: 009
+  expression: ～は～ (く)ないです
+  shortexplain: ''
+  explanation: '[形1]做谓语时的否定形式 词尾“い”→“く”＋“ないです／ありません”。'
+- idx: 101
+  lesson: 009
+  expression: ～は～ (く)なかったです
+  shortexplain: ''
+  explanation: '[形1]做谓语时的过去否定形式 →把“い”变成“く+なかったです”/“く+ありませんでした”'
+- idx: 102
+  lesson: '006'
+  expression: ～ヘ～
+  shortexplain: ''
+  explanation: 名[场所]+へ+动 へ：表示移动行为的目的地，读作“え”。
+- idx: 103
+  lesson: '013'
+  expression: ～ヘ～に行きます/来ます
+  shortexplain: ''
+  explanation: 名[场所]＋へ＋[动（连用形）]＋に＋行きます／来ます。表示移动行为的目的。
+- idx: 104
+  lesson: 018
+  expression: ～ほうがいいです
+  shortexplain: ''
+  explanation: '[一类形/二类形+な/名词+の] + ほうが　いいです 表示自己的选择或向别人提议'
+- idx: 105
+  lesson: '017'
+  expression: (～が)欲しいです
+  shortexplain: ''
+  explanation: '[名1] (愿望主体)＋は＋[名2] (愿望对象)＋が　ほしいです 表示想得到某物的愿望'
+- idx: 106
+  lesson: '012'
+  expression: (～は)～ほど～(く)ないです/ではありません
+  shortexplain: ''
+  explanation: '[名1]は [名2]ほど [一类形]く ないです／[二类形]では ありません 名1不如名2那么…'
+- idx: 107
+  lesson: '020'
+  expression: ～前に，～
+  shortexplain: ''
+  explanation: '[动（基本形）]+前に、…：“在……前，……” 也可「名词＋の＋前に」 「时间量词＋前に」'
+- idx: 108
+  lesson: '005'
+  expression: ～ます/～ません/～ました/～ませんでした
+  shortexplain: ''
+  explanation: 活用（かつよう）：词尾变化。 现在肯定 现在否定 过去肯定 过去否定
+- idx: 109
+  lesson: '017'
+  expression: ～ましょう
+  shortexplain: ''
+  explanation: '[动]ましょう：提议，劝诱对方与自己一起做某事。还可用于回应别人的提议。'
+- idx: 110
+  lesson: '021'
+  expression: ～ましょうか[提议]
+  shortexplain: ''
+  explanation: '[动]ましょうか： 表示提议。比“ましょう”稍微委婉些 还可表示：①“咱们一起……吧？” ②“我来……吧？”'
+- idx: 111
+  lesson: '017'
+  expression: ～ませんか
+  shortexplain: ''
+  explanation: '[动]ませんか：用否定疑问句的形式，向对方提议或劝诱（与自己一起做某事）。'
+- idx: 112
+  lesson: '016'
+  expression: まだ～ (否定)
+  shortexplain: ''
+  explanation: まだ＋[动（否定）] “尚未，还没……” 对“もう”提问的句子做否定回答
+- idx: 113
+  lesson: '003'
+  expression: ～も～です
+  shortexplain: ''
+  explanation: '[名]も　[名]です。 助词“も”：“也……” [数量词]＋も+肯定形式：强调数量多。'
+- idx: 114
+  lesson: '011'
+  expression: ～や～/～や～など～
+  shortexplain: ''
+  explanation: '[名1]や　[名2]  助词「や」：表示不完全列举，“~呀~什么的”。「など」可以省略。'
+- idx: 115
+  lesson: 008
+  expression: ～よ[提醒]
+  shortexplain: ''
+  explanation: 终助词“よ”用于提醒对方注意其不知道的事情，读升调。可表示告知提醒、轻微的警告等
+- idx: 116
+  lesson: '020'
+  expression: ～よね
+  shortexplain: ''
+  explanation: 提出自己的意见，以征求对方的同意。对自己的意见的自信程度比“ね”略低
+- idx: 117
+  lesson: '012'
+  expression: (～は)～より～です
+  shortexplain: ''
+  explanation: '[名1]は　[名2]より　一类形/二类形です。“名1比名2更……”'
+- idx: 118
+  lesson: '012'
+  expression: ～より～のほうが～です
+  shortexplain: ''
+  explanation: '[名1]より　[名2]の　ほうが　一类形/二类形です。“比起名1来，名2更……”'
+- idx: 119
+  lesson: 009
+  expression: 「を」→「は」
+  shortexplain: ''
+  explanation: 将宾语作为话题，或进行对比时，要将宾语后的“を”换成“は”。
+- idx: 120
+  lesson: '007'
+  expression: ～を～
+  shortexplain: ''
+  explanation: '[名]+を+[动]：表示动作的对象或内容（宾语）。'
+- idx: 121
+  lesson: '014'
+  expression: ～を～[经过] [离开]
+  shortexplain: ''
+  explanation: 名[场所]＋を＋动词[经过 离开]表示经过或离开某场所，搭配移动或离开意义的动词
+- idx: 122
+  lesson: '020'
+  expression: 基本型
+  shortexplain: ''
+  explanation: 辞書形①动1:ます→う段 ②动2:ます → る ③动3:サ変:します→する カ変:来ます→来(く)る
+- idx: 123
+  lesson: '021'
+  expression: た形
+  shortexplain: ''
+  explanation: 活用：“て形”的“て”换成“た”，“で”换成“だ”
+- idx: 124
+  lesson: '014'
+  expression: て形
+  shortexplain: ''
+  explanation: 动词て形
+- idx: 125
+  lesson: 019
+  expression: ない形
+  shortexplain: ''
+  explanation: 用法：一般用于表示否定。①ます→あ段(い→わ)+“ない” ②ます→ない ③来ます→来(こ)ない
+- idx: 126
+  lesson: '013'
+  expression: ます形
+  shortexplain: ''
+  explanation: 动词的连用形:働きます → 働き
+- idx: 127
+  lesson: '004'
+  expression: 上/下/前/後ろ/隣/中/外
+  shortexplain: ''
+  explanation: 表示具体位置时，用：[名詞]＋の＋上/下/前/後ろ/隣/中/外
+- idx: 128
+  lesson: '013'
+  expression: 数量+で
+  shortexplain: ''
+  explanation: 名[数量]＋で：表示总计。
+- idx: 129
+  lesson: '013'
+  expression: 名词[时间]+动词
+  shortexplain: ''
+  explanation: 名[时间段]＋[（持续性的）动] 表示动作或状态的持续时间。
+- idx: 130
+  lesson: '013'
+  expression: 名词[数量]+动词
+  shortexplain: ''
+  explanation: '[名词]＋が／を＋[数量词]＋[动词]  限定が格或を格名词的数量词'
+- idx: 131
+  lesson: 009
+  expression: 一类形容词+名词
+  shortexplain: ''
+  explanation: '[一类形]+名 [一类形]修饰名词（作定语）时，直接接名词。'
+- idx: 132
+  lesson: '010'
+  expression: 二类形容词+名词
+  shortexplain: ''
+  explanation: “二类形容词＋な＋名词” 做定语（修饰名词）
+- idx: 133
+  lesson: '020'
+  expression: 疑问词+か
+  shortexplain: ''
+  explanation: か：接在疑问词或表示疑问的词后，表示不确定。
+- idx: 134
+  lesson: '017'
+  expression: 疑问词+でも
+  shortexplain: ''
+  explanation: 疑问词＋でも：全面肯定，“任何……都”
+- idx: 135
+  lesson: '004'
+  expression: 疑问词+も～(否定)
+  shortexplain: ''
+  explanation: 疑问词+も+动（否定）。表示全面否定。 [较少数量]＋も＋否定形式也可以表示全面否定。
+- idx: 136
+  lesson: '023'
+  expression: 疑问词小句+か
+  shortexplain: ''
+  explanation: '[带疑问词的小句]简体 ＋ か  注意：二类形／名（去掉だ）＋ か'
+- idx: 137
+  lesson: '022'
+  expression: 简体形
+  shortexplain: ''
+  explanation: 敬体和简体→句子的概念/各种词类做谓语时的形式
+- idx: 138
+  lesson: '022'
+  expression: 动词的简体形
+  shortexplain: ''
+  explanation: 动词基本形、た形、ない形
+- idx: 139
+  lesson: '022'
+  expression: 一类形容词谓语形式的简体形
+  shortexplain: ''
+  explanation: い／くない／かった／くなかった
+- idx: 140
+  lesson: '022'
+  expression: 二类形容词谓语形式的简体形
+  shortexplain: ''
+  explanation: だ／ではない／だった／ではなかった
+- idx: 141
+  lesson: '022'
+  expression: 名词谓语形式的简体形
+  shortexplain: ''
+  explanation: だ／ではない／だった／ではなかった
+- idx: 142
+  lesson: '046'
+  expression: ~間/間に
+  shortexplain: ''
+  explanation: '[名＋]の／[动(简体形)]＋間：表示在某行为或事态持续的时间段； \n[名＋]の／[动(简体形)]＋間に：表示某行为或事态发生或完成的时间范围。'
+- idx: 143
+  lesson: '047'
+  expression: お/ご~ください
+  shortexplain: ''
+  explanation: “～てください”的敬语形式 \nお＋[动1]／动2连用形]＋ください \nご＋[动3的汉字部分]＋ください \n“お入りください”比“入ってください”礼貌程度高。
+    \n连用形只有一个音节的动词不能用于这种形式。
+- idx: 144
+  lesson: 048
+  expression: お/ご~します
+  shortexplain: ''
+  explanation: お＋[动1]／[动2连用形]＋する　 \nご＋[动3的汉字部分]+する \n连用形只有一个音节的动词不能用于这种形式。
+- idx: 145
+  lesson: '047'
+  expression: お/ご~になります
+  shortexplain: ''
+  explanation: お＋[动1／动2连用形]＋になる\nご＋[动3的汉字部分]+になる  \n连用形只有一个音节的动词不能用于这种形式。
+- idx: 146
+  lesson: '040'
+  expression: ~終わります
+  shortexplain: ''
+  explanation: '[动(连用形)]終わります：表示动作或行为的结束。注意：用于具有一定量的行为、动作。'
+- idx: 147
+  lesson: '025'
+  expression: <~が~> ~は/が~
+  shortexplain: ''
+  explanation: '[小句(动词简体形)]+[名]は[名]／[形]です 动词小句简体形+名，形1简体形+名，（形2→词干＋な）+名，（名1＋が＋名2＋の）＋名'
+- idx: 148
+  lesson: '033'
+  expression: ~かしら
+  shortexplain: ''
+  explanation: 和“かな”语义相近，用于简体句句尾，多为女性使用。 \n1) 没有听话人在场，一般为吐露内心疑问的自言自语。 \n2) 有听话人在场，向对方发问。
+- idx: 149
+  lesson: '026'
+  expression: ~かもしれません
+  shortexplain: ''
+  explanation: '[小句（简体形）]＋かもしれません 表示推测，其可能性低于“でしょう”   其简体形是“～かもしれない”。'
+- idx: 150
+  lesson: '031'
+  expression: ~ことがあります
+  shortexplain: ''
+  explanation: '[动(基本形／ない形)]+ことがあります \n1) [动(基本形)]+ことがあります：有时会发生某情况 \n2) [动(ない形)]+ことがあります：有时不做某事
+    \n否定形式不是“～ことがありません”'
+- idx: 151
+  lesson: '032'
+  expression: ~ことにします/ことにしました
+  shortexplain: ''
+  explanation: “我决定……” [动(基本形／ない形)]ことにします／ことにしました 表示说话人自己决定实施某行为时。\n～ことにします：当场下的决心\n～ことにしました：已经下定的决心
+- idx: 152
+  lesson: '032'
+  expression: ~ことになりました
+  shortexplain: ''
+  explanation: '[动(基本形／ない形)]ことになりました 表示由于某种外在的原因，导致某事定下来。\n为了淡化个人意志，用“ことになります”表达个人的决定。'
+- idx: 153
+  lesson: 048
+  expression: ~させていただきます
+  shortexplain: ''
+  explanation: 用于礼貌地表达自己的动作。礼貌程度高于“お／ご～します”。
+- idx: 154
+  lesson: '043'
+  expression: ~させてください
+  shortexplain: ''
+  explanation: 动（さ）せてください：请求别人允许自己做某事。 \n提示：一般说话人不出现在句子中。
+- idx: 155
+  lesson: '045'
+  expression: ~し，~し
+  shortexplain: ''
+  explanation: '[小句1]し、[小句2]し、[小句3]　[罗列并列事项][罗列原因]小句1、2的主语“が”多用“も”替换。\n“し”前面可以是简体形/敬体形。表示理由时，后一个“し”可换成“から”，意思不变。“し”也可以单独使用；单独使用表示理由时，暗示还有其他的理由。'
+- idx: 156
+  lesson: '035'
+  expression: ~しか~(否定)
+  shortexplain: ''
+  explanation: “只有……”，[名]しか＋否定形式　表示限定。\n～しか～ない：带有主观感情色彩。
+- idx: 157
+  lesson: '044'
+  expression: ~過ぎます
+  shortexplain: ''
+  explanation: '[动词连用形]/[形1(去掉词尾い)]/[形2词干]+過ぎます：表示超过了正常的量或程度。\n“～過ぎます”的活用与动2相同。'
+- idx: 158
+  lesson: '032'
+  expression: ~そうです [传闻]
+  shortexplain: ''
+  explanation: '[小句(简体形)]そうです　[传闻] “～そうです”没有过去、否定和疑问的形式。\n表示消息来源时用“～によると”'
+- idx: 159
+  lesson: '033'
+  expression: ~そうです [样态] [推测]
+  shortexplain: ''
+  explanation: '[动/形]そうです \n接续形式：动词连用形/形1去“い”/形2词干＋そうです \n1)“～そうです”前接形容词时，通常表示“样态”，即根据某对象的外观印象，推测其性质。
+    \n2)“～そうです”前接表示活动或变化的动词时，通常表示某事发生前的征兆，即推测某事会发生。 \n特例：なさそうです/よさそうです \n否定形式：动 +
+    そう + にも／に／も + ありません; 形1/形2 + そうではありません'
+- idx: 160
+  lesson: '035'
+  expression: ~だけ
+  shortexplain: ''
+  explanation: “这就是全部，不再有其他”，[名]だけ 表示客观的限定。 \n接续：名词／数量词+だけ
+- idx: 161
+  lesson: '040'
+  expression: ~たところです
+  shortexplain: ''
+  explanation: '[动]たところです：表示动作或事件刚刚结束（处于“刚刚结束”的阶段）。'
+- idx: 162
+  lesson: '040'
+  expression: ~たばかりです
+  shortexplain: ''
+  explanation: '[动]たばかりです：表示动作或事情刚刚结束。相比～たところです可用于动作结束后经过了较长一段时间的事态'
+- idx: 163
+  lesson: '034'
+  expression: ~ために，~ [目的]
+  shortexplain: ''
+  explanation: ([小句1(基本形)]/[名]＋の)＋ために、[小句2] 表示目的，前后两个小句的主语相同。
+- idx: 164
+  lesson: 039
+  expression: ~ために，~ [原因、理由]
+  shortexplain: ''
+  explanation: ([小句1(简体形)]/[名]＋の/[形2]＋な)＋ために、[小句2] \n1) 多用于书面语或比较郑重的场合； \n2) 小句1多为非意志性的事态或状态。
+- idx: 165
+  lesson: '035'
+  expression: ~たら，~
+  shortexplain: ''
+  explanation: '[小句1]たら、[小句2]　用于表示假定条件。 \n用法1：假定条件（在不知道前项是否成立的情况下，假设其成立），“要是……的话……就”
+    \n用法2：既定条件（在知道前项肯定成立的情况下）“在……之后” \n接续： “た”→“たら” \n动词否定：未然形+否定+たらー＞なかったら\n“～ます”＋“～たら”→“~ましたら”
+    \n“～です”＋“～たら”→“~でしたら” \n一类形容词后续“～たら”时，不用敬体形。\n过去否定形式～で(は)なかった->でなかったら'
+- idx: 166
+  lesson: '037'
+  expression: ~ちゃった
+  shortexplain: ''
+  explanation: 为33课～てしまった的口语形式，语义基本相同，但令人不愉快的语气更弱。
+- idx: 167
+  lesson: '040'
+  expression: ~続けます
+  shortexplain: ''
+  explanation: '[动(连用形)]続けます：表示动作或状态不间断的持续。\n“降ります”后面不能接“続けます”而须后接“続きます”。'
+- idx: 168
+  lesson: '032'
+  expression: ~つもりです
+  shortexplain: ''
+  explanation: '[动(基本形／ない形)]つもりです 表示说话之前已经形成的意志、打算。 \n～ないつもりです：我打算不做…… \n～つもりはないです／つもりはありません：我不打算做……，是强烈的拒绝语气。'
+- idx: 169
+  lesson: 029
+  expression: ~て/~ないで
+  shortexplain: ''
+  explanation: '[动]て／[动]ないで 表示祈使或轻微命令，用于关系亲密的人之间。'
+- idx: 170
+  lesson: 039
+  expression: ~て~/~ないで~
+  shortexplain: ''
+  explanation: '[小句1]て／ないで＋[小句2]　　[伴随状态] 表示进行小句2的动作主体处于小句1的状态 “～ないで”也可以说成“～ずに”，“～ずに”多用于书面语。'
+- idx: 171
+  lesson: '036'
+  expression: ~て，~/~で，~ [原因、理由]
+  shortexplain: ''
+  explanation: '[小句1(动／形1)]て/[小句1(名／形2)]で、[小句2]　[原因、理由] 注意：小句2不可以是祈使句。 否定：ない→なくて'
+- idx: 172
+  lesson: '027'
+  expression: ~で [原因、理由]
+  shortexplain: ''
+  explanation: 名＋で [原因、理由]
+- idx: 173
+  lesson: '045'
+  expression: で/へ/から/まで/と+の
+  shortexplain: ''
+  explanation: で／へ／から／まで／と／ばかり等助词可以加 の 构成定语，修饰名词。 “に”不能后续“の”，而要改成“への”的形式。
+- idx: 174
+  lesson: 028
+  expression: ~てあげます
+  shortexplain: ''
+  explanation: '[动]てあげます Aは／がBに～てあげる 　“A为B做某事” A：行为主体（提供帮助的人） B：受益人 ~：A的行为'
+- idx: 175
+  lesson: '034'
+  expression: ~てあります
+  shortexplain: ''
+  explanation: '[他动]てある 表示有意进行的动作结果的存续状态。按照动1活用。 不出现意志、请求、祈使、命令等形式。'
+- idx: 176
+  lesson: '041'
+  expression: ~である
+  shortexplain: ''
+  explanation: “です”的书面语简体形式。
+- idx: 177
+  lesson: '045'
+  expression: ~ていきます/きました [持续] [变化]
+  shortexplain: ''
+  explanation: 用法：1) 空间移动，2) 时间移动 \nてくる：由基准时间点之前向基准时间点推移、变化。“由过去到现在”。 \nていく：由基准时间点向基准时间点之后推移、变化。“由现在到将来”。
+- idx: 178
+  lesson: 039
+  expression: ~ていきます/きます
+  shortexplain: ''
+  explanation: '[动]ていきます／きます　\n实义动词，表示独立的动作。\n1) て前接表示独立动作的动词: 食べる、買う、見る、休む。此时，て形表示两个相继发生的动作。\n2)
+    て前面的动词表示动作主体的状况: 着る、穿く、かける、持つ、連れる。此时，て形表示伴随状态。\n补助动词，不表示独立的动作。\n1) 表示以说话人为起点，空间上的移动方向。前接表示移动的动词:
+    帰る、歩く、走る、泳ぐ、飛ぶ、乗る \n~ていく：由近及远，~てくる：由远及近'
+- idx: 179
+  lesson: 048
+  expression: ~ていただきます
+  shortexplain: ''
+  explanation: “もらいます”的自谦语形式
+- idx: 180
+  lesson: 048
+  expression: ~ていただけますか [请求]
+  shortexplain: ''
+  explanation: 用于礼貌地请求别人为自己做某事。 “~ていただけませんか”比“~ていただけますか”礼貌程度高。
+- idx: 181
+  lesson: '027'
+  expression: ~ています [反复] [习惯]
+  shortexplain: ''
+  explanation: '[动]ています： [反复][习惯] 表示习惯时，“～ています”“～ます”都可以使用， 但句中出现表示时间起点的形式时，不用“～ます”。'
+- idx: 182
+  lesson: '033'
+  expression: ~ています [结果状态]
+  shortexplain: ''
+  explanation: '[自动]ています 1）自动词表示动作，则“～ています”表示该动作正在进行。\n2）自动词表示变化，“～ています”表示结果的存续。'
+- idx: 183
+  lesson: '047'
+  expression: ~ていらっしゃいます
+  shortexplain: ''
+  explanation: “～ています／～ていきます／～てきます”的尊他语。
+- idx: 184
+  lesson: '040'
+  expression: ~ているところです
+  shortexplain: ''
+  explanation: '[动]ているところです：表示正在做的过程中（处于“正进行中”的阶段）。'
+- idx: 185
+  lesson: '034'
+  expression: ~ておきます
+  shortexplain: ''
+  explanation: '[动]ておく 在随便的口语中有时会缩略成：とく，均按照动1活用 \n1) 为了某个目的而事先做某事。[准备] \n2) 为了某个目的而做某事，并使其结果或效果留存下来。[留存]'
+- idx: 186
+  lesson: 048
+  expression: ~ております
+  shortexplain: ''
+  explanation: “ています”的自谦语形式。
+- idx: 187
+  lesson: 039
+  expression: ~てきます
+  shortexplain: ''
+  explanation: 在口语中，表示去别处做某事后再回到原处， “去去就来”。
+- idx: 188
+  lesson: '045'
+  expression: ~てきました [出现]
+  shortexplain: ''
+  explanation: 表示某种状态的开始或出现，只限于前接非意志性动词。
+- idx: 189
+  lesson: '047'
+  expression: ~てくださいます
+  shortexplain: ''
+  explanation: “～てくれる”的尊他语。
+- idx: 190
+  lesson: 028
+  expression: ~てくれます
+  shortexplain: ''
+  explanation: '[动]てくれます Aは／がBに～てくれる：表示“他人（A）为我或我方人员（B）做某事” A：提供帮助的人（动作主体） B：受益人（我或我方人员）
+    ~：A的行为'
+- idx: 191
+  lesson: 048
+  expression: ~でございます
+  shortexplain: ''
+  explanation: ございます：“あります”更为礼貌的说法。 でございます：“です”更为礼貌的说法。
+- idx: 192
+  lesson: 048
+  expression: ~差し上げます
+  shortexplain: ''
+  explanation: “あげる”的自谦语形式
+- idx: 193
+  lesson: '033'
+  expression: ~てしまいます
+  shortexplain: ''
+  explanation: '[动]てしまいます \n1) 该动作所产生的结果是令人不愉快的事情。 \n2) 完成。（这种情况下，该动作一般是有意进行的）'
+- idx: 194
+  lesson: '026'
+  expression: ~でしょう [推测]
+  shortexplain: ''
+  explanation: '[小句（简体形）]＋でしょう。  “～でしょう” 表示推测。“大概，也许。”'
+- idx: 195
+  lesson: '027'
+  expression: ~でしょう? [确认]
+  shortexplain: ''
+  explanation: '[小句(简体形)]でしょう？ ①确认对方比自己更为熟悉的事情，读升调； ②当对方和自己意见不同，或叮问对方，读降调。'
+- idx: 196
+  lesson: '031'
+  expression: ~でしょうか
+  shortexplain: ''
+  explanation: '[小句(简体形式)]でしょうか：礼貌地对听话人表示疑问 接续： 1) 动／形1：简体＋でしょうか 2) 名／形2：简体去掉だ+でしょうか'
+- idx: 197
+  lesson: '042'
+  expression: ~ですもの/~だもん
+  shortexplain: ''
+  explanation: 口语中附于句尾，用于述说理由，带有抗议、不满、诉说、感叹、辩解等语气。 \n“～ですもの”的简体是“~だもの”，且于关系亲密的人之间。
+    \n“～だもの”→“～だもん”更随便，带有一种撒娇的语感，多为女性和孩子所用
+- idx: 198
+  lesson: '026'
+  expression: ~ではありませんか
+  shortexplain: ''
+  explanation: ～もしかしたら 口语形式，一般与“~かもしれません”“～ではありませんか”等呼应使用，用于可能性较低的场合，表示“也许”“莫非”等意。
+- idx: 199
+  lesson: '032'
+  expression: ~てほしい
+  shortexplain: ''
+  explanation: (～に) [动]てほしい 表示对他人的愿望，希望他人做某事 \n当动作主体是自然、客观的事物时，主体后用助词“が” \n直接提出要求的表达方式，礼貌程度较低，不能直接对长辈和上级使用。
+- idx: 200
+  lesson: '034'
+  expression: ~てみます
+  shortexplain: ''
+  explanation: '[动]てみる 表示尝试做某事。按照动2活用。'
+- idx: 201
+  lesson: '035'
+  expression: ~ても，~
+  shortexplain: ''
+  explanation: “即使……也……，尽管……还是……”。[小句1]ても、[小句2]　表示逆接关系 \n用于“小句1”成立时“小句2”理应成立但事实上却没有成立。\n接续：动：“て／で”→“ても／でも”
+    \n　　　形1：“て”→“ても” \n　　　形2／名词：“で”→“でも”
+- idx: 202
+  lesson: '035'
+  expression: ~でも [提示极端的例子]
+  shortexplain: ''
+  explanation: '[名]+でも：提示极端的例子，“就连……”'
+- idx: 203
+  lesson: '037'
+  expression: ~でも [示例]
+  shortexplain: ''
+  explanation: '[名]でも　[示例] 用于举出几个选项中有代表性的一项。'
+- idx: 204
+  lesson: 028
+  expression: ~てもらいます
+  shortexplain: ''
+  explanation: '[动]てもらいます “A从B处得到某项帮助/A由于B的行为而得到某种恩惠” A：受益人 B：行为主体（提供帮助的人） ~：B的行为'
+- idx: 205
+  lesson: '031'
+  expression: ~と，~
+  shortexplain: ''
+  explanation: '[小句1(动词基本形／ない形)]と、小句2：“一……就……” 1) 表示恒常性状态、真理、反复状态、习惯； 2) 表示由于某种行为而发现了新的情况。
+    “～と”的后面不会出现表示意志，希望，命令，请求等表达方式。'
+- idx: 206
+  lesson: '027'
+  expression: ~と会います
+  shortexplain: ''
+  explanation: '[名]と会います “～に”：表示单向性的行为对象 “～と”：表示双向性的行为对象'
+- idx: 207
+  lesson: 029
+  expression: ~という~
+  shortexplain: ''
+  explanation: '[名1]＋という＋[名2]：表示称谓，“叫做……”'
+- idx: 208
+  lesson: '030'
+  expression: ~と思います
+  shortexplain: ''
+  explanation: '[动(意志形)]＋と思います 用法：将自己要做某事的意志告诉听话人。1) 是表示个人意志的表达方式，通常只能用于第一人称。 2) 问句可用于第二人称，用于直接询问对方的意志。'
+- idx: 209
+  lesson: '030'
+  expression: ~と思っています
+  shortexplain: ''
+  explanation: '[动(意志形)]+ と思っています 用法：表示某种意志持续了一段时间。可用于第三人称。'
+- idx: 210
+  lesson: '037'
+  expression: ~とか~とか
+  shortexplain: ''
+  explanation: '[名1]とか[名2]とか　[小句1]とか[小句2]とか 用于列举同样性质的几个例子。“～とか～”只用于口语'
+- idx: 211
+  lesson: '027'
+  expression: ~時，~
+  shortexplain: ''
+  explanation: 小句(简)+時：“……的时候，……” \n接续：名+の/形1(简)/形2(词干)+な/动(简) +時 \na.～する（基本形）＋時、…：表示后项动作实现时，前项动作未完成
+    \nb.～した（た形）＋時、…：表示后项动作实现时，前项动作已完成
+- idx: 212
+  lesson: '040'
+  expression: ~ところです
+  shortexplain: ''
+  explanation: '[动(基本形)]ところです：表示动作即将进行（处于“即将做”的阶段）。'
+- idx: 213
+  lesson: 029
+  expression: ~な [禁止]
+  shortexplain: ''
+  explanation: '[动(基本形)]+な：禁止 放在句尾　用于禁止听话人做某事 其语气的强硬程度与动词命令形相当，较粗鲁。'
+- idx: 214
+  lesson: 029
+  expression: ~ないと/~ないといけません
+  shortexplain: ''
+  explanation: 表示必须或义务，“不……不行，不得不……”。 ないと是“~ないといけません／～ないといけない”的省略形式
+- idx: 215
+  lesson: '027'
+  expression: ~ながら
+  shortexplain: ''
+  explanation: “一边…一边…” 动＋ながら 接续：连用形＋“ながら”。 后面的动作是主要动作，前面的动作是次要动作。
+- idx: 216
+  lesson: 029
+  expression: ~なければ/~なければなりません
+  shortexplain: ''
+  explanation: “必须……，不得不……” なければ：“～なければなりません／～なければならない”的省略形式
+- idx: 217
+  lesson: 029
+  expression: ~なさい
+  shortexplain: ''
+  explanation: 动词连用形＋“なさい” 多用于长辈对晚辈、老师对学生、上司对下属下命令；语气比命令型客气。
+- idx: 218
+  lesson: '037'
+  expression: ~なら，~
+  shortexplain: ''
+  explanation: '[小句1(简体形)]なら、[小句2] \n根据对方的言谈或现场情况，陈述自己的意见或想法，以及向对方提出请求或忠告 \n接续：简体形式＋なら;
+    形2／名词：去掉简体形式中的だ＋なら'
+- idx: 219
+  lesson: '036'
+  expression: ~に [用途] [基准]
+  shortexplain: ''
+  explanation: '[名]に 1) 表示用途时，前面是具体说明用途的名词，后面多是“使う”等动词； \n2) 表示基准时，前面的名词是基准，后面一般是表示评价的形容词。'
+- idx: 220
+  lesson: '032'
+  expression: ~によると
+  shortexplain: ''
+  explanation: 表示消息来源时用“～によると”
+- idx: 221
+  lesson: '041'
+  expression: ~によって
+  shortexplain: ''
+  explanation: '[名(事物)]は ~によって[动] (ら)れます。 在事物做主语的被动句里，当动作主体是特定的人时，用“～によって”来表示。'
+- idx: 222
+  lesson: '026'
+  expression: ~のが~です
+  shortexplain: ''
+  explanation: 当谓语是表示感情或擅长不擅长的形容词（好きです、嫌いです、苦手です、上手です、下手です）时，主语要用助词“が”来表示。
+- idx: 223
+  lesson: '036'
+  expression: ~のが見えます/~のが聞こえます
+  shortexplain: ''
+  explanation: 某种景象映入眼帘/某种声音传入耳朵 [小句(简体形)]+の+が＋見えます／聞こえます \n小句：形2词干＋な＋の; 形1+の; 形2+な＋の
+- idx: 224
+  lesson: '034'
+  expression: ~のために，~ [目的]
+  shortexplain: ''
+  explanation: '[名]＋の＋ために、[小句] 表示目的，前后两个小句的主语相同。'
+- idx: 225
+  lesson: 039
+  expression: ~のために，~ [原因、理由]
+  shortexplain: ''
+  explanation: '[名]＋の＋ために、[小句2] \n1) 多用于书面语或比较郑重的场合； \n2) 小句1多为非意志性的事态或状态。'
+- idx: 226
+  lesson: '030'
+  expression: ~ので，~
+  shortexplain: ''
+  explanation: '[小句1]+ので+[小句2] 用于客观叙述某事的原因、理由。接续：简体／敬体+ので，前接简体较多；动词／形1简体＋ので；名词／形2简体（だ→な）＋ので；'
+- idx: 227
+  lesson: '043'
+  expression: ~のではないでしょうか [婉转陈述意见的表达]
+  shortexplain: ''
+  explanation: ～のではないでしょうか：是婉转陈述意见的表达方式。“不是…吗？”。 \n否定+疑问，表达的是一种委婉的肯定， 相当于“～と思います”，但更加委婉。
+    \n简体形式是：“～んじゃない？”
+- idx: 228
+  lesson: '027'
+  expression: ~の時，~
+  shortexplain: ''
+  explanation: “……的时候” 名词＋の＋時
+- idx: 229
+  lesson: '036'
+  expression: ~のに [用途] [基准]
+  shortexplain: ''
+  explanation: '[动(基本形)]＋の＋に \n1) 表示用途时，前面是具体说明用途的名词，后面多是“使う”等动词； \n2) 表示基准时，前面的名词是基准，后面一般是表示评价的形容词。'
+- idx: 230
+  lesson: '042'
+  expression: ~のに，~
+  shortexplain: ''
+  explanation: “明明……却，偏偏……”。 [小句1(简体形)]のに、[小句2]　[逆接] \n逆接：前项与后项是有矛盾的。 表示在小句1的情况下，发生小句2的情况不符合常识常理，
+    \n接续：[小句(简体形)]＋のに \n[名词／形2な形]＋のに
+- idx: 231
+  lesson: '026'
+  expression: ~のは~です
+  shortexplain: ''
+  explanation: 小句（动词简体形）＋の＋は[形]です。动词小句加形式名词“の”使之名词化，表示“做某动作”之意。 以上名词化形式作主语，而谓语是表示性质、状态的形1、形2时，主语用“は”表示。
+- idx: 232
+  lesson: '042'
+  expression: ~のまま，~
+  shortexplain: ''
+  explanation: '[名]＋のまま、小句 表示将理应改变的某状态保持着去进行另外的动作。'
+- idx: 233
+  lesson: '044'
+  expression: ~のようです [推測]
+  shortexplain: ''
+  explanation: '[名]＋のようです 表示根据说话人感知的某种情况进行推测，“好像，似乎“。'
+- idx: 234
+  lesson: '046'
+  expression: ~のような味/においがします
+  shortexplain: ''
+  explanation: 感觉到某种味道或气味，用法中的助词“が”和动词“する”，不能随意换用“を”和“ある”。 \n还可以是 \n“味／におい／声／音／感じ”がする
+    \n“頭痛／寒気／吐き気／眩暈（めまい）”がする
+- idx: 235
+  lesson: '026'
+  expression: ~のを~
+  shortexplain: ''
+  explanation: 小句（动词简体形）＋の＋を[动]。 这种名词化形式做宾语时，“の”和“こと”可以互换。 表达信息内容时，用“こと”；表示某动作时，用“の”。
+- idx: 236
+  lesson: '037'
+  expression: ~ば，~
+  shortexplain: ''
+  explanation: '[小句1]ば、[小句2]：表示小句1是小句2的必要条件。\n原则上句尾不能使用表示意志、希望、命令、请求的表达方式。不过，如果小句1的谓语为状态性谓语或者前后两个小句的主语不同时，则不受此限制。'
+- idx: 237
+  lesson: 029
+  expression: ~は~という~です
+  shortexplain: ''
+  explanation: '[名1]は[名/小句]+という +[名2]です。用于对名词1下定义或做解释。[小句]可以是命令形、简体形、简体形+な等形式。\n「という」后面的[名2]多为“意味（意思）”，也可是其它名词'
+- idx: 238
+  lesson: '041'
+  expression: ~は~に~られます
+  shortexplain: ''
+  explanation: 受害被动句 [名1]は[名2]に[动] (ら)れます。 动作主体的动作并不直接作用于主语，但主语由于此动作而间接承受了某不良影响。原主动句中不存在的名词或名词短语，成为被动句的主语。
+- idx: 239
+  lesson: '043'
+  expression: ~は~に~を~させます
+  shortexplain: ''
+  explanation: 他动词的使役句 [名1(使役主体)]は[名2(动作主体)]に[名3(动作的宾语/直接作用点)]を[他动]（さ）せます。
+- idx: 240
+  lesson: '041'
+  expression: ~は~に~を~られます
+  shortexplain: ''
+  explanation: 持有者被动句 [名1 物主]は[名2 动作施加者]に[名3 名1的所有物]を[动] (ら)れます。 句型表示该事物[名3]的持有者[名1]，由于动作主体[名2]的某动作，而遭受了某种麻烦或损失。
+- idx: 241
+  lesson: 028
+  expression: ~は~に~をくれます
+  shortexplain: ''
+  explanation: AはBに～をくれます。“A给B~”（B是“我”或“我方人员”） 物/所有权“由外向内”移动  别人给说话人(一方)的人某物
+- idx: 242
+  lesson: '045'
+  expression: ~ば~ほど
+  shortexplain: ''
+  explanation: “越……越……” 某性质的程度与其相关的动作、性质，成正比例关系。\n有五种接续方式
+- idx: 243
+  lesson: '041'
+  expression: ~が/は~られます
+  shortexplain: ''
+  explanation: 事物做主语的被动句 [名(事物)]が／は[动] (ら)れます。 此句型中，动作主体一般是不确定的人的群体，因此一般在句子中不出现。
+- idx: 244
+  lesson: '043'
+  expression: ~は~を~させます
+  shortexplain: ''
+  explanation: 自动词的使役句 [名1(使役主体)]は[名2(动作主体/被使役者)]を[自动]（さ）せます。
+- idx: 245
+  lesson: '036'
+  expression: ~ばかり~
+  shortexplain: ''
+  explanation: “光、净、只……” [名]＋ばかり＋[动]：表示所列举的事物全部相同
+- idx: 246
+  lesson: '036'
+  expression: ~ばかりいます
+  shortexplain: ''
+  explanation: “老是，总是，光……，净……” [动(て形)]＋ばかり＋いる：表示总是发生同样的事情或总是进行同样的动作[反复]
+- idx: 247
+  lesson: '040'
+  expression: ~始めます/~出します
+  shortexplain: ''
+  explanation: '[动(连用形)]始める：表示动作或变化开始。\n[动(连用形)]出す：表示突然出现了某情况。'
+- idx: 248
+  lesson: '042'
+  expression: ~はずがありません
+  shortexplain: ''
+  explanation: ～はずが（は）ないです。 “不可能…”。 \n“～はずです”的否定形式，表示根据某种理由做出某种否定性的推断。
+- idx: 249
+  lesson: '042'
+  expression: ~はずです
+  shortexplain: ''
+  explanation: '[小句(简体形)]はずです。 简体形：はずだ。 “应该是……” \n表示说话人根据某种理由，做出某种合情合理的推断 \n接续：[小句(简体形)/名词＋の/形2词干＋な]＋はずです。
+    \n可以用于： \n1) 说话人经历过但记忆不准确的事情； \n2) 说话人认为确实如此，但和实际不一致的情况。'
+- idx: 250
+  lesson: '046'
+  expression: ~までに
+  shortexplain: ''
+  explanation: “在~之前（发生或完成某动作）”， [名(时间)]までに 表示某动作或事态发生或完成的期间的终点。
+- idx: 251
+  lesson: '042'
+  expression: ~まま，~
+  shortexplain: ''
+  explanation: '[小句1(动词た形／ない形)]まま、小句2 表示将理应改变的某状态保持着去进行另外的动作。'
+- idx: 252
+  lesson: '044'
+  expression: ~みたいです [推测]
+  shortexplain: ''
+  explanation: '[小句(简体形)]/[名]/[形2词干]＋みたいです 表示根据说话人感知的某种情况进行推测，基本上与“～ようだ”同义。 用于比较随便的口语'
+- idx: 253
+  lesson: '046'
+  expression: ~みたいです [比喻]
+  shortexplain: ''
+  explanation: '[名]／[动(简体形)]+みたいです “好像…宛如…”，表示比喻时多与副词“まるで”呼应使用。语气更为随便，多用于口语；'
+- idx: 254
+  lesson: 039
+  expression: ~も [超出预想]
+  shortexplain: ''
+  explanation: 数量词+も+肯定形式：强调数量多，程度高；表示数量比预想的或应有的多
+- idx: 255
+  lesson: '043'
+  expression: ~やすいです/~にくいです
+  shortexplain: ''
+  explanation: “易于……”/“难于……” [动(连用形)]+やすいです／にくいです。 表示某事物的性质。
+- idx: 256
+  lesson: '044'
+  expression: ~ようです [推测]
+  shortexplain: ''
+  explanation: '[小句(简体形)]/[形2词干]+な/[名]+の ＋ようです 表示根据说话人感知的某种情况进行推测，“好像，似乎“。'
+- idx: 257
+  lesson: '046'
+  expression: ~ようです [比喻]
+  shortexplain: ''
+  explanation: '[名]＋の／[动(简体形)]+ようです　[比喻][示例] “好像…宛如…”，表示比喻时多与副词“まるで”呼应使用。语气更为正式，多用于正式的口语或书面语。'
+- idx: 258
+  lesson: 038
+  expression: ~ように，~
+  shortexplain: ''
+  explanation: '[小句(基本形／ない形)]ように、[小句]　[目的] 表示“为了使前项状态成立，而有意识地做后项事情”。 一般前接非意志性动词，或意志性动词的可能形式'
+- idx: 259
+  lesson: 038
+  expression: ~ようにします
+  shortexplain: ''
+  explanation: '[小句(基本形／ない形)]ようにします：表示“努力做到……”。一般前接意志性动词 \n[小句(基本形／ない形)]ようにしています：表示平时留心保持某习惯。'
+- idx: 260
+  lesson: 038
+  expression: ~ようになります
+  shortexplain: ''
+  explanation: '[小句(基本形／ない形)]ようになります：表示变化。 表示能力、状况、习惯等变成某种状态。 一般前接非意志性动词，或意志性动词的可能形式'
+- idx: 261
+  lesson: '046'
+  expression: ~らしい~ [典型性]
+  shortexplain: ''
+  explanation: '[名1]＋らしい＋[名2] 接尾词，前接名词，表示具有该事物应有的典型特征。 \n多与副词“いかにも”（确实、的确、实在）呼应使用。
+    \n若[名1]与[名2]为同一个名词时，表示“真正意义上的～”“像样的～”。'
+- idx: 262
+  lesson: '044'
+  expression: ~らしいです [推測] [传闻]
+  shortexplain: ''
+  explanation: '[小句(简体形)]/[名词／二类形小句简体形式(去掉だ)]＋らしいです　 \n1. 根据某种观察到的情况进行推测； \n2. 婉转地叙述听来的消息。'
+- idx: 263
+  lesson: '047'
+  expression: ~られます
+  shortexplain: ''
+  explanation: 变形相当于动词的被动形式。但在句中并不表示被动，而是表示对动作主体的敬意 ；同时，不同于被动语句，尊他语句的语序、助词等，都不改变。
+- idx: 264
+  lesson: '046'
+  expression: ~んじゃないですか [婉转陈述意见的表达]
+  shortexplain: ''
+  explanation: 表示婉转陈述意见，与“～のではないでしょうか”意思一样，礼貌程度略低。
+- idx: 265
+  lesson: '025'
+  expression: 名词的修饰
+  shortexplain: ''
+  explanation: 动词/形容词/动词小句/形容词小句修饰名词时，使用连体形式。连体形式：动词:简体形，形1:简体形，形2:词干+な，名词:名+の+名
+- idx: 266
+  lesson: '033'
+  expression: 自动词和他动词
+  shortexplain: ''
+  explanation: 自动词：AがV自→ 描述客观现象、动作行为的结果 \n他动词：Aが~をV他→ 描述主观的动作
+- idx: 267
+  lesson: '031'
+  expression: 形容词的副词性用法
+  shortexplain: ''
+  explanation: 接续：一类形容词：词尾い→く+动词  二类形容词：词干＋に+动词
+- idx: 268
+  lesson: '044'
+  expression: 形容词+さ
+  shortexplain: ''
+  explanation: 构成表示某种状态的名词。\n一类形词尾い→さ\n二类形容词词干＋さ
+- idx: 269
+  lesson: 029
+  expression: 命令形
+  shortexplain: ''
+  explanation: 用于向对方下命令。从基本形变起 \n动1：->“え”段； \n动2：“る”->“ろ”； \n动3：“来(く)る”->“来(こ)い”，“する”->“しろ”。
+- idx: 270
+  lesson: '030'
+  expression: 意志形
+  shortexplain: ''
+  explanation: 说话人当场表示自己的决心、意志。从基本形变起 \n动1：->“お”段上的长音； \n动2：“る”->“よう”； \n动3：する→しよう；くる→こよう；
+- idx: 271
+  lesson: '037'
+  expression: ば形
+  shortexplain: ''
+  explanation: 动1：->“え”段+“ば”\n动2：“る”->“れば”\n动3：“来る”->“来れば”，“する”->“すれば”\n形1：“い”->“ければ”
+- idx: 272
+  lesson: 038
+  expression: 可能形式
+  shortexplain: ''
+  explanation: 活用：\n动1：->“え”段+“る”\n动2：“る”->“られる”\n动3：“来る”->“来られる”，“する”->“できる”\n用法：可能形式与“～ことができます”意义相同，即表示能力或条件允许或可能性。
+- idx: 273
+  lesson: '041'
+  expression: 被动形式
+  shortexplain: ''
+  explanation: 基于ない形\n动1：“ない”->“れる”\n动2：“ない”->“られる”\n动3：“来る”->“来られる”，“する”->“される”
+- idx: 274
+  lesson: '043'
+  expression: 使役形式
+  shortexplain: ''
+  explanation: 使役主体强制、指示、放任、许可动作主体做某事。“让…做…”。\n基于ない形\n动1：“ない”->“せる”\n动2：“ない”->“させる”\n动3：“来る”->“来(こ)させる”，“する”->“させる”
+- idx: 275
+  lesson: '047'
+  expression: 敬语
+  shortexplain: ''
+  explanation: 分为以下三类： \n尊他语：通过抬高话题中的动作主体，而对动作主体表示敬意。 \n自谦语：通过贬低动作主体（己方），从而相对地对动作接受者或动作涉及的对象表示敬意。
+    \n礼貌语：通过使用客气的词语，对听话人表示敬意。
+- idx: 276
+  lesson: '047'
+  expression: 尊他语
+  shortexplain: ''
+  explanation: 尊他语：通过抬高话题中的动作主体，而对动作主体表示敬意。 \n敬语使用的场合： \n1) 与比自己身份地位高的人（老师、上级或年长者等）说话时；
+    \n2) 与陌生人或关系不密切的人说话时； \n3) 在郑重场合说话时。
+- idx: 277
+  lesson: 048
+  expression: 自谦语
+  shortexplain: ''
+  explanation: 通过贬低动作主体（己方），从而相对地对动作接受者或动作涉及的对象表示敬意。
+- idx: 278
+  lesson: '041'
+  expression: ~は~られます
+  shortexplain: ''
+  explanation: 直接被动句[人2 主语]は([人1 动作施加者]に)[动] (ら)れます。 主动句中的宾语（动作对象），挪到被动句中作主语。 被动句中，主语承受了动作施加者的某个动作或影响，是客观叙述，不带感情色彩，动作主体（动作施加者）用“に”表示。
+- idx: 279
+  lesson: '043'
+  expression: 使役被动形式
+  shortexplain: ''
+  explanation: 表示被迫做某事\n基于ない形\n动1：“ない”→“される”，“さない”->“させられる”\n动2：“ない”→“させられる”\n动3：“来る”→“来(こ)させられる”，“する”->“させられる”
+- idx: 280
+  lesson: m02
+  expression: いくら~ても/いかに~ても
+  shortexplain: 逆接
+  explanation: ''
+- idx: 281
+  lesson: m02
+  expression: ~以上に
+  shortexplain: 对比
+  explanation: ''
+- idx: 282
+  lesson: m01
+  expression: 一方、~
+  shortexplain: 对比
+  explanation: ''
+- idx: 283
+  lesson: m16
+  expression: ~一方、~
+  shortexplain: 对比
+  explanation: ''
+- idx: 284
+  lesson: m13
+  expression: ~一方だ
+  shortexplain: 消极
+  explanation: ''
+- idx: 285
+  lesson: m11
+  expression: ~うえ(に)、~
+  shortexplain: ''
+  explanation: ''
+- idx: 286
+  lesson: m10
+  expression: お/ご~申し上げる
+  shortexplain: 自谦
+  explanation: ''
+- idx: 287
+  lesson: m16
+  expression: お/ご~いただく
+  shortexplain: 自谦
+  explanation: ''
+- idx: 288
+  lesson: m09
+  expression: お~しております
+  shortexplain: 自谦
+  explanation: ''
+- idx: 289
+  lesson: m12
+  expression: ~おかげで/~おかげか
+  shortexplain: 原因 积极
+  explanation: ''
+- idx: 290
+  lesson: m14
+  expression: ~かい
+  shortexplain: 大叔腔
+  explanation: ''
+- idx: 291
+  lesson: m14
+  expression: ~かい/~がい
+  shortexplain: 价值
+  explanation: ''
+- idx: 292
+  lesson: m07
+  expression: ~かね
+  shortexplain: ''
+  explanation: ''
+- idx: 293
+  lesson: m06
+  expression: ~かもね
+  shortexplain: 推测
+  explanation: ''
+- idx: 294
+  lesson: m16
+  expression: ~からといって~とは限らない
+  shortexplain: 部分否定
+  explanation: ''
+- idx: 295
+  lesson: m16
+  expression: ~からといって~ない/~から~ない
+  shortexplain: ''
+  explanation: ''
+- idx: 296
+  lesson: m08
+  expression: ~代わりに~/~かわって
+  shortexplain: ''
+  explanation: ''
+- idx: 297
+  lesson: m11
+  expression: ~気がする
+  shortexplain: 语气弱
+  explanation: ''
+- idx: 298
+  lesson: m10
+  expression: ~くらい~/ぐらい【最低限度】
+  shortexplain: 概数
+  explanation: ''
+- idx: 299
+  lesson: m01
+  expression: ~くらいだ【强调程度】
+  shortexplain: 口语
+  explanation: ''
+- idx: 300
+  lesson: m15
+  expression: 決して~ない
+  shortexplain: 否定
+  explanation: ''
+- idx: 301
+  lesson: m10
+  expression: ご~できる
+  shortexplain: 自谦
+  explanation: ''
+- idx: 302
+  lesson: m14
+  expression: ~こと
+  shortexplain: 忠告 书面
+  explanation: ''
+- idx: 303
+  lesson: m15
+  expression: ~ことから
+  shortexplain: 原因
+  explanation: ''
+- idx: 304
+  lesson: m14
+  expression: ~ことだ
+  shortexplain: 忠告 口语
+  explanation: ''
+- idx: 305
+  lesson: m07
+  expression: ~ごとに
+  shortexplain: ''
+  explanation: ''
+- idx: 306
+  lesson: m12
+  expression: ~(という)ことになる
+  shortexplain: ''
+  explanation: ''
+- idx: 307
+  lesson: m14
+  expression: ~際、~
+  shortexplain: ''
+  explanation: ''
+- idx: 308
+  lesson: m07
+  expression: ~さえ
+  shortexplain: 极端
+  explanation: ''
+- idx: 309
+  lesson: m07
+  expression: ~さえ~ば
+  shortexplain: 条件 最低
+  explanation: ''
+- idx: 310
+  lesson: m04
+  expression: ~し、~から、~
+  shortexplain: 并列 原因
+  explanation: ''
+- idx: 311
+  lesson: m06
+  expression: ~じゃって
+  shortexplain: 彻底完成
+  explanation: ''
+- idx: 312
+  lesson: m08
+  expression: ~末
+  shortexplain: 结果 积极
+  explanation: ''
+- idx: 313
+  lesson: m07
+  expression: ~すら
+  shortexplain: 极端
+  explanation: ''
+- idx: 314
+  lesson: m12
+  expression: ~せい/~せいで/~せいか
+  shortexplain: 原因 消极
+  explanation: ''
+- idx: 315
+  lesson: m08
+  expression: ~たあげく(に)
+  shortexplain: 结果 消极
+  explanation: ''
+- idx: 316
+  lesson: m08
+  expression: ~だけだ
+  shortexplain: ''
+  explanation: ''
+- idx: 317
+  lesson: m08
+  expression: ~た結果
+  shortexplain: 结果
+  explanation: ''
+- idx: 318
+  lesson: m08
+  expression: ~だけで
+  shortexplain: ''
+  explanation: ''
+- idx: 319
+  lesson: m11
+  expression: ~だけで(は)なく~も
+  shortexplain: ''
+  explanation: ''
+- idx: 320
+  lesson: m08
+  expression: ~だけではすまない/だけですむ
+  shortexplain: ''
+  explanation: ''
+- idx: 321
+  lesson: m15
+  expression: ~ために/~ための
+  shortexplain: 原因
+  explanation: ''
+- idx: 322
+  lesson: m07
+  expression: ~たらいい
+  shortexplain: 建议
+  explanation: ''
+- idx: 323
+  lesson: m07
+  expression: ~だろうと思う
+  shortexplain: ''
+  explanation: ''
+- idx: 324
+  lesson: m15
+  expression: ちっとも~ない
+  shortexplain: 否定
+  explanation: ''
+- idx: 325
+  lesson: m06
+  expression: ~ちゃって
+  shortexplain: 彻底完成
+  explanation: ''
+- idx: 326
+  lesson: m07
+  expression: ~っけ/~だっけ
+  shortexplain: 确认
+  explanation: ''
+- idx: 327
+  lesson: m14
+  expression: ~である
+  shortexplain: 书面简体
+  explanation: ''
+- idx: 328
+  lesson: m16
+  expression: ~である~
+  shortexplain: ''
+  explanation: ''
+- idx: 329
+  lesson: m13
+  expression: ~ていただければありがたい
+  shortexplain: 尊他 请求
+  explanation: ''
+- idx: 330
+  lesson: m13
+  expression: ~ており、~
+  shortexplain: 自谦
+  explanation: ''
+- idx: 331
+  lesson: m15
+  expression: ~でしょ
+  shortexplain: ''
+  explanation: ''
+- idx: 332
+  lesson: m13
+  expression: ~てちょうだい
+  shortexplain: ''
+  explanation: ''
+- idx: 333
+  lesson: m02
+  expression: ~ては/~では
+  shortexplain: 消极
+  explanation: ''
+- idx: 334
+  lesson: m14
+  expression: ~て初めて
+  shortexplain: ''
+  explanation: ''
+- idx: 335
+  lesson: m11
+  expression: ~でも~でも
+  shortexplain: ''
+  explanation: ''
+- idx: 336
+  lesson: m08
+  expression: ~、~、~、~と
+  shortexplain: 列举
+  explanation: ''
+- idx: 337
+  lesson: m07
+  expression: ~といい
+  shortexplain: 建议 语气弱
+  explanation: ''
+- idx: 338
+  lesson: m05
+  expression: ~ということからきた~
+  shortexplain: ''
+  explanation: ''
+- idx: 339
+  lesson: m04|m11
+  expression: ~ということだ/~とのことだ
+  shortexplain: 传闻
+  explanation: ''
+- idx: 340
+  lesson: m05
+  expression: ~という点から
+  shortexplain: ''
+  explanation: ''
+- idx: 341
+  lesson: m05
+  expression: ~というふうな/~というふうに
+  shortexplain: 举例
+  explanation: ''
+- idx: 342
+  lesson: m01
+  expression: ~というものは/~ということは
+  shortexplain: 本质
+  explanation: ''
+- idx: 343
+  lesson: m05
+  expression: ~というような/~というように
+  shortexplain: 举例
+  explanation: ''
+- idx: 344
+  lesson: m04
+  expression: ~といえば
+  shortexplain: 后续评价
+  explanation: ''
+- idx: 345
+  lesson: m05
+  expression: ~といったような/~といったように
+  shortexplain: 举例
+  explanation: ''
+- idx: 346
+  lesson: m06
+  expression: ~といっても
+  shortexplain: 转折
+  explanation: ''
+- idx: 347
+  lesson: m03
+  expression: ~といわれている
+  shortexplain: ''
+  explanation: ''
+- idx: 348
+  lesson: m07
+  expression: どういう
+  shortexplain: 询问
+  explanation: ''
+- idx: 349
+  lesson: m11
+  expression: ~と思える/~とおもわれる
+  shortexplain: 主观判断
+  explanation: ''
+- idx: 350
+  lesson: m09
+  expression: ~どわり
+  shortexplain: ''
+  explanation: ''
+- idx: 351
+  lesson: m04|m11
+  expression: ~ところ/~のところ
+  shortexplain: ''
+  explanation: ''
+- idx: 352
+  lesson: m06
+  expression: ~とされる
+  shortexplain: 书面
+  explanation: ''
+- idx: 353
+  lesson: m03|m05
+  expression: ~として
+  shortexplain: ''
+  explanation: ''
+- idx: 354
+  lesson: m03
+  expression: ~としては
+  shortexplain: ''
+  explanation: ''
+- idx: 355
+  lesson: m11
+  expression: ~とともに、~
+  shortexplain: ''
+  explanation: ''
+- idx: 356
+  lesson: m01
+  expression: ~とは
+  shortexplain: ''
+  explanation: ''
+- idx: 357
+  lesson: m11
+  expression: ~とは比べものにならない
+  shortexplain: 比较 要明示对象
+  explanation: ''
+- idx: 358
+  lesson: m02
+  expression: どんなに~ても/どれだけ~ても
+  shortexplain: 逆接
+  explanation: ''
+- idx: 359
+  lesson: m07
+  expression: ~などという
+  shortexplain: 举例
+  explanation: ''
+- idx: 360
+  lesson: m07
+  expression: ~なら~、~なら~
+  shortexplain: 提及
+  explanation: ''
+- idx: 361
+  lesson: m09
+  expression: ~なんて
+  shortexplain: 加强语境语气
+  explanation: ''
+- idx: 362
+  lesson: m12
+  expression: ~においても
+  shortexplain: ''
+  explanation: ''
+- idx: 363
+  lesson: m08
+  expression: ~に代わる~
+  shortexplain: ''
+  explanation: ''
+- idx: 364
+  lesson: m11
+  expression: ~に関する
+  shortexplain: 语气比「について」强
+  explanation: ''
+- idx: 365
+  lesson: m03
+  expression: ~にしたら/~にしてみれば/~にすれば
+  shortexplain: ''
+  explanation: ''
+- idx: 366
+  lesson: m11
+  expression: ~にしても、~にしても
+  shortexplain: ''
+  explanation: ''
+- idx: 367
+  lesson: m05
+  expression: ~に相違ない
+  shortexplain: 推测 非100%确信
+  explanation: ''
+- idx: 368
+  lesson: m13
+  expression: ~に対して
+  shortexplain: ''
+  explanation: ''
+- idx: 369
+  lesson: m13
+  expression: ~にたいする~
+  shortexplain: ''
+  explanation: ''
+- idx: 370
+  lesson: m05
+  expression: ~に違いない
+  shortexplain: 推测 非确信
+  explanation: ''
+- idx: 371
+  lesson: m09
+  expression: ~にて
+  shortexplain: ''
+  explanation: ''
+- idx: 372
+  lesson: m03|m13
+  expression: ~にとって、~
+  shortexplain: ''
+  explanation: ''
+- idx: 373
+  lesson: m13
+  expression: ~には~がある
+  shortexplain: 原因
+  explanation: ''
+- idx: 374
+  lesson: m11
+  expression: ~に夢中になる
+  shortexplain: ''
+  explanation: ''
+- idx: 375
+  lesson: m05
+  expression: ~に基づいた~
+  shortexplain: ''
+  explanation: ''
+- idx: 376
+  lesson: m06
+  expression: ~による/~によって【不同场合】
+  shortexplain: ''
+  explanation: ''
+- idx: 377
+  lesson: m10|m15
+  expression: ~による/~によって【方法、手段】
+  shortexplain: 方法手段 原因
+  explanation: ''
+- idx: 378
+  lesson: m15
+  expression: ~による/~によって【方法、手段】
+  shortexplain: 方法手段 原因
+  explanation: ''
+- idx: 379
+  lesson: m13
+  expression: ~の一途をたどる
+  shortexplain: ''
+  explanation: ''
+- idx: 380
+  lesson: m07
+  expression: ~のうえで(の)
+  shortexplain: ''
+  explanation: ''
+- idx: 381
+  lesson: m05
+  expression: ~のうち
+  shortexplain: ''
+  explanation: ''
+- idx: 382
+  lesson: m10
+  expression: ~のだ
+  shortexplain: 理由说明 直接断定
+  explanation: ''
+- idx: 383
+  lesson: m10
+  expression: ~のだろう
+  shortexplain: 理由说明 推测语气
+  explanation: ''
+- idx: 384
+  lesson: m09
+  expression: ~のだろうか
+  shortexplain: 疑问
+  explanation: ''
+- idx: 385
+  lesson: m04
+  expression: ~(の)ではないか
+  shortexplain: 书面
+  explanation: ''
+- idx: 386
+  lesson: m11
+  expression: ~のところ
+  shortexplain: ''
+  explanation: ''
+- idx: 387
+  lesson: m16
+  expression: ~のに対して
+  shortexplain: 对比
+  explanation: ''
+- idx: 388
+  lesson: m05
+  expression: ~のは間違いない
+  shortexplain: 确信
+  explanation: ''
+- idx: 389
+  lesson: m01
+  expression: ~は~の１つだ
+  shortexplain: ''
+  explanation: ''
+- idx: 390
+  lesson: m07
+  expression: ~ばいい
+  shortexplain: 建议
+  explanation: ''
+- idx: 391
+  lesson: m13
+  expression: ~ばかりだ
+  shortexplain: 消极
+  explanation: ''
+- idx: 392
+  lesson: m02
+  expression: ~ぶり
+  shortexplain: ''
+  explanation: ''
+- idx: 393
+  lesson: m02
+  expression: ~ほうがっだ
+  shortexplain: 比较 建议
+  explanation: ''
+- idx: 394
+  lesson: m02
+  expression: ~ほうがいいだろう
+  shortexplain: 建议
+  explanation: ''
+- idx: 395
+  lesson: m06
+  expression: ~ほか、~も
+  shortexplain: ''
+  explanation: ''
+- idx: 396
+  lesson: m01
+  expression: ~ほど
+  shortexplain: 强调程度 书面
+  explanation: ''
+- idx: 397
+  lesson: m10
+  expression: ~ませ
+  shortexplain: ''
+  explanation: ''
+- idx: 398
+  lesson: m07
+  expression: ~まで【提出极端事例】
+  shortexplain: 极端
+  explanation: ''
+- idx: 399
+  lesson: m13
+  expression: ~までには
+  shortexplain: 期限 发生某事的特定时间
+  explanation: ''
+- idx: 400
+  lesson: m11
+  expression: ~見込みだ
+  shortexplain: ''
+  explanation: ''
+- idx: 401
+  lesson: m02
+  expression: ~ものだ【回顾】
+  shortexplain: ''
+  explanation: ''
+- idx: 402
+  lesson: m02
+  expression: ~ものだ【感慨】
+  shortexplain: ''
+  explanation: ''
+- idx: 403
+  lesson: m02
+  expression: ~ものだ【性质】
+  shortexplain: ''
+  explanation: ''
+- idx: 404
+  lesson: m15
+  expression: ~ゆえに/~ゆえの
+  shortexplain: 原因
+  explanation: ''
+- idx: 405
+  lesson: m10
+  expression: ~よう【目的】
+  shortexplain: 书面
+  explanation: ''
+- idx: 406
+  lesson: m05
+  expression: ~ような~/~ように~
+  shortexplain: 举例
+  explanation: ''
+- idx: 407
+  lesson: m02
+  expression: ~よりも
+  shortexplain: 「より」表起点时，不能加助词「も」
+  explanation: ''
+- idx: 408
+  lesson: m13
+  expression: ~わけがない
+  shortexplain: 否定 语气强
+  explanation: ''
+- idx: 409
+  lesson: m11
+  expression: ~わけではない
+  shortexplain: ''
+  explanation: ''
+- idx: 410
+  lesson: m03
+  expression: ~わけにはいかない
+  shortexplain: ''
+  explanation: ''
+- idx: 411
+  lesson: m07
+  expression: ~わね
+  shortexplain: 大婶腔
+  explanation: ''
+- idx: 412
+  lesson: m05
+  expression: ~を~と呼ぶ
+  shortexplain: ''
+  explanation: ''
+- idx: 413
+  lesson: m05
+  expression: ~をきっかけにして
+  shortexplain: 后项多为好结果
+  explanation: ''
+- idx: 414
+  lesson: m05
+  expression: ~を中心とした
+  shortexplain: ''
+  explanation: ''
+- idx: 415
+  lesson: m16
+  expression: ~を占める
+  shortexplain: 比例
+  explanation: ''
+- idx: 416
+  lesson: m14
+  expression: ~を問わず
+  shortexplain: 书面
+  explanation: ''
+- idx: 417
+  lesson: m03
+  expression: ~を含めて
+  shortexplain: ''
+  explanation: ''
+- idx: 418
+  lesson: m01
+  expression: が／を／へ／と／から+は
+  shortexplain: ''
+  explanation: ''
+- idx: 419
+  lesson: m02
+  expression: “动词‘ます形’去掉‘ます’的形式”，~
+  shortexplain: ''
+  explanation: ''
+- idx: 420
+  lesson: m01
+  expression: 名词+の+名词
+  shortexplain: ''
+  explanation: ''
+- idx: 421
+  lesson: m05
+  expression: “が”与“の”的互换
+  shortexplain: ''
+  explanation: ''
+- idx: 422
+  lesson: m03
+  expression: 倒装【强调原因、理由】
+  shortexplain: ''
+  explanation: ''
+- idx: 423
+  lesson: m09
+  expression: 拟声词+する
+  shortexplain: ''
+  explanation: ''
+- idx: 424
+  lesson: m11
+  expression: が／を／に／で／と／から+しか
+  shortexplain: ''
+  explanation: ''
+- idx: 425
+  lesson: m11
+  expression: が／を／に／で／と／から+も
+  shortexplain: ''
+  explanation: ''
+- idx: 426
+  lesson: m15
+  expression: 助词“で”的小结
+  shortexplain: ''
+  explanation: ''
+- idx: 427
+  lesson: m25
+  expression: ~あってこそ
+  shortexplain: 只有/全靠有……才……
+  explanation: 【動詞て形】＋こそ（「こそ」表示强调。）
+- idx: 428
+  lesson: m24
+  expression: ~以上(は)~
+  shortexplain: 既然……就……
+  explanation: 【动词（简体形式）】＋以上（は）
+- idx: 429
+  lesson: m19
+  expression: 一方(で)，~【同时进行】
+  shortexplain: 两个不同的动作同时进行
+  explanation: 【動詞基本形】＋一方（で）
+- idx: 430
+  lesson: m23
+  expression: ~以来
+  shortexplain: 自……以来一直
+  explanation: 【動詞て形／表示过去时间的名词】＋以来
+- idx: 431
+  lesson: m29
+  expression: ~うえで
+  shortexplain: ①在……方面，……上\n②在……之后
+  explanation: ①【動詞基本形／名詞＋の】＋うえで\n②【動詞た形／名詞＋の】＋うえで
+- idx: 432
+  lesson: m18
+  expression: ~うちに
+  shortexplain: 在/趁着……期间（做某事）
+  explanation: 【连体形】＋うちに
+- idx: 433
+  lesson: m18
+  expression: ~うちは
+  shortexplain: 在……期间，……的时候
+  explanation: 【连体形】＋うちは
+- idx: 434
+  lesson: m27
+  expression: ~えなかった
+  shortexplain: 有/没有……的可能性
+  explanation: 【動詞ます形去ます】＋うる／えない
+- idx: 435
+  lesson: m18
+  expression: お/ご~いたす
+  shortexplain: ''
+  explanation: 自谦语「お～する」+郑重语「いたす」
+- idx: 436
+  lesson: m22|m16
+  expression: お/ご~いただく
+  shortexplain: ''
+  explanation: 「ていただく」的礼貌表达
+- idx: 437
+  lesson: m32
+  expression: ~おそれがある
+  shortexplain: 恐怕有会发生……的可能性
+  explanation: 【動詞基本形／名詞＋の】＋おそれがある
+- idx: 438
+  lesson: m29
+  expression: ~かいがある
+  shortexplain: 有……的意义/价值
+  explanation: 【動詞た形／名詞＋の】＋かい  動詞ます形去ます＋がい
+- idx: 439
+  lesson: m19
+  expression: ~限り
+  shortexplain: 限度、极限、范围
+  explanation: 【表示时间或数量的名词／動詞简体形】＋限り
+- idx: 440
+  lesson: m32
+  expression: ~かたわら
+  shortexplain: 一边……一边……（主业以外的爱好或工作）
+  explanation: 【動詞基本形／名詞＋の】＋かたわら
+- idx: 441
+  lesson: m24
+  expression: ~がちだ
+  shortexplain: 有……的倾向（发生频率上的增多）
+  explanation: 【動詞ます形去ます】＋がちだ \n「～がちだ」按照二类形容词活用。多用于消极的情况。
+- idx: 442
+  lesson: m21
+  expression: 必ずしも~ない
+  shortexplain: 未必……
+  explanation: ''
+- idx: 443
+  lesson: m23
+  expression: ~から~にかけて
+  shortexplain: 时间或空间的大致范围
+  explanation: ''
+- idx: 444
+  lesson: m25
+  expression: ~からいうと/~からいえば/~からいって
+  shortexplain: 从……来看
+  explanation: 【名詞】＋から……\n前面不能出现“人”。
+- idx: 445
+  lesson: m25
+  expression: ~からすると/~からすれば/~からして/~からしても
+  shortexplain: 从……来看
+  explanation: 【名詞】＋から……\n「～からして」可用于举出极端例子。
+- idx: 446
+  lesson: m24
+  expression: ~からには
+  shortexplain: 既然……就……
+  explanation: 【动词（简体形式）】＋からには
+- idx: 447
+  lesson: m25
+  expression: ~から見ると
+  shortexplain: 从……来看
+  explanation: 表示判断的依据、立场。【名詞】＋からみると
+- idx: 448
+  lesson: m25
+  expression: ~きれない
+  shortexplain: 无法彻底做完某事 \n①彻底做完某事 \n②表示程度之甚
+  explanation: 「動詞ます形＋きれない」\n「動詞ます形去ます＋きる」
+- idx: 449
+  lesson: m31
+  expression: ~くせに
+  shortexplain: 明明……却【转折】
+  explanation: 含有对对方不满的语气。\n【连体形】＋くせに
+- idx: 450
+  lesson: m26
+  expression: ここ~
+  shortexplain: 近……以来
+  explanation: 【ここ＋时间名词】
+- idx: 451
+  lesson: m24
+  expression: ~こそ
+  shortexplain: 强调
+  explanation: ''
+- idx: 452
+  lesson: m23
+  expression: ~ことがない
+  shortexplain: 不会出现……的情况
+  explanation: 【動詞基本形】＋ことが／はない\n「～ことはない」特有用法：没有必要做某事
+- idx: 453
+  lesson: m27
+  expression: ~ことで
+  shortexplain: ''
+  explanation: 助词「で」可用于表示原因等，若前项为动词或形容词小句时，就必须借助「こと」，构成「ことで」。
+- idx: 454
+  lesson: m18
+  expression: ~ことと存じます
+  shortexplain: 想必
+  explanation: 小句（连体形式）＋ことと存じます\n「ことと存じます」：「ことと思います」的礼貌说法。多用于书信中。
+- idx: 455
+  lesson: m17
+  expression: ~ことに
+  shortexplain: 让人……的是……
+  explanation: 【表示情感 · 主观评价的一类形容词/二类形容词/动词た形】＋ことに
+- idx: 456
+  lesson: m22|m7
+  expression: ~ごとに
+  shortexplain: 每……
+  explanation: ''
+- idx: 457
+  lesson: m23
+  expression: ~ことはない
+  shortexplain: 不会出现……的情况
+  explanation: 【動詞基本形】＋ことが／はない\n「～ことはない」特有用法：没有必要做某事
+- idx: 458
+  lesson: m26
+  expression: ~ざるをえない
+  shortexplain: 不得不……
+  explanation: 【動詞否定形】＋ざるをえない（「する」→「せざるをえない」）\n根据客观现实情况，多用于书面语
+- idx: 459
+  lesson: m26
+  expression: ~しかない
+  shortexplain: （没有别的选择）只有/只好……
+  explanation: 【動詞基本形】＋しかない
+- idx: 460
+  lesson: m19
+  expression: ~次第
+  shortexplain: 立即、马上
+  explanation: 【动词ます形去ます／动名词】＋次第\n<后项多为己方的动作，或请求对方做的事情>
+- idx: 461
+  lesson: m22
+  expression: ~次第で
+  shortexplain: 全凭……而定，根据……
+  explanation: 「名詞＋次第だ」「名詞＋次第で、～」
+- idx: 462
+  lesson: m32
+  expression: ~時点で
+  shortexplain: 在……之时
+  explanation: 前接时间名词或小句\n「時点」是指时间长河中的一个点，「時点で」带有以这一点将时间区隔开的意思。
+- idx: 463
+  lesson: m20
+  expression: ~じゃないかって
+  shortexplain: (升调)疑问，(降调)自己的主张
+  explanation: 带有不满的语感，因此使用受到场景的限制。
+- idx: 464
+  lesson: m29
+  expression: ~じゃないです
+  shortexplain: 否定
+  explanation: 即「～じゃありません」的另外一种形式，多用于口语。
+- idx: 465
+  lesson: m24
+  expression: ~じゃん/~じゃない/~じゃないの/~じゃないか
+  shortexplain: 确认
+  explanation: ''
+- idx: 466
+  lesson: m21
+  expression: ~ずつ
+  shortexplain: ''
+  explanation: 表示等量分配或等量反复
+- idx: 467
+  lesson: m27
+  expression: ~ずにはいられない
+  shortexplain: 不由得、忍不住
+  explanation: 【動詞否定形】＋ずにはいられない／ないではいられない\n＜「する」→「せずにはいられない」＞
+- idx: 468
+  lesson: m20
+  expression: せっかく~のに
+  shortexplain: 难得/好不容易……却
+  explanation: ''
+- idx: 469
+  lesson: m25
+  expression: ~ぞ
+  shortexplain: ''
+  explanation: 表示提醒对方或说话人的强烈决心。多男性所用。
+- idx: 470
+  lesson: m29
+  expression: そう~でもない
+  shortexplain: 没那么……
+  explanation: 「そう」此处表示程度，与「それほど」相似。
+- idx: 471
+  lesson: m25
+  expression: ~即した/~に即して
+  shortexplain: 根据/按照……
+  explanation: 【名詞】＋に即して
+- idx: 472
+  lesson: m26
+  expression: (それは)~ということだ
+  shortexplain: ''
+  explanation: ''
+- idx: 473
+  lesson: m30
+  expression: 第一に，第二に
+  shortexplain: ''
+  explanation: ''
+- idx: 474
+  lesson: m23
+  expression: ~だからこそ
+  shortexplain: 强调原因
+  explanation: 「から」前为简体句。
+- idx: 475
+  lesson: m24
+  expression: (た)がる
+  shortexplain: 第三人称流露在外的感情
+  explanation: 前接表示情感的形容词，构成一类动词，用于表述第三人称流露在外的感情或欲望。
+- idx: 476
+  lesson: m26
+  expression: ~だけあって
+  shortexplain: 不愧是/正因为……
+  explanation: 动词（简体形式）／形容词（简体形式）／名词＋だけあって\n二类形容词－な＋だけあって
+- idx: 477
+  lesson: m28
+  expression: ~だけには
+  shortexplain: 唯独……
+  explanation: 表示“限定+对象/目的地+强调”
+- idx: 478
+  lesson: m17
+  expression: 確かに~でも~
+  shortexplain: 确实……不过……
+  explanation: ''
+- idx: 479
+  lesson: m30
+  expression: たとえ~ても
+  shortexplain: 假使……、纵令……
+  explanation: ''
+- idx: 480
+  lesson: m22
+  expression: ~たびに
+  shortexplain: 每……（每当发生前项，就会出现后项）
+  explanation: 【動詞基本形／名詞＋の】＋たびに
+- idx: 481
+  lesson: m30
+  expression: ~たら
+  shortexplain: ''
+  explanation: ①假定完了的条件\n②意外的发现\n③继起\n④完了\n「～たら（どうですか）」：提议、建议
+- idx: 482
+  lesson: m20
+  expression: ~だらけ
+  shortexplain: 满是/净是……
+  explanation: 【名詞】＋だらけ\n本义是某种不好的东西覆盖于表面
+- idx: 483
+  lesson: m24
+  expression: ~たりする
+  shortexplain: 列举
+  explanation: 暗示其他
+- idx: 484
+  lesson: m19
+  expression: ~中，~
+  shortexplain: ……中
+  explanation: 可以接在数字后面表示范围
+- idx: 485
+  lesson: m26
+  expression: ~ったら
+  shortexplain: ''
+  explanation: 「ったら」接在名词或句末之后，表示对某人的责难的语气，用于非常随便的场合，有时说成「たら」。类似的表达有「ってば」。
+- idx: 486
+  lesson: m22
+  expression: ~つつ
+  shortexplain: ①一边……一边……\n②表示转折
+  explanation: 【動詞ます形去ます】＋つつ\n表转折时多用「～つつも」
+- idx: 487
+  lesson: m19
+  expression: ~つつある
+  shortexplain: 某种变化正在进展的过程中
+  explanation: 【動詞ます形去ます】＋つつある
+- idx: 488
+  lesson: m30
+  expression: ~できなくはない
+  shortexplain: 肯定
+  explanation: 「～なくはない」双重否定表婉转的肯定\n　类似表现还有「～ないことはない」「～ないものでもない」
+- idx: 489
+  lesson: m31
+  expression: ~てくれ
+  shortexplain: 「～てくれる」的命令形\n「～てください」的随意的说法
+  explanation: 只用于上下或比较亲近的关系，男性专用
+- idx: 490
+  lesson: m32
+  expression: ~でしかない
+  shortexplain: 只是、只不过是……
+  explanation: 「～しかない」前接名词\n意思同「～に過ぎない」。
+- idx: 491
+  lesson: m20
+  expression: ~ですって
+  shortexplain: ''
+  explanation: 「って」表示引用、反问的用法，用于表达说话人惊讶的语气。
+- idx: 492
+  lesson: m29
+  expression: ~でもすれば
+  shortexplain: 万一/要是……
+  explanation: 多用于前接三类动词词干（动名词）\n也可前接一类、二类动词的ます形去ます形式。\n「でも」表示极端或举例，「～でもすれば」此处表示要是发生如此事情结果将非常严重，也可以和其他动词组合。
+- idx: 493
+  lesson: m23
+  expression: ~てもみない
+  shortexplain: 想都没想过
+  explanation: 前面多接「思う、考える」等词\n本意是“没有尝试什么”
+- idx: 494
+  lesson: m31
+  expression: ~てやる
+  shortexplain: 为他人做事\n自己强烈的意志
+  explanation: ① 表示为他人做事，比「～てあげる」随便；\n② 表示自己的强烈的意志，只用于很随便的场合
+- idx: 495
+  lesson: m32
+  expression: ~て仕方がない
+  shortexplain: 非常……、……得不得了
+  explanation: 【動詞 · 形】＋て仕方がない／てしょうがない
+- idx: 496
+  lesson: m25
+  expression: ~といい，~といい
+  shortexplain: 这个也……那个也……
+  explanation: 【名詞】＋といい\n用于列举几个相同倾向的事实
+- idx: 497
+  lesson: m30
+  expression: ~ということは，~ということだ
+  shortexplain: 也就是说……
+  explanation: 「～ということだ」表示解说或逻辑结果\n被解说的事项可用「～ということは」引出。
+- idx: 498
+  lesson: m20
+  expression: ~というより(も)
+  shortexplain: 与其说是……不如说是
+  explanation: 后项常跟「むしろ、～ほうが」呼应
+- idx: 499
+  lesson: m25
+  expression: ~といったもの
+  shortexplain: ''
+  explanation: 表示列举
+- idx: 500
+  lesson: m21
+  expression: ~といっても過言ではない
+  shortexplain: 即使说……也不为过，也不言过其实
+  explanation: 简体小句＋といっても過言ではない
+- idx: 501
+  lesson: m22
+  expression: ~といつも
+  shortexplain: 每当……就……
+  explanation: ''
+- idx: 502
+  lesson: m20
+  expression: ~と思ったら，~
+  shortexplain: 刚一……就……
+  explanation: 【動詞た形】＋（か）と思ったら
+- idx: 503
+  lesson: m18
+  expression: ~とおりだ
+  shortexplain: 正如/按照……
+  explanation: 【動詞简体形】＋とおり\n【名詞＋の】＋とおり\n【名詞】＋どおり
+- idx: 504
+  lesson: m22
+  expression: ~時はいつも
+  shortexplain: ……时，总是……
+  explanation: ''
+- idx: 505
+  lesson: m26
+  expression: ~どころか
+  shortexplain: 岂止……、就连……都
+  explanation: 【動詞基本形／形容詞／名詞】＋どころか
+- idx: 506
+  lesson: m31
+  expression: ~ところがある
+  shortexplain: 人或事物带有某种倾向
+  explanation: 【连体形】＋ところがある\n是一种比较婉转的表达
+- idx: 507
+  lesson: m32
+  expression: ~どころではない
+  shortexplain: 不是做某事的时候
+  explanation: 【动词基本形／形容词】＋どころではない\n【二类形容词词干／名词】＋どころではない\n由于客观原因，否定语气
+- idx: 508
+  lesson: m30
+  expression: ~としても，~
+  shortexplain: 即使……，也
+  explanation: ［小句（简体形式）］＋としても\n［二类形容词／名词＋だ］＋としても
+- idx: 509
+  lesson: m31
+  expression: ~とすれば/~とすると/~としたら
+  shortexplain: 如果……将……【更强的假定】
+  explanation: 「基本形」＋とすると／とすれば／としたら\n「基本形／名詞」＋となると／となれば／となったら
+- idx: 510
+  lesson: m19
+  expression: ~と同時に
+  shortexplain: 在……的同时<前后两项同时成立>
+  explanation: ［动词基本形／一类形容词］＋と同時に\n［名词／二类形容词］＋である＋と同時に\n※前后主语不同也可以使用
+- idx: 511
+  lesson: m31
+  expression: ~となると
+  shortexplain: 如果……将……【假定、一反常态】
+  explanation: 「基本形／名詞」＋となると
+- idx: 512
+  lesson: m29
+  expression: ~とはいうものの
+  shortexplain: 虽说……
+  explanation: 前接连体形式：\n［二类形容词］＋な／である＋もの\n［名词］＋である＋ものの\n［简体小句／名词］＋とはいうものの\n表示转折，相当于「けれども」。\n与「とはいっても」相似，也可单独使用。
+- idx: 513
+  lesson: m17
+  expression: ~とまでいわれた
+  shortexplain: 甚至有人说……
+  explanation: 同样的助词还有「でも」「さえ」， 分别添加举例和极端的意思。
+- idx: 514
+  lesson: m27
+  expression: ~ないかぎり/~ないことには/~なくては
+  shortexplain: 只要不……就……
+  explanation: ''
+- idx: 515
+  lesson: m23
+  expression: ~ないことはない
+  shortexplain: 双重否定表肯定
+  explanation: ［動詞否定形］＋ないことはない
+- idx: 516
+  lesson: m29
+  expression: ~ないと
+  shortexplain: 必须……
+  explanation: 「～ないといけない」等形式省略了后半句的说法
+- idx: 517
+  lesson: m24
+  expression: ~ないものでしようか/~ないでしようか
+  shortexplain: 说话人强烈的心理愿望
+  explanation: 「～ないものでしょうか」是希望某事得以实现的否定疑问句。\n「～ないでしょうか」也同样表示希望得到必要的东西，但不可以用于单纯询问是否存在某事物。
+- idx: 518
+  lesson: m28
+  expression: ~中(で)，~
+  shortexplain: 在……的时候；在……过程中
+  explanation: ［動詞基本形／形容詞］＋中（なか）、\n［名詞＋の］＋中（なか）\n「～中（なか）」在此表示某事态发生的背景状态
+- idx: 519
+  lesson: m22
+  expression: ~ながら(も)
+  shortexplain: 转折
+  explanation: ［动词ます形去ます］＋ながら（も）\n［一类形容词］＋ながら（も）\n［名词／二类形容词］（＋であり）＋ながら（も）
+- idx: 520
+  lesson: m21
+  expression: ~なさいませんか
+  shortexplain: ''
+  explanation: 「なさる」【他一】＝「する」的尊他语形式。\n「なさった」「なさって」「なさらない」「なさいます」「なさい」
+- idx: 521
+  lesson: m22
+  expression: ~なしで
+  shortexplain: ''
+  explanation: 「ない」的文言形态，接在名词之后表示没有或缺乏某事物。\n常用「なしに」「なしで」的形式，前者表示状态，后者表示方法手段。
+- idx: 522
+  lesson: m27
+  expression: ~なしに(は)/~なしで(は)/~なくして
+  shortexplain: 如果没有……的话，就……（后项多为否定表现）
+  explanation: 「Aなしには／なしでは／なくしてB」表示A是实现B的必不可少的条件。
+- idx: 523
+  lesson: m29
+  expression: 何しろ~(な)ので
+  shortexplain: 毕竟/无论如何……
+  explanation: 有时与表示理由的表达呼应，强调这种理由
+- idx: 524
+  lesson: m20
+  expression: ~なら【主题】
+  shortexplain: ''
+  explanation: 「なら」原本表示假定，也可以表示接过他人的话题。\n此外也可以用于提出一个代替的方案。一般不能用于否定。
+- idx: 525
+  lesson: m23
+  expression: ~ならでは(の)
+  shortexplain: 只有～才有的（极高评价）
+  explanation: ［名詞］＋ならでは（の）\n现在一般都以「～ならではの」的形式出现，偶尔也有「～ならでは～ない」的形式，意思相同。
+- idx: 526
+  lesson: m25
+  expression: ~ならぬ
+  shortexplain: ①非、不是\n②不可以
+  explanation: ①断定助动词「なり」＋否定助动词「ぬ」＝「～ではない」\n②动词「なる」＋否定助动词「ぬ」＝「～ならない」
+- idx: 527
+  lesson: m19
+  expression: ~ならびに~
+  shortexplain: 列举
+  explanation: 「～ならびに（並びに）」是书面语\n※ 不能接不同类的事物（如：「天と地」不能说成「天ならびに地」）
+- idx: 528
+  lesson: m32
+  expression: ~なりに
+  shortexplain: 与该人或事物相符的言行之意
+  explanation: ［名詞］＋なりに／なりの
+- idx: 529
+  lesson: m26
+  expression: ~なればなるほど
+  shortexplain: ～ば～ほど＝“越……越……”
+  explanation: ［动词／一类形容词ば形＋基本形＋ほど］\n［名词／二类形容词词干－であれば＋ある＋ほど］
+- idx: 530
+  lesson: m24
+  expression: なんて~んだろう
+  shortexplain: 感叹
+  explanation: 「なんという」的口语\n句尾不仅限于「んだろう」，也可用「だろう」。
+- idx: 531
+  lesson: m25
+  expression: ~なんていうもの
+  shortexplain: 举例
+  explanation: 相当于「などというもの」「などのようなもの」在口语中比较随便的说法，用于从诸多事物中举例说明。
+- idx: 532
+  lesson: m23
+  expression: ~なんてことはない
+  shortexplain: 加强语气，强调不存在某种情况
+  explanation: 只是在「～ことはない」前面加上「なんて」
+- idx: 533
+  lesson: m27
+  expression: ~に合う~
+  shortexplain: 适合、相符
+  explanation: 【名詞】＋に合う
+- idx: 534
+  lesson: m29
+  expression: ~にあたって
+  shortexplain: 在……之际
+  explanation: 【動詞基本形／名詞】＋にあたって\n類似表現：「～に際して」\n表示在某个特殊的机会和情况下……。
+- idx: 535
+  lesson: m32
+  expression: ~に至る
+  shortexplain: 达到、到达……（地点、时刻）或（事情发展到了某个）状况
+  explanation: 【小句（简体形式）／名詞】＋に至る\n※ 用于书面语。
+- idx: 536
+  lesson: m21
+  expression: ~こ至るまで
+  shortexplain: 举出诸多事例中的最后一个，常用于列举极端事物
+  explanation: 【名詞】＋に至るまで\n前面常与「～をはじめ」「～から」「～はもちろん」等呼应使用。
+- idx: 537
+  lesson: m25
+  expression: ~に応じた/~に応じて
+  shortexplain: 根据……、与……相适应的，因……而异
+  explanation: 【名詞】＋に応じた／に応じて\n有时可与「によって」互换
+- idx: 538
+  lesson: m18
+  expression: ~におかれましては
+  shortexplain: =は
+  explanation: 【名詞】＋におかれましては\n用于表示主体，尊他语表达方式，常用于书信中。
+- idx: 539
+  lesson: m32
+  expression: ~に終わる
+  shortexplain: 以……告终（多用于消极的场合）
+  explanation: 【名詞】＋に終わる\n用于某件事的结果事与愿违的情况\n【名詞】＋のうちに終わる 则用于积极的场合
+- idx: 540
+  lesson: m20
+  expression: ~に関わる
+  shortexplain: 关系到/涉及/影响到…
+  explanation: 【名詞】＋に関わる\n多用于重要、重大的事情
+- idx: 541
+  lesson: m29
+  expression: ~に決まっている
+  shortexplain: 肯定是/一定是……
+  explanation: 【小句（简体形式）】＋に決まっている\n【二类形容词／名词】＋に決まっている\n表示说话人很确定、很有自信的判断
+- idx: 542
+  lesson: m22
+  expression: ~に加え(て)
+  shortexplain: 不仅……而且……
+  explanation: 【名詞】＋に加え（て）
+- idx: 543
+  lesson: m32
+  expression: ~に際して
+  shortexplain: 在……之际/的时候
+  explanation: 【动作性名词】＋に際して
+- idx: 544
+  lesson: m30
+  expression: ~に先立って
+  shortexplain: 在……之前
+  explanation: 【名詞／動詞基本形】＋に先立って／に先立つ\n多用于在某事开始之前事先做准备
+- idx: 545
+  lesson: m30
+  expression: ~にしたがって
+  shortexplain: 伴随/随着……
+  explanation: 【動詞基本形／名詞】＋にしたがって\n动词「従う（したがう）」
+- idx: 546
+  lesson: m30
+  expression: ~にしても/~にしろ/~にせよ
+  shortexplain: ①即使/就算……也\n②表示列举
+  explanation: 【小句（简体形式）／名詞】＋にしても／にしろ／にせよ
+- idx: 547
+  lesson: m30
+  expression: ~にすぎない
+  shortexplain: 只不过是……
+  explanation: ［動詞简体形／名詞］＋にすぎない
+- idx: 548
+  lesson: m29
+  expression: ~にすら
+  shortexplain: 甚至……
+  explanation: 助词「に」＋表示极端的「すら」
+- idx: 549
+  lesson: m30
+  expression: ~につれて
+  shortexplain: 随着……
+  explanation: 和「～にしたがって」意思相近，有时可以互换。\n但「にしたがって」倾向于因果关系，「につれて」倾向于自然而然的变化。
+- idx: 550
+  lesson: m19
+  expression: ~こ伴って~
+  shortexplain: 伴随着……
+  explanation: 【動詞基本形／名詞】＋に伴って\n伴随着某个重大事件连带发生了另外的事件
+- idx: 551
+  lesson: m19
+  expression: ~には~とある
+  shortexplain: 引用
+  explanation: 「～には［引用内容］とある」表示引用书或文章中记载着的内容，书面语。
+- idx: 552
+  lesson: m28
+  expression: ~に反して，~
+  shortexplain: 与……相反
+  explanation: 【名詞】＋に反して（前面常用「予想、期待、意志」等与想法、思考相关的名词搭配使用）
+- idx: 553
+  lesson: m30
+  expression: ~にほかならない
+  shortexplain: 无非是/不外乎……
+  explanation: 【名詞】＋にほかならない\n表达说话人强烈的断定语气。
+- idx: 554
+  lesson: m23
+  expression: ~に面した
+  shortexplain: 面对……，临……而建
+  explanation: 「～に面する」表示建筑物等的地理位置
+- idx: 555
+  lesson: m22
+  expression: ~にも
+  shortexplain: 说不好确切的时间，如果快的话……
+  explanation: ～にも　“未来时间名词＋に”后续表示强调的助词「も」
+- idx: 556
+  lesson: m26
+  expression: ~にもかかわらず
+  shortexplain: 尽管如此……
+  explanation: 【小句（简体形式）】＋にもかかわらず\n【名詞／形動】（－である）＋にもかかわらず
+- idx: 557
+  lesson: m26
+  expression: ~に(も)なりかねない
+  shortexplain: 有可能……（多用于消极方面）
+  explanation: 【動詞ます形去ます】＋かねない
+- idx: 558
+  lesson: m30
+  expression: ~によれば
+  shortexplain: ''
+  explanation: 相当于「～によると」表示传闻出处、信息的来源
+- idx: 559
+  lesson: m23
+  expression: ~にわたる
+  shortexplain: 表示时间或空间的整体范围
+  explanation: 【（表示范围的时间或空间）名词】＋にわたって／にわたる\n用于突出其范围之广、时间跨度之大。
+- idx: 560
+  lesson: m17
+  expression: ~抜きで
+  shortexplain: 除去/省掉……
+  explanation: 【名詞】＋抜き
+- idx: 561
+  lesson: m27|m17
+  expression: ~抜きに(は)/~抜きで(は)/~抜きにしては
+  shortexplain: 除去/省掉……
+  explanation: 【名詞】＋抜き\n【名詞】＋を抜きにしては\n【名詞】＋は抜きにして
+- idx: 562
+  lesson: m17
+  expression: ~の間
+  shortexplain: ……之间
+  explanation: 【名詞】＋の間
+- idx: 563
+  lesson: m18
+  expression: ~の折(に)
+  shortexplain: ……的时候
+  explanation: 【名詞】＋の折（に）\n【连体形】＋折（に）\n属于美化语
+- idx: 564
+  lesson: m21
+  expression: ~(の)分
+  shortexplain: ①分量、~份\n②比例关系
+  explanation: 【名詞】＋の＋分\n【小句（简体形式）】＋分
+- idx: 565
+  lesson: m19
+  expression: ~のほう
+  shortexplain: ……方面
+  explanation: 「ほう」本来表示方向，方位，在日语中借以避免直接指某事物，用于比较客气的场合。
+- idx: 566
+  lesson: m28
+  expression: ~のみならず
+  shortexplain: 不仅……
+  explanation: 【名詞】【小句（简体形式）】＋のみならず
+- idx: 567
+  lesson: m32
+  expression: ~のみ
+  shortexplain: 仅仅
+  explanation: 「小句（简体形式）＋のみ」\n「名詞＋のみ」
+- idx: 568
+  lesson: m19
+  expression: ~のもと(で)
+  shortexplain: 在……之下
+  explanation: 在某种条件、支配关系、影响关系以及状况之下等
+- idx: 569
+  lesson: m24
+  expression: ~のも無理はない
+  shortexplain: ''
+  explanation: ''
+- idx: 570
+  lesson: m20
+  expression: ~ばかりで(は)なく~
+  shortexplain: 不仅……而且……
+  explanation: （简体形式）/名词＋ばかりで（は）なく」
+- idx: 571
+  lesson: m25
+  expression: ~はもちろん
+  shortexplain: ……就不用说了，连……也
+  explanation: 先举出一个程度轻的事物，表示对其他事物则更是不必说了之意。
+- idx: 572
+  lesson: m29
+  expression: ~ぶり
+  shortexplain: ……的样子
+  explanation: 表示动作进展的状况，前接部分名词或动词。\n常见「話しぶり、働きぶり、仕事ぶり、食べっぷり、飲みっぷり」等
+- idx: 573
+  lesson: m21
+  expression: ~分【比例关系】
+  shortexplain: ''
+  explanation: ''
+- idx: 574
+  lesson: m31
+  expression: ~べきだ
+  shortexplain: 应该……（做某事）【主观】
+  explanation: 动词基本形＋べきだ＜例外：する → すべきだ＞\n一类形容词＋くあるべきだ\n二类形容词／名词＋であるべきだ\n终止形式：「～べきだ」\n连体形式：「～べき」\n否定形式：「～べきではない」
+- idx: 575
+  lesson: m20
+  expression: ~ほどだ
+  shortexplain: 表示程度很高
+  explanation: 「ほど」接在小句之后\n有「～ほど、～」「～ほどの＋名詞」「～ほどだ」等几种形式。
+- idx: 576
+  lesson: m27
+  expression: ~まい
+  shortexplain: ①否定推量\n②否定意志
+  explanation: ［動詞基本形］＋まい＜二类、三类动词可用否定形＋まい＞
+- idx: 577
+  lesson: m29
+  expression: ~までもない
+  shortexplain: 没有必要；用不着
+  explanation: ［動詞基本形］＋までもない\n類似表現：～には及ばない\n名詞＋には及ばない：表示同前者相比存在很大差距，比不上、及不上
+- idx: 578
+  lesson: m22
+  expression: ~ままに
+  shortexplain: 任凭……、按照……
+  explanation: 「连体形」＋ままに／ままの\n表示按照不改变现有的现状，同时伴随着另一个动作或状态。
+- idx: 579
+  lesson: m28
+  expression: 万一
+  shortexplain: ''
+  explanation: ''
+- idx: 580
+  lesson: m25
+  expression: ~もあれば~もある
+  shortexplain: 既有……也有……
+  explanation: 「～も～ば、～も」：这个句式表示两种动作状态同时存在，不限于动词「ある」。
+- idx: 581
+  lesson: m18
+  expression: ~申し上げる
+  shortexplain: 「いう」的自谦语
+  explanation: 「お・ご～申し上げる」是「お・ご～する」更礼貌的说法。
+- idx: 582
+  lesson: m23
+  expression: ~もの間
+  shortexplain: ''
+  explanation: ''
+- idx: 583
+  lesson: m31
+  expression: ~もんか
+  shortexplain: 强烈的否定
+  explanation: 名詞连体形＋ものか\n① 否定判断；② 否定意志\n带有指责的语气
+- idx: 584
+  lesson: m28
+  expression: ~もんで
+  shortexplain: 表示理由
+  explanation: 「简体形＜二类形容词－な、名－な＞」＋ものだから、もので\n「简体形」＋もの\n相当于「～もので、～ものだから、～もの」，
+- idx: 585
+  lesson: m17
+  expression: ~(よう)とする
+  shortexplain: 打算……
+  explanation: ''
+- idx: 586
+  lesson: m22
+  expression: ~予定だ
+  shortexplain: 计划
+  explanation: ''
+- idx: 587
+  lesson: m18
+  expression: ~れば幸いです
+  shortexplain: 礼貌地向对方提出请求
+  explanation: ''
+- idx: 588
+  lesson: m24
+  expression: ~わけだ
+  shortexplain: 怪不得、难怪
+  explanation: 表示自然推理的结论
+- idx: 589
+  lesson: m24
+  expression: わずか~足らず
+  shortexplain: 数量非常少
+  explanation: ''
+- idx: 590
+  lesson: m18
+  expression: ~を~にした~/~を~とした~
+  shortexplain: 以……为……
+  explanation: ''
+- idx: 591
+  lesson: m25
+  expression: ~を超す
+  shortexplain: 超过……
+  explanation: ''
+- idx: 592
+  lesson: m20
+  expression: ~を境に
+  shortexplain: 以……为界、分水岭
+  explanation: ''
+- idx: 593
+  lesson: m23
+  expression: ~を通じて
+  shortexplain: 纵贯某个时间段
+  explanation: ［时间名词］＋を通（つう）じて／を通（とお）して
+- idx: 594
+  lesson: m30
+  expression: ~を通した
+  shortexplain: 通过……（中介、媒介）
+  explanation: ［名詞］＋を通して／を通じて
+- idx: 595
+  lesson: m21
+  expression: ~をはじめ
+  shortexplain: 以……为首，以……为代表
+  explanation: 「名詞＋をはじめ（として）」「名詞＋をはじめとする＋名詞」\n表示从多个事物中举出一个最具代表性的事物。
+- idx: 596
+  lesson: m20
+  expression: ~を前にする
+  shortexplain: 面临……
+  explanation: 表示在空间上面对某人或某事，在时间上面临某事
+- idx: 597
+  lesson: m32
+  expression: ~をもって
+  shortexplain: 时间点、手段工具
+  explanation: ①「时间名词」＋をもって：表示开始或结束的时间点。多用于正式的场合。更加正式的说法是「～をもちまして」。\n②「名词」＋をもって：表示手段、工具。
+- idx: 598
+  lesson: m27
+  expression: ~をもとにする
+  shortexplain: 以……为依据
+  explanation: 「名詞＋をもとにする」\n以……作为进行某行为时的判断依据或素材
+- idx: 599
+  lesson: m31
+  expression: ~んしゃないだろうな
+  shortexplain: 该不会是……吧？
+  explanation: 表示说出自己的推测并向对方确认
