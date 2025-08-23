@@ -32,8 +32,10 @@ markdown: kramdown
 highlighter: rouge
 permalink: none
 
-gems:
+plugins:
   - jekyll-redirect-from
+  - jekyll-feed
+  - jekyll-sitemap
 
 # html minify
 compress_html:
