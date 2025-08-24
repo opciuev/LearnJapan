@@ -456,13 +456,13 @@
   shortexplain: ''
   explanation: '[名1]の　[名2]　[从属关系][属性] の：助词，连接名词与名词。'
   examples:
-  - japanese: 李さんはＪＣ{ジェーシーきかく}の社員｛しゃいん｝です。
+  - japanese: 李さんはＪＣ{ジェーシーきかく}の社員{しゃいん}です。
     chinese: 
     type: sentence
-  - japanese: 北京旅行社｛ぺきんしゃんりょこう｝は中国の企業｛きよう｝です。
+  - japanese: 北京旅行社{ぺきんしゃんりょこう}は中国の企業{きよう}です。
     chinese: 北京旅行社是中国的企业。
     type: sentence
-  - japanese: デュポンさんは大学｛だいがく｝の先生｛がくせい｝です。
+  - japanese: デュポンさんは大学{だいがく}の先生{がくせい}です。
     chinese: 迪蓬先生是大学的老师。
     type: sentence
 - idx: 83
