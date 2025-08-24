@@ -10,32 +10,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>第4单元</title>
-    <meta name="description" content="冰河魔法师的标准日本语学习日志">
+    <meta name="description" content="标准日本语学习日志 - Fork from https://github.com/wizicer/LearnJapan">
 
     
 
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@wizicer">
+    <meta name="twitter:site" content="@">
     <meta name="twitter:title" content="第4单元">
-    <meta name="twitter:description" content="冰河魔法师的标准日本语学习日志">
+    <meta name="twitter:description" content="标准日本语学习日志 - Fork from https://github.com/wizicer/LearnJapan">
     
-    <meta property="twitter:image:src" content="http://0.0.0.0:4000/assets/img/blog-image.png">
+    <meta property="twitter:image:src" content="http://localhost:4000/assets/img/blog-image.png">
     
 
     <!-- Social: Facebook / Open Graph -->
-    <meta property="og:url" content="http://0.0.0.0:4000/class/Unit4-text.html">
+    <meta property="og:url" content="http://localhost:4000/class/Unit4-text.html">
     <meta property="og:title" content="第4单元">
     
-    <meta property="og:image" content="http://0.0.0.0:4000/assets/img/blog-image.png">
+    <meta property="og:image" content="http://localhost:4000/assets/img/blog-image.png">
     
-    <meta property="og:description" content="冰河魔法师的标准日本语学习日志">
-    <meta property="og:site_name" content="冰河标日学习日志">
+    <meta property="og:description" content="标准日本语学习日志 - Fork from https://github.com/wizicer/LearnJapan">
+    <meta property="og:site_name" content="标日学习日志">
 
     <!-- Social: Google+ / Schema.org  -->
     <meta itemprop="name" content="第4单元"/>
-    <meta itemprop="description" content="冰河魔法师的标准日本语学习日志">
-    <meta itemprop="image" content="http://0.0.0.0:4000/assets/img/blog-image.png"/>
+    <meta itemprop="description" content="标准日本语学习日志 - Fork from https://github.com/wizicer/LearnJapan">
+    <meta itemprop="image" content="http://localhost:4000/assets/img/blog-image.png"/>
 
     <link rel="apple-touch-icon" sizes="180x180" href="../assets/icons/apple-touch-icon.png">
     <link rel="icon" type="image/png" href="../assets/icons/favicon-32x32.png" sizes="32x32">
@@ -53,8 +53,8 @@
     <link rel="stylesheet" href="../assets/3rd/dataTables/responsive.bootstrap.min.css">
     <link rel="stylesheet" href="../assets/3rd/font-awesome/css/font-awesome.min.css">
 
-    <link rel="canonical" href="http://0.0.0.0:4000/class/Unit4-text.html">
-    <link rel="alternate" type="application/rss+xml" title="冰河标日学习日志" href="http://0.0.0.0:4000/feed.xml" />
+    <link rel="canonical" href="http://localhost:4000/class/Unit4-text.html">
+    <link rel="alternate" type="application/rss+xml" title="标日学习日志" href="http://localhost:4000/feed.xml" />
     <script src="../assets/3rd/jquery/jquery-1.12.4.min.js"></script>
     <script src="../assets/3rd/bootstrap/js/bootstrap.min.js"></script>
     <script src="../assets/3rd/dataTables/jquery.dataTables.min.js"></script>
@@ -78,7 +78,7 @@
             <!-- Sidebar -->
             <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
     <ul class="nav sidebar-nav">
-        <li class="sidebar-brand"><a href="../index.html">冰河标日</a></li>
+        <li class="sidebar-brand"><a href="../index.html">标日学习</a></li>
         <li id="mobilemenu" class="hidden-sm hidden-md hidden-lg"><a href="../uwp/menu.html">课程</a></li>
         
             <li><a href="../tools/grammar.html">语法</a></li>
@@ -2613,7 +2613,59 @@ $(document).ready(function() {
 <script>
 var lessonquizdata = {};
 var curlessonquizdata;
+// 设置全局语音预热状态
+window.speechReady = false;
+
+// 页面加载时立即预热语音合成引擎
+function initSpeechSynthesis() {
+  if ('speechSynthesis' in window) {
+    console.log('开始预热语音合成引擎...');
+    
+    // 创建一个静音的语音合成来预热引擎
+    var warmupSpeech = new SpeechSynthesisUtterance('');
+    warmupSpeech.lang = 'ja-JP';
+    warmupSpeech.volume = 0; // 静音
+    warmupSpeech.rate = 1;
+    warmupSpeech.pitch = 1;
+    
+    // 监听语音合成事件
+    warmupSpeech.onstart = function() {
+      window.speechReady = true;
+      console.log('语音合成引擎预热完成！');
+    };
+    
+    warmupSpeech.onerror = function(event) {
+      console.warn('语音合成预热失败:', event);
+      window.speechReady = true; // 即使失败也标记为准备就绪，避免阻塞
+    };
+    
+    warmupSpeech.onend = function() {
+      window.speechReady = true;
+    };
+    
+    // 等待语音库加载完成后再预热
+    if (window.speechSynthesis.getVoices().length === 0) {
+      window.speechSynthesis.addEventListener('voiceschanged', function() {
+        window.speechSynthesis.speak(warmupSpeech);
+      }, { once: true });
+    } else {
+      window.speechSynthesis.speak(warmupSpeech);
+    }
+    
+    // 设置超时，避免无限等待
+    setTimeout(function() {
+      if (!window.speechReady) {
+        window.speechReady = true;
+        console.log('语音合成预热超时，继续执行');
+      }
+    }, 3000);
+  }
+}
+
 $(document).ready(function() {
+  // 页面加载时立即预热语音引擎
+  initSpeechSynthesis();
+  
   $('button.toggle-start').on('click', function(e) {
     e.preventDefault();
     var quizdata = ((lessonquizdata && lessonquizdata["l"])
@@ -2970,45 +3022,9 @@ click lesson to open it
 
 <hr />
 
-<nav class="share navbar navbar-default">
-    <div class="navbar-header"><h4 class="navbar-text">分享到</h4></div>
-    <ul class="nav navbar-nav">
-        <li>
-            <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://0.0.0.0:4000../class/Unit4-text.html%20via%20&#64;wizicer&hashtags=课文,"
-            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
-                <i class="fa fa-twitter"></i>
-            </a>
-        </li>
-        <li>
-            <a aria-label="Share on Facebook"href="https://www.facebook.com/sharer/sharer.php?u=http://0.0.0.0:4000../class/Unit4-text.html"
-            onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
-                <i class="fa fa-facebook-official"></i>
-            </a>
-        </li>
-        <li>
-            <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://0.0.0.0:4000../class/Unit4-text.html"
-            onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
-                <i class="fa fa-google-plus"></i>
-            </a>
-        </li>
-    </ul>
-</nav>
+<!-- 社交分享功能已移除 -->
 
-<section class="author" itemprop="author">
-    <div class="media well" itemscope itemtype="http://schema.org/Person">
-        <div class="media-left">
-            <img itemprop="image" class="img-rounded" src="../assets/img/blog-author.jpg" alt="">
-        </div>
-        <div class="media-body">
-            <h3 class="name">
-                <a itemprop="name" href="https://plus.google.com/+/posts">冰河魔法师</a>
-            </h3>
-            <p class="desc">C#资深架构师</p>
-            <p><a itemprop="email" class="email" href="mailto:icer@icerdesign.com"><i class="fa fa-envelope"></i>icer@icerdesign.com</a></p>
-            <p><a itemprop="github" class="github" href="https://github.com/wizicer"><i class="fa fa-github"></i>github.com/wizicer</a></p>
-        </div>
-    </div>
-</section>
+<!-- 作者信息已合并到页脚中 -->
 
 
 
@@ -3017,15 +3033,9 @@ click lesson to open it
                     
 <footer>
     <p>
-        本站由<a href="http://icerdesign.com">冰河魔法师</a>开发制作，站点生成由<a href="http://jekyllrb.com/" target="_blank">Jekyll</a>提供。
-        <a href="https://github.com/wizicer/LearnJapan/issues/new?title=第4单元页面发现错误&body=%E5%9C%A8%E9%A1%B5%E9%9D%A2%3Chttp%3A%2F%2F0.0.0.0%3A4000%2Fclass%2FUnit4-text.html%3E%E5%8F%91%E7%8E%B0%E9%94%99%E8%AF%AF%E3%80%82%0A%E9%94%99%E8%AF%AF%E6%98%AF%EF%BC%9A&assignee=wizicer&labels[]=content" target="_blank">发现错误？</a>
+        日语学习网站 - 致力于提供优质的日语学习体验 | Fork from <a href="https://github.com/wizicer/LearnJapan" target="_blank">https://github.com/wizicer/LearnJapan</a>
     </p>
 </footer>
-
-<div style="display:none;">
-    <script language="javascript" type="text/javascript" src="http://js.users.51.la/17278963.js">
-    </script>
-</div>
 
 
 

@@ -6,8 +6,10 @@ class easyquiz {
   quiznum : number;
   quiz: any;
   rwords: any;
+  
   constructor() {
     var _self = this;
+    
   if (!this.isLocalstorageExist()) {
     $('#onlyremember').prop('disabled', true);
     $('#wordremember').prop('disabled', true);
@@ -60,6 +62,7 @@ class easyquiz {
     _self.displayquiz();
   });
   }
+  
   isLocalstorageExist() {
     var mod = 'test';
     try {
@@ -107,8 +110,21 @@ class easyquiz {
   }
   speak(word: string) {
     if('speechSynthesis' in window){
+      // 检查全局的 speechReady 变量
+      if (typeof window['speechReady'] !== 'undefined' && !window['speechReady']) {
+        var _self = this;
+        setTimeout(function() { _self.speak(word); }, 100);
+        return;
+      }
+      
       var speech = new SpeechSynthesisUtterance(word);
       speech.lang = 'ja-JP';
+      
+      // 优化语音设置
+      speech.rate = 0.9; // 稍微慢一点，更清晰
+      speech.pitch = 1.0;
+      speech.volume = 1.0;
+      
       window.speechSynthesis.speak(speech);
     }
   }

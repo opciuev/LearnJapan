@@ -12,18 +12,18 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: 冰河标日学习日志
-sidebartitle: 冰河标日
-email: icer@icerdesign.com
-description: 冰河魔法师的标准日本语学习日志
+title: 标日学习日志
+sidebartitle: 标日学习
+email: 
+description: 标准日本语学习日志 - Fork from https://github.com/wizicer/LearnJapan
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://japan.icerdesign.com" # the base hostname & protocol for your site
+url: "http://localhost:4000" # the base hostname & protocol for your site
 
 # User settings
-username: 冰河魔法师
-user_description: C#资深架构师
-twitter_username: wizicer
-github_username:  wizicer
+username: 
+user_description: Fork from https://github.com/wizicer/LearnJapan
+twitter_username: 
+github_username: 
 # gplus_username:  lorem_ipsum
 # disqus_username: lorem_ipsum
 
@@ -61,7 +61,7 @@ links:
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules', 'site.vfs', 'Gemfile.lock', 'Gemfile', 'CNAME', 'LICENSE', '*.bat', 'gulpfile.js', 'ionic']
 
-la51_analytics: 17278963
+la51_analytics: 
 
 categorythemes:
   grammar:

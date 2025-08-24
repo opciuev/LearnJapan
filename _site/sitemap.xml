@@ -2,588 +2,256 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
         <url>
-            <loc>http://0.0.0.0:4000/about/index.html</loc>
+            <loc>http://localhost:4000/about/index.html</loc>
         </url>
     
         <url>
-            <loc>http://0.0.0.0:4000/adj.json</loc>
+            <loc>http://localhost:4000/adj.json</loc>
         </url>
     
         <url>
-            <loc>http://0.0.0.0:4000/assets/icons/browserconfig.xml</loc>
+            <loc>http://localhost:4000/assets/icons/browserconfig.xml</loc>
         </url>
     
         <url>
-            <loc>http://0.0.0.0:4000/feed.xml</loc>
+            <loc>http://localhost:4000/feed.xml</loc>
         </url>
     
         <url>
-            <loc>http://0.0.0.0:4000/uwp/grammar.html</loc>
+            <loc>http://localhost:4000/</loc>
         </url>
     
         <url>
-            <loc>http://0.0.0.0:4000/</loc>
+            <loc>http://localhost:4000/lessons.json</loc>
         </url>
     
         <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson1.html</loc>
+            <loc>http://localhost:4000/manifest.appcache</loc>
         </url>
     
         <url>
-            <loc>http://0.0.0.0:4000/uwp/m/lesson1.html</loc>
+            <loc>http://localhost:4000/assets/icons/manifest.json</loc>
         </url>
     
         <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson10.html</loc>
+            <loc>http://localhost:4000/plan/</loc>
         </url>
     
         <url>
-            <loc>http://0.0.0.0:4000/uwp/m/lesson10.html</loc>
+            <loc>http://localhost:4000/sitemap.xml</loc>
         </url>
     
         <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson11.html</loc>
+            <loc>http://localhost:4000/tags/index.html</loc>
         </url>
     
         <url>
-            <loc>http://0.0.0.0:4000/uwp/m/lesson11.html</loc>
+            <loc>http://localhost:4000/verb.json</loc>
         </url>
     
         <url>
-            <loc>http://0.0.0.0:4000/uwp/m/lesson12.html</loc>
+            <loc>http://localhost:4000/words.json</loc>
         </url>
     
         <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson12.html</loc>
+            <loc>http://localhost:4000/grammar/index.html</loc>
         </url>
     
         <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson13.html</loc>
+            <loc>http://localhost:4000/wordlist/index.html</loc>
         </url>
     
         <url>
-            <loc>http://0.0.0.0:4000/uwp/m/lesson13.html</loc>
+            <loc>http://localhost:4000/redirects.json</loc>
         </url>
     
         <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson14.html</loc>
+            <loc>http://localhost:4000/robots.txt</loc>
         </url>
     
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/m/lesson14.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/m/lesson15.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson15.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/m/lesson16.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson16.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/m/lesson17.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson17.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson18.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/m/lesson18.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/m/lesson19.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson19.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/m/lesson2.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson2.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson20.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/m/lesson20.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson21.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/m/lesson21.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson22.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/m/lesson22.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson23.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/m/lesson23.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson24.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/m/lesson24.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson25.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/m/lesson25.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/m/lesson26.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson26.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/m/lesson27.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson27.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson28.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/m/lesson28.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson29.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/m/lesson29.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson3.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/m/lesson3.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson30.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/m/lesson30.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson31.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/m/lesson31.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson32.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/m/lesson32.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson33.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson34.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson35.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson36.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson37.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson38.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson39.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/m/lesson4.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson4.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson40.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson41.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson42.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson43.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson44.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson45.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson46.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson47.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson48.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/m/lesson5.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson5.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/m/lesson6.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson6.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/m/lesson7.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson7.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson8.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/m/lesson8.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/m/lesson9.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/l/lesson9.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/lessons.json</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/manifest.appcache</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/assets/icons/manifest.json</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/menu.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/plan/</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/sitemap.xml</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/tags/index.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/verb.json</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/uwp/word.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/words.json</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/grammar/index.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/wordlist/index.html</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/redirects.json</loc>
-        </url>
-    
-        <url>
-            <loc>http://0.0.0.0:4000/robots.txt</loc>
-        </url>
-    
     
         <url>
-            <loc>http://0.0.0.0:4000/tools/midoricard.html</loc>
+            <loc>http://localhost:4000/tools/midoricard.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/middleclass/Middle-Unit8-text.html</loc>
+            <loc>http://localhost:4000/middleclass/Middle-Unit8-text.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/middleclass/Middle-Unit7-text.html</loc>
+            <loc>http://localhost:4000/middleclass/Middle-Unit7-text.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/middleclass/Middle-Unit6-text.html</loc>
+            <loc>http://localhost:4000/middleclass/Middle-Unit6-text.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/middleclass/Middle-Unit5-text.html</loc>
+            <loc>http://localhost:4000/middleclass/Middle-Unit5-text.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/middleclass/Middle-Unit4-text.html</loc>
+            <loc>http://localhost:4000/middleclass/Middle-Unit4-text.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/middleclass/Middle-Unit3-text.html</loc>
+            <loc>http://localhost:4000/middleclass/Middle-Unit3-text.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/middleclass/Middle-Unit2-text.html</loc>
+            <loc>http://localhost:4000/middleclass/Middle-Unit2-text.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/middleclass/Middle-Unit1-text.html</loc>
+            <loc>http://localhost:4000/middleclass/Middle-Unit1-text.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/grammar/auxiliary-verb.html</loc>
+            <loc>http://localhost:4000/grammar/auxiliary-verb.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/notebook/verb-vt-vi.html</loc>
+            <loc>http://localhost:4000/notebook/verb-vt-vi.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/grammar/verb-all-table.html</loc>
+            <loc>http://localhost:4000/grammar/verb-all-table.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/word/verb-recite-kanji.html</loc>
+            <loc>http://localhost:4000/word/verb-recite-kanji.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/word/adv-all.html</loc>
+            <loc>http://localhost:4000/word/adv-all.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/word/number.html</loc>
+            <loc>http://localhost:4000/word/number.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/grammar/adj-all.html</loc>
+            <loc>http://localhost:4000/grammar/adj-all.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/word/verb-recite.html</loc>
+            <loc>http://localhost:4000/word/verb-recite.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/grammar/verb-pron.html</loc>
+            <loc>http://localhost:4000/grammar/verb-pron.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/grammar/verb-kanji.html</loc>
+            <loc>http://localhost:4000/grammar/verb-kanji.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/grammar/verb-imi.html</loc>
+            <loc>http://localhost:4000/grammar/verb-imi.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/grammar/verb-all.html</loc>
+            <loc>http://localhost:4000/grammar/verb-all.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/word/lesson26-greetings.html</loc>
+            <loc>http://localhost:4000/word/lesson26-greetings.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/class/Unit12-text.html</loc>
+            <loc>http://localhost:4000/class/Unit12-text.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/class/Unit11-text.html</loc>
+            <loc>http://localhost:4000/class/Unit11-text.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/class/Unit10-text.html</loc>
+            <loc>http://localhost:4000/class/Unit10-text.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/class/Unit9-text.html</loc>
+            <loc>http://localhost:4000/class/Unit9-text.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/class/Unit8-text.html</loc>
+            <loc>http://localhost:4000/class/Unit8-text.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/class/Unit7-text.html</loc>
+            <loc>http://localhost:4000/class/Unit7-text.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/grammar/adjective.html</loc>
+            <loc>http://localhost:4000/grammar/adjective.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/grammar/verb.html</loc>
+            <loc>http://localhost:4000/grammar/verb.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/word/lesson20-traffic.html</loc>
+            <loc>http://localhost:4000/word/lesson20-traffic.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/word/lesson20-hobby.html</loc>
+            <loc>http://localhost:4000/word/lesson20-hobby.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/word/lesson19-sports.html</loc>
+            <loc>http://localhost:4000/word/lesson19-sports.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/word/lesson15-notice.html</loc>
+            <loc>http://localhost:4000/word/lesson15-notice.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/class/Unit6-text.html</loc>
+            <loc>http://localhost:4000/class/Unit6-text.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/class/Unit5-text.html</loc>
+            <loc>http://localhost:4000/class/Unit5-text.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/class/Unit4-text.html</loc>
+            <loc>http://localhost:4000/class/Unit4-text.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/class/Unit3-text.html</loc>
+            <loc>http://localhost:4000/class/Unit3-text.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/class/Unit2-text.html</loc>
+            <loc>http://localhost:4000/class/Unit2-text.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/class/Unit1-text.html</loc>
+            <loc>http://localhost:4000/class/Unit1-text.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/word/lesson17-life.html</loc>
+            <loc>http://localhost:4000/word/lesson17-life.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/word/lesson16-body-parts.html</loc>
+            <loc>http://localhost:4000/word/lesson16-body-parts.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/word/words-spring.html</loc>
+            <loc>http://localhost:4000/word/words-spring.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/tools/wordlist.html</loc>
+            <loc>http://localhost:4000/tools/wordlist.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/tools/saveload.html</loc>
+            <loc>http://localhost:4000/tools/saveload.html</loc>
         </url>
   
         <url>
-            <loc>http://0.0.0.0:4000/tools/grammar.html</loc>
+            <loc>http://localhost:4000/tools/grammar.html</loc>
         </url>
   
 </urlset>

@@ -304,7 +304,59 @@ $(document).ready(function() {
 <script>
 var lessonquizdata = {};
 var curlessonquizdata;
+// 设置全局语音预热状态
+window.speechReady = false;
+
+// 页面加载时立即预热语音合成引擎
+function initSpeechSynthesis() {
+  if ('speechSynthesis' in window) {
+    console.log('开始预热语音合成引擎...');
+    
+    // 创建一个静音的语音合成来预热引擎
+    var warmupSpeech = new SpeechSynthesisUtterance('');
+    warmupSpeech.lang = 'ja-JP';
+    warmupSpeech.volume = 0; // 静音
+    warmupSpeech.rate = 1;
+    warmupSpeech.pitch = 1;
+    
+    // 监听语音合成事件
+    warmupSpeech.onstart = function() {
+      window.speechReady = true;
+      console.log('语音合成引擎预热完成！');
+    };
+    
+    warmupSpeech.onerror = function(event) {
+      console.warn('语音合成预热失败:', event);
+      window.speechReady = true; // 即使失败也标记为准备就绪，避免阻塞
+    };
+    
+    warmupSpeech.onend = function() {
+      window.speechReady = true;
+    };
+    
+    // 等待语音库加载完成后再预热
+    if (window.speechSynthesis.getVoices().length === 0) {
+      window.speechSynthesis.addEventListener('voiceschanged', function() {
+        window.speechSynthesis.speak(warmupSpeech);
+      }, { once: true });
+    } else {
+      window.speechSynthesis.speak(warmupSpeech);
+    }
+    
+    // 设置超时，避免无限等待
+    setTimeout(function() {
+      if (!window.speechReady) {
+        window.speechReady = true;
+        console.log('语音合成预热超时，继续执行');
+      }
+    }, 3000);
+  }
+}
+
 $(document).ready(function() {
+  // 页面加载时立即预热语音引擎
+  initSpeechSynthesis();
+  
   $('button.toggle-start').on('click', function(e) {
     e.preventDefault();
     var quizdata = ((lessonquizdata && lessonquizdata["l{{page.lesson}}"])

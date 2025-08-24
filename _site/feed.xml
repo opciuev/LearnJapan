@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>冰河标日学习日志</title>
-    <description>冰河魔法师的标准日本语学习日志</description>
-    <link>http://0.0.0.0:4000/</link>
-    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 24 Aug 2025 01:13:18 +0800</pubDate>
-    <lastBuildDate>Sun, 24 Aug 2025 01:13:18 +0800</lastBuildDate>
+    <title>标日学习日志</title>
+    <description>标准日本语学习日志 - Fork from https://github.com/wizicer/LearnJapan</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 24 Aug 2025 10:45:00 +0800</pubDate>
+    <lastBuildDate>Sun, 24 Aug 2025 10:45:00 +0800</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
     
       <item>
@@ -285,8 +285,8 @@ $(document).ready(function() {
 
 </description>
         <pubDate>Thu, 07 Sep 2017 00:00:00 +0800</pubDate>
-        <link>http://0.0.0.0:4000/tools/midoricard.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/tools/midoricard.html</guid>
+        <link>http://localhost:4000/tools/midoricard.html</link>
+        <guid isPermaLink="true">http://localhost:4000/tools/midoricard.html</guid>
         
         
         <category>tools</category>
@@ -298,8 +298,8 @@ $(document).ready(function() {
         <description>
 </description>
         <pubDate>Wed, 11 Jan 2017 18:38:00 +0800</pubDate>
-        <link>http://0.0.0.0:4000/middleclass/Middle-Unit8-text.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/middleclass/Middle-Unit8-text.html</guid>
+        <link>http://localhost:4000/middleclass/Middle-Unit8-text.html</link>
+        <guid isPermaLink="true">http://localhost:4000/middleclass/Middle-Unit8-text.html</guid>
         
         <category>课文</category>
         
@@ -313,8 +313,8 @@ $(document).ready(function() {
         <description>
 </description>
         <pubDate>Wed, 11 Jan 2017 18:37:00 +0800</pubDate>
-        <link>http://0.0.0.0:4000/middleclass/Middle-Unit7-text.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/middleclass/Middle-Unit7-text.html</guid>
+        <link>http://localhost:4000/middleclass/Middle-Unit7-text.html</link>
+        <guid isPermaLink="true">http://localhost:4000/middleclass/Middle-Unit7-text.html</guid>
         
         <category>课文</category>
         
@@ -328,8 +328,8 @@ $(document).ready(function() {
         <description>
 </description>
         <pubDate>Wed, 11 Jan 2017 18:36:00 +0800</pubDate>
-        <link>http://0.0.0.0:4000/middleclass/Middle-Unit6-text.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/middleclass/Middle-Unit6-text.html</guid>
+        <link>http://localhost:4000/middleclass/Middle-Unit6-text.html</link>
+        <guid isPermaLink="true">http://localhost:4000/middleclass/Middle-Unit6-text.html</guid>
         
         <category>课文</category>
         
@@ -343,8 +343,8 @@ $(document).ready(function() {
         <description>
 </description>
         <pubDate>Wed, 11 Jan 2017 18:35:00 +0800</pubDate>
-        <link>http://0.0.0.0:4000/middleclass/Middle-Unit5-text.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/middleclass/Middle-Unit5-text.html</guid>
+        <link>http://localhost:4000/middleclass/Middle-Unit5-text.html</link>
+        <guid isPermaLink="true">http://localhost:4000/middleclass/Middle-Unit5-text.html</guid>
         
         <category>课文</category>
         
@@ -358,8 +358,8 @@ $(document).ready(function() {
         <description>
 </description>
         <pubDate>Wed, 11 Jan 2017 18:34:00 +0800</pubDate>
-        <link>http://0.0.0.0:4000/middleclass/Middle-Unit4-text.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/middleclass/Middle-Unit4-text.html</guid>
+        <link>http://localhost:4000/middleclass/Middle-Unit4-text.html</link>
+        <guid isPermaLink="true">http://localhost:4000/middleclass/Middle-Unit4-text.html</guid>
         
         <category>课文</category>
         
@@ -373,8 +373,8 @@ $(document).ready(function() {
         <description>
 </description>
         <pubDate>Wed, 11 Jan 2017 18:33:00 +0800</pubDate>
-        <link>http://0.0.0.0:4000/middleclass/Middle-Unit3-text.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/middleclass/Middle-Unit3-text.html</guid>
+        <link>http://localhost:4000/middleclass/Middle-Unit3-text.html</link>
+        <guid isPermaLink="true">http://localhost:4000/middleclass/Middle-Unit3-text.html</guid>
         
         <category>课文</category>
         
@@ -388,8 +388,8 @@ $(document).ready(function() {
         <description>
 </description>
         <pubDate>Wed, 11 Jan 2017 18:32:00 +0800</pubDate>
-        <link>http://0.0.0.0:4000/middleclass/Middle-Unit2-text.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/middleclass/Middle-Unit2-text.html</guid>
+        <link>http://localhost:4000/middleclass/Middle-Unit2-text.html</link>
+        <guid isPermaLink="true">http://localhost:4000/middleclass/Middle-Unit2-text.html</guid>
         
         <category>课文</category>
         
@@ -403,8 +403,8 @@ $(document).ready(function() {
         <description>
 </description>
         <pubDate>Wed, 11 Jan 2017 18:31:00 +0800</pubDate>
-        <link>http://0.0.0.0:4000/middleclass/Middle-Unit1-text.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/middleclass/Middle-Unit1-text.html</guid>
+        <link>http://localhost:4000/middleclass/Middle-Unit1-text.html</link>
+        <guid isPermaLink="true">http://localhost:4000/middleclass/Middle-Unit1-text.html</guid>
         
         <category>课文</category>
         
@@ -690,8 +690,8 @@ $(document).ready(function() {
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 01 Jan 2017 08:33:00 +0800</pubDate>
-        <link>http://0.0.0.0:4000/grammar/auxiliary-verb.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/grammar/auxiliary-verb.html</guid>
+        <link>http://localhost:4000/grammar/auxiliary-verb.html</link>
+        <guid isPermaLink="true">http://localhost:4000/grammar/auxiliary-verb.html</guid>
         
         <category>语法</category>
         
