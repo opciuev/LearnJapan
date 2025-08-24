@@ -456,14 +456,14 @@
   shortexplain: ''
   explanation: '[名1]の　[名2]　[从属关系][属性] の：助词，连接名词与名词。'
   examples:
-  - japanese: 李{り}さんは中国人{ちゅうごくじん}です。
-    chinese:  小李是中国人。
+  - japanese: 李さんはＪＣ{ジェーシーきかく}の社員｛しゃいん｝です。
+    chinese: 
     type: sentence
-  - japanese: わたしは日本人{にほんじん}です。
-    chinese: 我是日本人。
+  - japanese: 北京旅行社｛ぺきんしゃんりょこう｝は中国の企業｛きよう｝です。
+    chinese: 北京旅行社是中国的企业。
     type: sentence
-  - japanese: わたしは王です。
-    chinese: 我姓王
+  - japanese: デュポンさんは大学｛だいがく｝の先生｛がくせい｝です。
+    chinese: 迪蓬先生是大学的老师。
     type: sentence
 - idx: 83
   lesson: '002'
@@ -515,6 +515,16 @@
   expression: ～は～です
   shortexplain: ''
   explanation: '[名1]は　[名2]です。～は：助词，提示主题。～です：助动词，表示断定。'
+  examples:
+  - japanese: 李{り}さんは中国人{ちゅうごくじん}です。
+    chinese:  小李是中国人。
+    type: sentence
+  - japanese: わたしは日本人{にほんじん}です。
+    chinese: 我是日本人。
+    type: sentence
+  - japanese: わたしは王です。
+    chinese: 我姓王
+    type: sentence
 - idx: 93
   lesson: '010'
   expression: ～は～です
@@ -535,6 +545,34 @@
   expression: ～は～ですか
   shortexplain: ''
   explanation: '[名1]は　[名2]ですか。 ～か：疑问助词，接在句尾表示疑问。念升调。'
+  examples:
+  - type: dialogue
+    conversation:
+    - speaker: 甲
+      japanese: あなたは小野{おの}さんですか。
+      chinese: 你是小野女士吗？
+    - speaker: 乙
+      japanese: はい，小野{おの}です。
+      chinese: 是的，我是小野。
+    - type: dialogue
+    conversation:
+    - speaker: 甲
+      japanese: キムさんは中国人{ちゅうごくじん}ですか。
+      chinese: 金女士是中国人吗？
+    - speaker: 乙
+      japanese: いいえ，中国人{ちゅうごくじん}ではありません。
+      chinese: 不，不是中国人。
+  - type: question-answers
+    question:
+      japanese: 森{もり}さんは学生{がくせい}ですか。
+      chinese: 森先生是学生吗？
+    answers:
+    - type: 肯定回答
+      japanese: はい，そうです。
+      chinese: 是的，是这样。
+    - type: 否定回答
+      japanese: いいえ，ちがいます。
+      chinese: 不，不是的。
 - idx: 97
   lesson: '001'
   expression: ～は～では(じゃ)ありません

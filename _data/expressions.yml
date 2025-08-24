@@ -1,0 +1,94 @@
+- idx: 1
+  lesson: '001'
+  expression: 'わたし / あなた / あの人{ひと}'
+  shortexplain: ''
+  explanation: '日语中的人称代词，第一人称是「わたし」，第二人称是「あなた」，第三人称是「あの人{ひと}」。在不知道对方的姓名时，才会使用第二人称「あなた」'
+  examples:
+  - japanese: わたしは　李{り}です。
+    chinese: 我姓李。
+    type: sentence
+  - japanese: あの人{ひと}は森{もり}さんですか。
+    chinese: 那个人是森先生吗？
+    type: sentence
+
+- idx: 2
+  lesson: '001'
+  expression: '～さん'
+  shortexplain: ''
+  explanation: '称呼别人，不分男女，都在其姓后面加「さん」。「さん」只用于他人的姓名后，不用于自己的名字后。\n 用职业，职务来称呼别人，如「*課長｛かちょう｝」「*店員｛てんいん｝さん」\n 称呼小孩的时候，后面加「*ちゃん」\n 年龄相当，或者比自己年轻的男性，有时用「*君{くん}」'
+  examples:
+  - type: question-answers
+    question:
+      japanese: (あなたは)小野さんですか。
+      chinese: 
+    answers:
+    - type: 回答
+      japanese: はい，小野です。
+      chinese: 
+  - japanese: 太郎｛たろう｝さん，こんにちは。
+    chinese: 太郎さん，你好。
+    type: sentence
+  - japanese: 森君｛もりくん｝JC企画｛ジェーシーきかく｝の社員｛しゃいん｝です。
+    chinese: 森君是JC企画的员工。
+    type: sentence
+
+- idx: 3
+  lesson: '001'
+  expression: '第一、第二人称主语的省略'
+  shortexplain: ''
+  explanation: '在日语里，一般省略通过场景或上下文可以明白的部分。如不省略，有时候听起来会不自然，或给人以不礼貌的印象。另外，省略的成分与汉语不尽相同，务须注意。\n\n在会话中，多省略第一、第二人称的主语。如下面的例句里，括号中的部分一般省略。'
+  examples:
+  - japanese: (あなたは) 吉田{よしだ}さんですか。
+    chinese: (你是吉田先生吗？)
+    type: sentence
+  - japanese: いいえ，(わたしは) 吉田{よしだ}じゃありません。(わたしは) 森{もり}です。
+    chinese: 不，我不是吉田。我是森。
+    type: sentence
+  - japanese: 小野{おの}さんは 会社員ですか。
+    chinese: 小野是公司职员吗？
+    type: question
+  - japanese: はい，(わたしは) J C企画{ジェーシーきかく}の 社員です。
+    chinese: 是的，我是JC策划公司的职员。
+    type: answer
+ 
+- idx: 4
+  lesson: '001'
+  expression: 'あっ'
+  shortexplain: '叹词，表示吃惊或有所感触时发出的声音'
+  explanation: '“あっ”是吃惊或者有所感触时发出的声音。例如在人群中发现了熟人时说“あっ！森さん！（哎，森先生！）”。\n\n人们在紧急情况下一般会不自觉地发出“あっ”，也用于自言自语。例如在车站与人擦肩而过不小心相撞时说“あっ、すみません。（啊，对不起。）”'
+  examples:
+  - japanese: あっ！森{もり}さん！
+    chinese: 哎，森先生！
+    type: sentence
+  - japanese: あっ、すみません。
+    chinese: 啊，对不起。
+    type: sentence
+
+- idx: 6
+  lesson: '001'
+  expression: 'どうぞ よろしく お願いします'
+  shortexplain: '寒暄语，用于自我介绍后表示请多关照'
+  explanation: '自我介绍时，在说完自己的姓名或公司名称后，接着说“どうぞ よろしく お願いします”，相当于汉语的“请多关照”。\n\n有时也用省略的说法“どうぞ よろしく”或“よろしく お願いします”，但“どうぞ よろしく お願いします”是较礼貌的说法。将“お願いします”变成“お願いいたします”，则更加礼貌。对方回答时一般先说“こちらこそ”。'
+  examples:
+  - japanese: はじめまして、李{り}です。どうぞ よろしく お願｛ねが｝いします。
+    chinese: 初次见面，我姓李。请多关照。
+    type: sentence
+  - japanese: はじめまして、李{り}です。どうぞ よろしく お願｛ねが｝いします。
+    chinese: 初次见面，我姓李。今后请多多关照。
+    type: sentence
+  - japanese: こちらこそ、どうぞ よろしく お願｛ねが｝いします。
+    chinese: 我也要请多关照。
+    type: answer
+
+- idx: 7
+  lesson: '001'
+  expression: '会社員 vs 社員'
+  shortexplain: '“会社員”和“社員”的区别'
+  explanation: '“会社員”表示一种职业，意思是“公司职员”“在公司工作的人”。而“社員”仅表示具体属于某一个公司的人，一般在所属的公司较为明确的句子中使用，如：“J C企画の社員です（JC策划公司的职员）”。\n\n简单来说，“会社員”泛指从事公司工作的人员；“社員”强调隶属于某个特定公司。'
+  examples:
+  - japanese: 彼は会社員{かいしゃいん}です。
+    chinese: 他是公司职员。
+    type: sentence
+  - japanese: J C企画{ジェーシーきかく}の社員{しゃいん}です。
+    chinese: 是JC策划公司的职员。
+    type: sentence

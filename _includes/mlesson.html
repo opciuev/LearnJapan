@@ -44,12 +44,91 @@
           <h5>对话</h5>
           {% for line in example.conversation %}
             <div class="dialogue-line">
-              <span class="span class="speaker">{{line.speaker}}:</span>
-              <div class="japanese">{{example.japanese}}</div>
-              <div class="chinese translation">{{example.chinese}}</div>
+              <span class="speaker">{{line.speaker}}:</span>
+              <div class="japanese">{{line.japanese}}</div>
+              <div class="chinese translation">{{line.chinese}}</div>
               <button class="btn btn-xs example-translate-btn"><i class="fa fa-pencil-square-o"></i>翻译</button>
             </div>
           {% endfor %}
+        </div>
+      {% elsif example.type == "question-answers" %}
+        <div class="example-qa">
+          <div class="qa-question">
+            <div class="japanese">{{example.question.japanese}}</div>
+            <div class="chinese translation">{{example.question.chinese}}</div>
+            <button class="btn btn-xs example-translate-btn"><i class="fa fa-pencil-square-o"></i>翻译</button>
+          </div>
+          <div class="qa-answers">
+            {% for answer in example.answers %}
+              <div class="qa-answer">
+                <span class="answer-type">{{answer.type}}:</span>
+                <div class="japanese">{{answer.japanese}}</div>
+                <div class="chinese translation">{{answer.chinese}}</div>
+                <button class="btn btn-xs example-translate-btn"><i class="fa fa-pencil-square-o"></i>翻译</button>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+  {% endif %}
+</div>
+{% endfor %}
+
+## 表达及词语讲解
+{% assign lessonNum = include.num | prepend: '0' | slice: -2, 2 | prepend: "m" %}
+{% assign expressions = site.data.expressions | where_exp: "item", "item.lesson == lessonNum" %}
+
+<button class="btn btn-default btn-sm start-expression-translate">开始表达练习</button>
+
+{% for expression in expressions %}
+<div class="expression-item" data-expression-id="{{expression.idx}}">
+  <h3 class="expression-title">{{expression.expression}}</h3>
+  {% if expression.shortexplain and expression.shortexplain != "" %}
+    <div class="expression-short">{{expression.shortexplain}}</div>
+  {% endif %}
+  <div class="expression-explanation">{{expression.explanation}}</div>
+  
+  {% if expression.examples and expression.examples.size > 0 %}
+  <div class="expression-examples">
+    <h4>例句</h4>
+    {% for example in expression.examples %}
+      {% if example.type == "sentence" %}
+        <div class="example-sentence">
+          <div class="japanese">{{example.japanese}}</div>
+          <div class="chinese translation">{{example.chinese}}</div>
+          <button class="btn btn-xs example-translate-btn"><i class="fa fa-pencil-square-o"></i>翻译</button>
+        </div>
+      {% elsif example.type == "dialogue" %}
+        <div class="example-dialogue">
+          <h5>对话</h5>
+          {% for line in example.conversation %}
+            <div class="dialogue-line">
+              <span class="speaker">{{line.speaker}}:</span>
+              <div class="japanese">{{line.japanese}}</div>
+              <div class="chinese translation">{{line.chinese}}</div>
+              <button class="btn btn-xs example-translate-btn"><i class="fa fa-pencil-square-o"></i>翻译</button>
+            </div>
+          {% endfor %}
+        </div>
+      {% elsif example.type == "question-answers" %}
+        <div class="example-qa">
+          <div class="qa-question">
+            <div class="japanese">{{example.question.japanese}}</div>
+            <div class="chinese translation">{{example.question.chinese}}</div>
+            <button class="btn btn-xs example-translate-btn"><i class="fa fa-pencil-square-o"></i>翻译</button>
+          </div>
+          <div class="qa-answers">
+            {% for answer in example.answers %}
+              <div class="qa-answer">
+                <span class="answer-type">{{answer.type}}:</span>
+                <div class="japanese">{{answer.japanese}}</div>
+                <div class="chinese translation">{{answer.chinese}}</div>
+                <button class="btn btn-xs example-translate-btn"><i class="fa fa-pencil-square-o"></i>翻译</button>
+              </div>
+            {% endfor %}
+          </div>
         </div>
       {% endif %}
     {% endfor %}

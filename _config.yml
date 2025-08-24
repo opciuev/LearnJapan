@@ -49,6 +49,8 @@ compress_html:
 links:
   - title: 语法
     url: /tools/grammar.html
+  - title: 表达及词语讲解
+    url: /tools/expressions.html
   - title: 单词
     url: /tools/wordlist.html
   # - title: Series
