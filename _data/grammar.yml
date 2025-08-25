@@ -185,11 +185,31 @@
   expression: この/その/あの～は～です
   shortexplain: ''
   explanation: この（近称）／その（中称）／あの（远称）　[名]は　[名]です 指示连体词
+  examples:
+  - japanese: この カメラは スミスさんのです。
+    chinese: 这个照相机是史密斯先生的。
+    type: sentence
+  - japanese: その 自転車は 森さんのです。
+    chinese: 那辆自行车是森先生的。
+    type: sentence
+  - japanese: あの ノートは だれのですか。
+    chinese: 那个笔记本是谁的？
+    type: question
 - idx: 29
   lesson: '002'
   expression: これ/それ/あれは～です
   shortexplain: ''
   explanation: これ／それ／あれは　[名]です。 事物指示词：これ／それ／あれ
+  examples:
+  - japanese: これは 本です。
+    chinese: 这是书。
+    type: sentence
+  - japanese: それは かばんです。
+    chinese: 那是包。
+    type: sentence
+  - japanese: あれは テレビです。
+    chinese: 那是电视机。
+    type: sentence
 - idx: 30
   lesson: '003'
   expression: ここ/そこ/あそこは～です
@@ -245,6 +265,16 @@
   expression: だれですか/何ですか
   shortexplain: ''
   explanation: 何:[疑]什么（询问事物） だれ:[疑]谁（询问人）
+  examples:
+  - japanese: それは 何ですか。
+    chinese: 那是什么？
+    type: question
+  - japanese: あの 人は だれですか。
+    chinese: 那个人是谁？
+    type: question
+  - japanese: スミスさんは どなたですか。
+    chinese: 史密斯先生是哪一位？
+    type: question
 - idx: 41
   lesson: '014'
   expression: ～て～[相继发生]
@@ -375,6 +405,16 @@
   expression: どれ～/どの～
   shortexplain: ''
   explanation: どれ／どの　[名] “哪一个”，用于三个以上（含三个）事物中不确定是哪一个时。
+  examples:
+  - japanese: 森さんの かばんは どれですか。
+    chinese: 森先生的包是哪一个？
+    type: question
+  - japanese: 長島さんの 傘は どれですか。
+    chinese: 长岛先生的伞是哪一把？
+    type: question
+  - japanese: 小野さんの 机は どの 机ですか。
+    chinese: 小野女士的桌子是哪一张？
+    type: question
 - idx: 67
   lesson: '010'
   expression: どんな～
@@ -445,11 +485,18 @@
   expression: ～ね[确认]
   shortexplain: ''
   explanation: 终助词：ね [确认] 当说话人就某事征求听话人的同意时，句尾用助词“ね”，读升调。
-- idx: 81
-  lesson: '002'
-  expression: ～の
-  shortexplain: ''
-  explanation: ''
+# - idx: 81
+#   lesson: '002'
+#   expression: '名の名 [所属]'
+#   shortexplain: '助词「の」表示所属关系'
+#   explanation: '助词「の」用于连接两个名词，表示前者属于后者，即“……的……”。\n\n常见用法包括：\n- 表示所有格，如“わたしの かぎ”（我的钥匙）\n- 表示所属关系，如“田中さんの 車”（田中先生的车）\n\n该结构在日语中广泛用于表达人与物、组织与成员之间的归属关系。'
+#   examples:
+#   - japanese: わたしの かぎ
+#     chinese: 我的钥匙
+#     type: sentence
+#   - japanese: 田中さんの 車
+#     chinese: 田中先生的车
+#     type: sentence
 - idx: 82
   lesson: '001'
   expression: ～の～[从属机构、国家] [属性]
@@ -470,6 +517,13 @@
   expression: ～の～[所属]
   shortexplain: ''
   explanation: '[名]の　[名]（所属） 连接两个名词，表示所属关系、内容等'
+  examples:
+  - japanese: わたしの かぎ
+    chinese: 我的钥匙
+    type: sentence
+  - japanese: 田中さんの 車
+    chinese: 田中先生的车
+    type: sentence
 - idx: 84
   lesson: '024'
   expression: ～のです/んです
@@ -501,7 +555,7 @@
   shortexplain: ''
   explanation: '[名1]は [名2]が [动]ます／[一二类形]です。使用有关能力的词语，表示是否有能力。'
 - idx: 90
-  lesson: 009
+  lesson: '009'
   expression: ～は～ (か)ったです
   shortexplain: ''
   explanation: '[形1]做谓语时的过去肯定形式 → 把“い”变为“かった”＋“です”。'

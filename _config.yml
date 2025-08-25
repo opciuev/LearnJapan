@@ -87,3 +87,7 @@ categorythemes:
   tools:
     name: 工具
     tag: tools
+  special:
+    name: 特殊
+    tag: special
+    theme: blue

@@ -319,3 +319,57 @@ html {
 .lesson {
   font-size: 17px;
 }
+
+/* 减少分类面板间的空白 */
+.col-sm-4.col-md-3 {
+  margin-bottom: 15px;
+}
+
+.panel {
+  margin-bottom: 15px;
+}
+
+/* 优化数字表格的列宽 */
+.numbers-table {
+  width: 100%;
+  table-layout: auto !important;
+}
+
+.numbers-table th,
+.numbers-table td {
+  padding: 8px 6px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  min-width: auto;
+}
+
+.numbers-table th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.number-cell {
+  font-weight: bold;
+  color: #007bff;
+  white-space: nowrap;
+}
+
+.pronunciation-cell {
+  font-size: 14px;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+
+/* 响应式表格优化 */
+@media (max-width: 768px) {
+  .numbers-table {
+    font-size: 12px;
+  }
+  
+  .numbers-table th,
+  .numbers-table td {
+    padding: 4px 2px;
+  }
+}
