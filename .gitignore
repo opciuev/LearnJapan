@@ -6,3 +6,6 @@ node_modules
 /_site*.zip
 .vs/
 _site/
+.bundle/
+.jekyll-cache/
+vendor/

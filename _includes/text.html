@@ -395,14 +395,15 @@ $(document).ready(function() {
     $(this).html(processedText);
   });
   
-  // 确保例句默认隐藏
-  $('.grammar-examples').hide();
+  // 确保语法例句默认显示
+  $('.grammar-examples').show();
   
   // 确保中文翻译默认显示
   $('.chinese.translation').show();
   
   // 隐藏翻译按钮（默认状态不需要）
-  $('.example-translate-btn').hide();
+  $('.grammar-item .example-translate-btn').hide();
+  $('.expression-item .example-translate-btn').hide();
   
   // 语法练习按钮功能 - 隐藏日语内容，只显示中文
   $('.start-grammar-translate').on('click', function() {
@@ -411,30 +412,30 @@ $(document).ready(function() {
     
     if ($button.hasClass('active')) {
       $button.text('结束练习');
-      // 隐藏日语内容，只显示中文（练习模式）
-      $('.japanese').hide();
+      // 隐藏语法区域的日语内容，只显示中文（练习模式）
+      $('.grammar-item .japanese').hide();
       $('.grammar-expression').hide();
-      // 显示所有例句来练习
+      // 显示所有语法例句来练习
       $('.grammar-examples').show();
-      // 确保中文翻译显示
-      $('.chinese.translation').show();
-      // 显示翻译按钮（练习模式需要）
-      $('.example-translate-btn').show();
+      // 确保语法区域的中文翻译显示
+      $('.grammar-item .chinese.translation').show();
+      // 显示语法区域的翻译按钮（练习模式需要）
+      $('.grammar-item .example-translate-btn').show();
       // 初始化翻译功能
       initializeTranslationFeatures();
     } else {
       $button.text('开始语法练习');
       // 隐藏所有翻译输入框
       $('.translation-input').slideUp();
-      // 显示日语内容
-      $('.japanese').show();
+      // 显示语法区域的日语内容
+      $('.grammar-item .japanese').show();
       $('.grammar-expression').show();
-      // 恢复例句的默认隐藏状态
-      $('.grammar-examples').hide();
-      // 恢复中文翻译的默认显示状态
-      $('.chinese.translation').show();
-      // 隐藏翻译按钮（默认状态不需要）
-      $('.example-translate-btn').hide();
+      // 恢复语法例句的默认显示状态
+      $('.grammar-examples').show();
+      // 恢复语法区域的中文翻译显示状态
+      $('.grammar-item .chinese.translation').show();
+      // 隐藏语法区域的翻译按钮（默认状态不需要）
+      $('.grammar-item .example-translate-btn').hide();
     }
   });
   
@@ -526,30 +527,30 @@ $(document).ready(function() {
     
     if ($button.hasClass('active')) {
       $button.text('结束表达练习');
-      // 隐藏日语内容，只显示中文（练习模式）
+      // 隐藏表达区域的日语内容，只显示中文（练习模式）
       $('.expression-title').hide();
-      $('.japanese').hide();
-      // 显示所有例句来练习
+      $('.expression-item .japanese').hide();
+      // 显示所有表达例句来练习
       $('.expression-examples').show();
-      // 确保中文翻译显示
-      $('.chinese.translation').show();
-      // 显示翻译按钮（练习模式需要）
-      $('.example-translate-btn').show();
+      // 确保表达区域的中文翻译显示
+      $('.expression-item .chinese.translation').show();
+      // 显示表达区域的翻译按钮（练习模式需要）
+      $('.expression-item .example-translate-btn').show();
       // 初始化翻译功能
       initializeTranslationFeatures();
     } else {
       $button.text('开始表达练习');
       // 隐藏所有翻译输入框
       $('.translation-input').slideUp();
-      // 显示日语内容
+      // 显示表达区域的日语内容
       $('.expression-title').show();
-      $('.japanese').show();
-      // 恢复例句的默认隐藏状态
-      $('.expression-examples').hide();
-      // 恢复中文翻译的默认显示状态
-      $('.chinese.translation').show();
-      // 隐藏翻译按钮（默认状态不需要）
-      $('.example-translate-btn').hide();
+      $('.expression-item .japanese').show();
+      // 恢复例句的默认显示状态
+      $('.expression-examples').show();
+      // 恢复表达区域的中文翻译显示状态
+      $('.expression-item .chinese.translation').show();
+      // 隐藏表达区域的翻译按钮（默认状态不需要）
+      $('.expression-item .example-translate-btn').hide();
     }
   });
   
@@ -570,8 +571,8 @@ $(document).ready(function() {
     $(this).html(processedText);
   });
   
-  // 确保表达例句默认隐藏
-  $('.expression-examples').hide();
+  // 确保表达例句默认显示
+  $('.expression-examples').show();
 });
 </script>
 
@@ -636,7 +637,7 @@ $(document).ready(function() {
   border-radius: 6px;
   padding: 15px;
   border: 1px solid #bdc3c7;
-  display: none;
+  display: block;
 }
 
 .grammar-examples h4 {
@@ -807,6 +808,25 @@ $(document).ready(function() {
   font-size: 1.3em;
   margin-bottom: 10px;
   font-weight: bold;
+  cursor: pointer;
+  border-bottom: 2px solid #e74c3c;
+  padding-bottom: 5px;
+}
+
+.expression-title:hover {
+  color: #c0392b;
+}
+
+.expression-title.collapsed::after {
+  content: " ▼";
+  font-size: 0.8em;
+  color: #7f8c8d;
+}
+
+.expression-title:not(.collapsed)::after {
+  content: " ▲";
+  font-size: 0.8em;
+  color: #7f8c8d;
 }
 
 .expression-short {

@@ -457,7 +457,7 @@
   explanation: '[名1]の　[名2]　[从属关系][属性] の：助词，连接名词与名词。'
   examples:
   - japanese: 李さんはＪＣ{ジェーシーきかく}の社員{しゃいん}です。
-    chinese: 
+    chinese: 小李是JC策划公司的员工。
     type: sentence
   - japanese: 北京旅行社{ぺきんしゃんりょこう}は中国の企業{きよう}です。
     chinese: 北京旅行社是中国的企业。
@@ -480,11 +480,11 @@
   expression: ～の中で～がいちばん～です
   shortexplain: ''
   explanation: '[名1]の　中で　[名2]が　いちばん　[一类形/二类形]です。在名1的范围内，名2最……'
-- idx: 86
-  lesson: '001'
-  expression: ～は～
-  shortexplain: ''
-  explanation: ～は：助词，提示主题。（读作wa）
+# - idx: 86
+#   lesson: '001'
+#   expression: ～は～
+#   shortexplain: ''
+#   explanation: ～は：助词，提示主题。（读作wa）
 - idx: 87
   lesson: '005'
   expression: ～は～[对比]
@@ -578,6 +578,16 @@
   expression: ～は～では(じゃ)ありません
   shortexplain: ''
   explanation: 否定：[名1]は　[名2]では　ありません。
+  examples:
+  - japanese: 森さんは学生ではありません。
+    chinese: 森先生不是学生。
+    type: sentence
+  - japanese: わたしは日本人{にほんじん}ではありません。
+    chinese: 我不是日本人。
+    type: sentence
+  - japanese: わたしは田中じゃありません。
+    chinese: 我不是田中。
+    type: sentence
 - idx: 98
   lesson: '010'
   expression: ～は～では(じゃ)ありません
