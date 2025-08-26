@@ -268,13 +268,13 @@
   examples:
   - japanese: それは 何ですか。
     chinese: 那是什么？
-    type: question
+    type: sentence
   - japanese: あの 人は だれですか。
     chinese: 那个人是谁？
-    type: question
+    type: sentence
   - japanese: スミスさんは どなたですか。
     chinese: 史密斯先生是哪一位？
-    type: question
+    type: sentence
 - idx: 41
   lesson: '014'
   expression: ～て～[相继发生]
@@ -408,13 +408,13 @@
   examples:
   - japanese: 森さんの かばんは どれですか。
     chinese: 森先生的包是哪一个？
-    type: question
+    type: sentence
   - japanese: 長島さんの 傘は どれですか。
     chinese: 长岛先生的伞是哪一把？
-    type: question
+    type: sentence
   - japanese: 小野さんの 机は どの 机ですか。
     chinese: 小野女士的桌子是哪一张？
-    type: question
+    type: sentence
 - idx: 67
   lesson: '010'
   expression: どんな～
