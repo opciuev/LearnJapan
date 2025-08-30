@@ -2,7 +2,7 @@
   lesson: '021'
   expression: ～後で，～
   shortexplain: ''
-  explanation: '[动（た形）]/[名+の]+後（あと）で ：表示一个动作之后发生另一个动作。“……之后”'
+  explanation: '[动（た形）]/[名+の]+後（あと）で ：表示一个动作之后发生另一个动作。"……之后"'
   examples:
   - japanese: 宿題{しゅくだい}を終{お}わった後{あと}で、テレビを見{み}ます。
     chinese: 写完作业后，看电视。
@@ -14,7 +14,7 @@
   lesson: 009
   expression: あまり～(否定)
   shortexplain: ''
-  explanation: あまり[形1／动（否定）]：表示程度不高，“不太……”
+  explanation: あまり[形1／动（否定）]：表示程度不高，"不太……"
   examples:
   - japanese: この映画{えいが}はあまり面白{おもしろ}くないです。
     chinese: 这部电影不太有趣。
@@ -29,21 +29,58 @@
       chinese: 做得不太好。
 - idx: 3
   lesson: '004'
-  expression: (～に～が)あります/います
-  shortexplain: ''
-  explanation: 名[场所]に　名[物／人]が　あります／います。 “某处有某物/人”
+  expression: あります／います
+  shortexplain: 表示存在：有/在
+  explanation: |
+    "あります"用于表示无意志的事物（如花、草、桌子等）的存在，"います"用于表示有意志的人、动物或昆虫的存在。
+    
+    句型(1) 表示存在，相当于汉语的"～有～"；
+    句型(2) 表示位置，相当于汉语的"～在～"。
+    
+    例如："部屋に 机が あります。"（房间里有桌子。）
+    "公園に 子供が います。"（公园里有孩子。）
   examples:
-  - japanese: 机{つくえ}の上{うえ}に本{ほん}があります。
-    chinese: 桌子上有书。
+  - japanese: 部屋{へや}に 机{つくえ}が あります。
+    chinese: 房间里有桌子。
     type: sentence
-  - japanese: 公園{こうえん}に子供{こども}たちがいます。
-    chinese: 公园里有孩子们。
+  - japanese: ここに 本{ほん}が あります。
+    chinese: 这里有书。
+    type: sentence
+  - japanese: 庭{にわ}に 何{なに}が ありますか。
+    chinese: 院子里有什么？
+    type: sentence
+  - japanese: 部屋{へや}に 猫{ねこ}が います。
+    chinese: 房间里有一只猫。
+    type: sentence
+  - japanese: 公園{こうえん}に 子供{こども}が います。
+    chinese: 公园里有孩子。
+    type: sentence
+  - japanese: あそこに だれが いますか。
+    chinese: 那里有谁？
+    type: sentence
+  - japanese: いすは 部屋{へや}に あります。
+    chinese: 椅子在房间里。
+    type: sentence
+  - japanese: 本{ほん}は ここに あります。
+    chinese: 书在这儿。
+    type: sentence
+  - japanese: 図書館{としょかん}は どこに ありますか。
+    chinese: 图书馆在哪儿？
+    type: sentence
+  - japanese: 吉田{よしだ}さんは 庭{にわ}に います。
+    chinese: 吉田先生在院子里。
+    type: sentence
+  - japanese: 子供{こども}は 公園{こうえん}に います。
+    chinese: 孩子在公园。
+    type: sentence
+  - japanese: 犬{いぬ}は どこに いますか。
+    chinese: 狗在哪儿？
     type: sentence
 - idx: 4
   lesson: '004'
   expression: (～は～に)あります/います
   shortexplain: ''
-  explanation: 名[物／人]は　名[场所]に　あります／います。 “某物/人在某处”
+  explanation: 名[物／人]は　名[场所]に　あります／います。 "某物/人在某处"
   examples:
   - japanese: 本{ほん}は机{つくえ}の上{うえ}にあります。
     chinese: 书在桌子上。
@@ -55,29 +92,32 @@
   lesson: '011'
   expression: (～で～が)あります
   shortexplain: ''
-  explanation: '[场所]＋で＋[事件]＋が＋あります 表示在某处发生某事。'
+  explanation: '[场所]+で+[事件]+が+あります 表示在某处发生某事。'
 - idx: 6
   lesson: '016'
   expression: (～は～が)あります/います
   shortexplain: ''
-  explanation: 表示“所有”“拥有”   =持っていますか
+  explanation: 表示"所有"/"拥有"   =持っていますか
 - idx: 7
   lesson: '003'
-  expression: ～(は)いくらですか
-  shortexplain: ''
-  explanation: '[名]は　いくらですか。 询问价钱'
+  expression: 名は いくらですか
+  shortexplain: 询问价格：多少钱？
+  explanation: |
+    用于询问物品的价格。"いくらですか？"相当于汉语的"多少钱？"。
+    
+    注意："いくら"用于询问具体金额，与"いくつ"（询问数量）不同。
   examples:
-  - japanese: 駅{えき}の前{まえ}に銀行{ぎんこう}があります。
-    chinese: 车站前面有银行。
+  - japanese: これは いくらですか。
+    chinese: 这个多少钱？
     type: sentence
-  - japanese: この近{ちか}くにコンビニがありますか。
-    chinese: 这附近有便利店吗？
+  - japanese: その服{ふく}は いくらですか。
+    chinese: 那件衣服多少钱？
     type: sentence
 - idx: 8
   lesson: '005'
   expression: いつ～ますか
   shortexplain: ''
-  explanation: いつ [动]ますか いつ：何时？ 不能加“に” 询问具体时间：“何時に”
+  explanation: いつ [动]ますか いつ：何时？ 不能加"に" 询问具体时间："何時に"
 - idx: 9
   lesson: '005'
   expression: 今～時～分です
@@ -87,7 +127,7 @@
   lesson: '007'
   expression: ～か～
   shortexplain: ''
-  explanation: '[名A]+か+[名B]：表示选择，“A或B”。'
+  explanation: '[名A]+か+[名B]：表示选择，"A或B"。'
   examples:
   - japanese: コーヒーか紅茶{こうちゃ}を飲{の}みましょう。
     chinese: 喝咖啡或红茶吧。
@@ -99,7 +139,7 @@
   lesson: '016'
   expression: ～が，～ [转折]
   shortexplain: ''
-  explanation: '[小句]が、[小句]：[转折] 连接两个小句，表示转折，“可是，但是”。'
+  explanation: '[小句]が、[小句]：[转折] 连接两个小句，表示转折，"可是，但是"。'
 - idx: 12
   lesson: '024'
   expression: ～が，～ [铺垫]
@@ -109,7 +149,7 @@
   lesson: 019
   expression: ～が～
   shortexplain: ''
-  explanation: 提示主语。旧信息用“は”，新信息用“が”。疑问词作主语时，一定用“が”（新信息）。
+  explanation: 提示主语。旧信息用"は"，新信息用"が"。疑问词作主语时，一定用"が"（新信息）。
 - idx: 14
   lesson: 019
   expression: ～が～です
@@ -139,7 +179,7 @@
   lesson: '011'
   expression: ～から～ [原因、理由]
   shortexplain: ''
-  explanation: '[敬体／简体小句（原因）]＋から、……[敬体／简体小句]。から[接续助词]：接在表示理由、原因的小句的句尾，“因为……”。'
+  explanation: '[敬体／简体小句（原因）]+から、……[敬体／简体小句]。から[接续助词]：接在表示理由、原因的小句的句尾，"因为……"。'
 - idx: 20
   lesson: '006'
   expression: ～から～
@@ -159,12 +199,12 @@
   lesson: 018
   expression: ～くします
   shortexplain: ''
-  explanation: '[一类形]します 词尾い变く。通过主语的意志行动使事物发生改变 “使～变得/变成～”'
+  explanation: '[一类形]します 词尾い变く。通过主语的意志行动使事物发生改变 "使～变得/变成～"'
 - idx: 24
   lesson: 018
   expression: ～くなります
   shortexplain: ''
-  explanation: '[一类形]なります 词尾い变く。表示自发地性质或状态的变化，“～变得～”。'
+  explanation: '[一类形]なります 词尾い变く。表示自发地性质或状态的变化，"～变得～"。'
 - idx: 25
   lesson: '007'
   expression: (～を)ください
@@ -174,7 +214,7 @@
   lesson: '013'
   expression: ～くらい/ぐらい
   shortexplain: ''
-  explanation: 前接数量词，表示大概的数量，“大概~”“~左右”
+  explanation: 前接数量词，表示大概的数量，"大概~"～左右"
 - idx: 27
   lesson: '022'
   expression: ～けど，～ [转折] [铺垫]
@@ -212,14 +252,29 @@
     type: sentence
 - idx: 30
   lesson: '003'
-  expression: ここ/そこ/あそこは～です
-  shortexplain: ''
-  explanation: ここ／そこ／あそこは[名]です ここ：近称 そこ：中称 あそこ：远称 どこ：不确定地
+  expression: ここ／そこ／あそこ は 名です
+  shortexplain: 指示地点：这里、那里、那儿
+  explanation: |
+    "ここ""そこ""あそこ"用于指代场所，表示位置关系与"これ""それ""あれ"相同。
+    
+    - ここ：说话人所在的位置（这里是……）
+    - そこ：听话人所在的位置（那里是……）
+    - あそこ：离双方都较远的位置（那儿是……）
+  examples:
+  - japanese: ここは デパートです。
+    chinese: 这里是百货商店。
+    type: sentence
+  - japanese: そこは 図書館{としょかん}です。
+    chinese: 那里是图书馆。
+    type: sentence
+  - japanese: あそこは 入り口{いりぐち}です。
+    chinese: 那儿是入口。
+    type: sentence
 - idx: 31
   lesson: '003'
   expression: こちら/そちら/あちら/どちら
   shortexplain: ''
-  explanation: “ここ／そこ／あそこ／どこ”的礼貌说法。
+  explanation: '"ここ／そこ／あそこ／どこ"的礼貌说法。'
 - idx: 32
   lesson: '020'
   expression: (～は) ～ことができます
@@ -229,12 +284,12 @@
   lesson: '020'
   expression: (～は) ～ことです
   shortexplain: ''
-  explanation: '[名]＋は＋[动（基本形）]＋ことです：“~是~”'
+  explanation: '[名]＋は＋[动（基本形）]＋ことです："~是~"'
 - idx: 34
   lesson: '010'
   expression: そして，～
   shortexplain: ''
-  explanation: そして：表示并列关系，“而且”“然后”。
+  explanation: そして：表示并列关系，"而且"/"然后"。
 - idx: 35
   lesson: '017'
   expression: (～を)～たいです
@@ -244,7 +299,7 @@
   lesson: '021'
   expression: ～たことがあります
   shortexplain: ''
-  explanation: '[动（た形）]+ことが　あります ：表示有此经历，“（曾经）~过”。'
+  explanation: '[动（た形）]+ことが　あります ：表示有此经历，"（曾经）~过"。'
 - idx: 37
   lesson: '023'
   expression: ～だったり～だったりです
@@ -254,7 +309,7 @@
   lesson: '021'
   expression: ～たほうがいいです
   shortexplain: ''
-  explanation: '[动（た形／ない形）]+ほうが　いいです：表示建议，忠告“~比较好”'
+  explanation: '[动（た形／ない形）]+ほうが　いいです：表示建议，忠告"~比较好"'
 - idx: 39
   lesson: '023'
   expression: ～たり～たりします
@@ -284,7 +339,7 @@
   lesson: '016'
   expression: ～て～[并列]
   shortexplain: ''
-  explanation: '[一类形]て　[一二类形] 一类形容词的て形：词尾的“い”变成“くて”。'
+  explanation: '[一类形]て　[一二类形] 一类形容词的て形：词尾的"い"变成"くて"。'
 - idx: 43
   lesson: '006'
   expression: ～で～
@@ -392,9 +447,26 @@
   explanation: どうですか：询问对方的感想，“如何，怎么样？”  询问过去的感想：どうでしたか。
 - idx: 64
   lesson: '003'
-  expression: (～は)どこですか
-  shortexplain: ''
-  explanation: 询问存在的场所
+  expression: 名は どこですか
+  shortexplain: 询问地点：在哪儿？
+  explanation: 用于询问某物或某人所在的位置。"どこですか？"相当于汉语的"在哪儿？"
+  examples:
+  - type: dialogue
+    conversation:
+    - speaker: 甲
+      japanese: トイレは どこですか。
+      chinese: 厕所在哪里？
+    - speaker: 乙
+      japanese: あちらです。
+      chinese: 在那儿。
+  - type: dialogue
+    conversation:
+    - speaker: 甲
+      japanese: あなたの かばんは どこですか。
+      chinese: 你的包在哪儿？
+    - speaker: 乙
+      japanese: わたしの かばんは ここです。
+      chinese: 我的包在这儿。
 - idx: 65
   lesson: '012'
   expression: どの～/どれ/どこ/いつ/何がいちばん～ですか
@@ -789,9 +861,33 @@
   explanation: 动词的连用形:働きます → 働き
 - idx: 127
   lesson: '004'
-  expression: 上/下/前/後ろ/隣/中/外
-  shortexplain: ''
-  explanation: 表示具体位置时，用：[名詞]＋の＋上/下/前/後ろ/隣/中/外
+  expression: 上／下／前／後ろ／隣／中／外
+  shortexplain: 表示具体位置的方位词
+  explanation: |
+    表示某事物的位置时，用"名词 + 上／下／前／後ろ／隣／中／外"。
+    
+    - 上：上面
+    - 下：下面
+    - 前：前面
+    - 後ろ：后面
+    - 隣：旁边
+    - 中：里面
+    - 外：外面
+    
+    注意：汉语说"椅子上""桌子下"，日语说"いすの 上""机の 下"，其中"の"不能省略。
+  examples:
+  - japanese: 机{つくえ}の 上{うえ}に 猫{ねこ}が います。
+    chinese: 桌子上面有一只猫。
+    type: sentence
+  - japanese: 会社{かいしゃ}の 隣{となり}に 花屋{はなや}が あります。
+    chinese: 公司旁边有花店。
+    type: sentence
+  - japanese: 箱{はこ}の 中{なか}に 猫{ねこ}が います。
+    chinese: 箱子里面有猫。
+    type: sentence
+  - japanese: 売店{ばいてん}は 駅{えき}の 外{そと}に あります。
+    chinese: 小卖部在车站的外边。
+    type: sentence
 - idx: 128
   lesson: '013'
   expression: 数量+で
@@ -829,9 +925,20 @@
   explanation: 疑问词＋でも：全面肯定，“任何……都”
 - idx: 135
   lesson: '004'
-  expression: 疑问词+も～(否定)
-  shortexplain: ''
-  explanation: 疑问词+も+动（否定）。表示全面否定。 [较少数量]＋も＋否定形式也可以表示全面否定。
+  expression: 疑问词＋も＋动(否定)
+  shortexplain: 表示全否定：什么也没有
+  explanation: |
+    "疑问词＋も＋动词否定"表示全否定，相当于汉语的"什么也没有"。
+    
+    例如："教室{きょうしつ}に だれも いません。"（教室里谁也没有。）
+    "冷蔵庫{れいぞうこ}に 何も ありません。"（冰箱里什么也没有。）
+  examples:
+  - japanese: 教室{きょうしつ}に だれも いません。
+    chinese: 教室里谁也没有。
+    type: sentence
+  - japanese: 冷蔵庫{れいぞうこ}に 何も ありません。
+    chinese: 冰箱里什么也没有。
+    type: sentence
 - idx: 136
   lesson: '023'
   expression: 疑问词小句+か
@@ -3173,3 +3280,4 @@
   expression: ~んしゃないだろうな
   shortexplain: 该不会是……吧？
   explanation: 表示说出自己的推测并向对方确认
+

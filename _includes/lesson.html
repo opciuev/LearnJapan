@@ -38,7 +38,7 @@
 {% for grammar in gs %}
 <div class="grammar-item" data-grammar-id="{{grammar.idx}}">
   <h3 class="grammar-expression">{{grammar.expression}}</h3>
-  <div class="grammar-explanation">{{grammar.explanation}}</div>
+  <div class="grammar-explanation">{{grammar.explanation | newline_to_br}}</div>
   
   {% if grammar.examples and grammar.examples.size > 0 %}
   <div class="grammar-examples">
@@ -98,7 +98,7 @@
   {% if expression.shortexplain and expression.shortexplain != "" %}
     <div class="expression-short">{{expression.shortexplain}}</div>
   {% endif %}
-  <div class="expression-explanation">{{expression.explanation}}</div>
+  <div class="expression-explanation">{{expression.explanation | newline_to_br}}</div>
   
   {% if expression.examples and expression.examples.size > 0 %}
   <div class="expression-examples">

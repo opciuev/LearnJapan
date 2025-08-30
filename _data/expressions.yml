@@ -2,7 +2,8 @@
   lesson: '001'
   expression: 'わたし / あなた / あの人{ひと}'
   shortexplain: ''
-  explanation: '日语中的人称代词，第一人称是「わたし」，第二人称是「あなた」，第三人称是「あの人{ひと}」。在不知道对方的姓名时，才会使用第二人称「あなた」'
+  explanation: |
+    日语中的人称代词，第一人称是「わたし」，第二人称是「あなた」，第三人称是「あの人{ひと}」。在不知道对方的姓名时，才会使用第二人称「あなた」
   examples:
   - japanese: わたしは　李{り}です。
     chinese: 我姓李。
@@ -15,7 +16,11 @@
   lesson: '001'
   expression: '～さん'
   shortexplain: ''
-  explanation: "称呼别人，不分男女，都在其姓后面加「さん」。「さん」只用于他人的姓名后，不用于自己的名字后。\n用职业，职务来称呼别人，如「*課長{かちょう}」「*店員{てんいん}さん」\n称呼小孩的时候，后面加「*ちゃん」\n年龄相当，或者比自己年轻的男性，有时用「*君{くん}」"
+  explanation: |
+    称呼别人，不分男女，都在其姓后面加「さん」。「さん」只用于他人的姓名后，不用于自己的名字后。
+    用职业，职务来称呼别人，如「*課長{かちょう}」「*店員{てんいん}さん」
+    称呼小孩的时候，后面加「*ちゃん」
+    年龄相当，或者比自己年轻的男性，有时用「*君{くん}」
   examples:
   - type: question-answers
     question:
@@ -36,7 +41,10 @@
   lesson: '001'
   expression: '第一、第二人称主语的省略'
   shortexplain: ''
-  explanation: '在日语里，一般省略通过场景或上下文可以明白的部分。如不省略，有时候听起来会不自然，或给人以不礼貌的印象。另外，省略的成分与汉语不尽相同，务须注意。\n\n在会话中，多省略第一、第二人称的主语。如下面的例句里，括号中的部分一般省略。'
+  explanation: |
+    在日语里，一般省略通过场景或上下文可以明白的部分。如不省略，有时候听起来会不自然，或给人以不礼貌的印象。另外，省略的成分与汉语不尽相同，务须注意。
+    
+    在会话中，多省略第一、第二人称的主语。如下面的例句里，括号中的部分一般省略。
   examples:
   - japanese: (あなたは) 吉田{よしだ}さんですか。
     chinese: (你是吉田先生吗？)
@@ -55,7 +63,10 @@
   lesson: '001'
   expression: 'あっ'
   shortexplain: '叹词，表示吃惊或有所感触时发出的声音'
-  explanation: '“あっ”是吃惊或者有所感触时发出的声音。例如在人群中发现了熟人时说“あっ！森さん！（哎，森先生！）”。\n\n人们在紧急情况下一般会不自觉地发出“あっ”，也用于自言自语。例如在车站与人擦肩而过不小心相撞时说“あっ、すみません。（啊，对不起。）”'
+  explanation: |
+    "あっ"是吃惊或者有所感触时发出的声音。例如在人群中发现了熟人时说"あっ！森さん！（哎，森先生！）"。
+    
+    人们在紧急情况下一般会不自觉地发出"あっ"，也用于自言自语。例如在车站与人擦肩而过不小心相撞时说"あっ、すみません。（啊，对不起。）"
   examples:
   - japanese: あっ！森{もり}さん！
     chinese: 哎，森先生！
@@ -68,7 +79,10 @@
   lesson: '001'
   expression: 'どうぞ よろしく お願いします'
   shortexplain: '寒暄语，用于自我介绍后表示请多关照'
-  explanation: '自我介绍时，在说完自己的姓名或公司名称后，接着说“どうぞ よろしく お願いします”，相当于汉语的“请多关照”。\n\n有时也用省略的说法“どうぞ よろしく”或“よろしく お願いします”，但“どうぞ よろしく お願いします”是较礼貌的说法。将“お願いします”变成“お願いいたします”，则更加礼貌。对方回答时一般先说“こちらこそ”。'
+  explanation: |
+    自我介绍时，在说完自己的姓名或公司名称后，接着说"どうぞ よろしく お願いします"，相当于汉语的"请多关照"。
+    
+    有时也用省略的说法"どうぞ よろしく"或"よろしく お願いします"，但"どうぞ よろしく お願いします"是较礼貌的说法。将"お願いします"变成"お願いいたします"，则更加礼貌。对方回答时一般先说"こちらこそ"。
   examples:
   - japanese: はじめまして、李{り}です。どうぞ よろしく お願{ねが}いします。
     chinese: 初次见面，我姓李。请多关照。
@@ -83,12 +97,409 @@
 - idx: 7
   lesson: '001'
   expression: '会社員 vs 社員'
-  shortexplain: '“会社員”和“社員”的区别'
-  explanation: '“会社員”表示一种职业，意思是“公司职员”“在公司工作的人”。而“社員”仅表示具体属于某一个公司的人，一般在所属的公司较为明确的句子中使用，如：“J C企画の社員です（JC策划公司的职员）”。\n\n简单来说，“会社員”泛指从事公司工作的人员；“社員”强调隶属于某个特定公司。'
+  shortexplain: '"会社員"和"社員"的区别'
+  explanation: |
+    "会社員"表示一种职业，意思是"公司职员""在公司工作的人"。而"社員"仅表示具体属于某一个公司的人，一般在所属的公司较为明确的句子中使用，如："J C企画の社員です（JC策划公司的职员）"。
+    
+    简单来说，"会社員"泛指从事公司工作的人员；"社員"强调隶属于某个特定公司。
   examples:
   - japanese: 彼は会社員{かいしゃいん}です。
     chinese: 他是公司职员。
     type: sentence
   - japanese: J C企画{ジェーシーきかく}の社員{しゃいん}です。
     chinese: 是JC策划公司的职员。
+    type: sentence
+- idx: 8
+  lesson: '002'
+  expression: '*方 [礼节语言①]'
+  shortexplain: '敬语表达：用「方」代替"人"以示尊敬'
+  explanation: |
+    在日语中，对长辈、上司或初次见面的人，使用「方（かた）」代替「人（ひと）」是一种基本的礼貌表达。
+    
+    例如："あの 人" → "あの 方"（那位是……）
+    
+    同样，问"J C企画の 人ですか？"显得不够礼貌，应改为"J C企画の 方ですか？"（是JC企划的人吗？）
+  examples:
+  - japanese: あの 方は 田中さんです。
+    chinese: 那位是田中先生。
+    type: sentence
+  - japanese: J C企画の 方ですか。
+    chinese: 是JC企划的人吗？
+    type: sentence
+
+- idx: 9
+  lesson: '002'
+  expression: '何歳ですか／おいくつですか [礼节语言②]'
+  shortexplain: '询问年龄的两种说法'
+  explanation: |
+    询问年龄时可用：
+    
+    - 何歳ですか？—— 一般说法，适用于同龄或晚辈
+    - おいくつですか？—— 更礼貌的说法，用于长辈或正式场合
+    
+    注意：不用于孩子，对孩子通常说"いくつですか？"或"何歳ですか？"
+  examples:
+  - japanese: 何歳ですか？
+    chinese: 多大了？
+    type: sentence
+  - japanese: おいくつですか？
+    chinese: 您多大年纪了？（更礼貌）
+    type: sentence
+  - japanese: いくつですか？
+    chinese: 几岁了？（用于儿童）
+    type: sentence
+
+- idx: 10
+  lesson: '002'
+  expression: 'どうぞ'
+  shortexplain: '请，给您'
+  explanation: |
+    用于递东西、邀请坐下、进餐等场合，表示礼貌地提供或邀请。
+    
+    对方常回应"どうも ありがとうございます。"
+  examples:
+  - japanese: これは 中国の 名産品です。どうぞ。
+    chinese: 这是中国的特产，请收下。
+    type: sentence
+  - japanese: どうも ありがとうございます。
+    chinese: 非常感谢。
+    type: sentence
+
+- idx: 11
+  lesson: '002'
+  expression: 'えっ'
+  shortexplain: '啊？（表示吃惊或没听懂）'
+  explanation: |
+    用于对对方的话感到意外、吃惊或没听清时。相当于"啊？""什么？"
+    
+    注意：频繁使用可能显得不礼貌。
+  examples:
+  - japanese: えっ？
+    chinese: 啊？（吃惊）
+    type: sentence
+
+- idx: 12
+  lesson: '002'
+  expression: '*わあ'
+  shortexplain: '感叹词，表示感动或吃惊'
+  explanation: '"わあ"是感动或者吃惊时发出的声音。在课文中用于小野看到真丝手绢而心情激动的场景。'
+  examples:
+  - japanese: 'わあ，*シルクの *ハンカチですか。'
+    chinese: '哇，是真丝手绢啊。'
+    type: sentence
+
+- idx: 13
+  lesson: '002'
+  expression: 'はい / *ええ'
+  shortexplain: '肯定回答的两种说法'
+  explanation: '"ええ"是"はい"的比较随便的说法，但只用于肯定对方的提问。当别人叫到自己的名字而应答时，必须用"はい"，不能用"ええ"。'
+  examples:
+  - type: dialogue
+    conversation:
+    - speaker: 甲
+      japanese: '森{もり}さん。'
+      chinese: '森先生。'
+    - speaker: 乙
+      japanese: 'はい。'
+      chinese: '哎。'
+    - speaker: 乙
+      japanese: '*×ええ。'
+      chinese: '×诶。'
+
+- idx: 14
+  lesson: '002'
+  expression: '外来词①'
+  shortexplain: '从外语引进的词，用片假名书写'
+  explanation: |
+    在日语里，从外语引进的词称为"外来語（がいらいご）"，用片假名书写。大部分来自欧美语言。古时候从中国引进的词称为"漢語（かんご）"，不包含在外来词中。
+    
+    例如：
+    - シルク（silk，丝绸）
+    - ハンカチ（handkerchief，手绢）
+    - スワトウ（汕头）
+    - ロンドン（London，伦敦）
+    - スミスさん（Mr. Smith，史密斯先生）
+  examples:
+  - japanese: 'シルク'
+    chinese: '丝绸'
+    type: sentence
+  - japanese: 'ハンカチ'
+    chinese: '手绢'
+    type: sentence
+  - japanese: 'スワトウ'
+    chinese: '汕头'
+    type: sentence
+  - japanese: 'ロンドン'
+    chinese: '伦敦'
+    type: sentence
+  - japanese: 'スミスさん'
+    chinese: '史密斯先生'
+    type: sentence
+
+- idx: 15
+  lesson: '002'
+  expression: 'どうも ありがとう ございます [寒暄语②]'
+  shortexplain: '表示感谢的礼貌表达'
+  explanation: '"どうも"用于加强"ありがとう ございます"所表示的谢意。在略示谢意时，可省略"ありがとう ございます"，只用"どうも"。'
+  examples:
+  - japanese: 'どうも ありがとう ございます。'
+    chinese: '非常感谢。'
+    type: sentence
+  - japanese: 'どうも。'
+    chinese: '谢谢。'
+    type: sentence
+
+- idx: 16
+  lesson: '003'
+  expression: '1階{いちかい}'
+  shortexplain: '"階"是量词，表示楼层'
+  explanation: |
+    "1階"中的"階"是日语的量词，用于表示楼层。当与数词搭配时，有时会有多种读音情况。
+    
+    例如："1階"读作"いちかい"，"2階"读作"にかい"。具体读法请参考附录TV"数、量词搭配使用表"。
+  examples:
+  - japanese: '1階{いちかい}は デパートの 入り口{いりぐち}です。'
+    chinese: '1楼是百货商店的入口。'
+    type: sentence
+
+- idx: 17
+  lesson: '003'
+  expression: '省略② [谓语的省略]'
+  shortexplain: '会话中省略重复的谓语部分'
+  explanation: |
+    在会话中，进一步提问时，一般省略已说过一遍的谓语部分。被省略的部分通常包含疑问句的后半部分。
+    
+    例如：先说"これは いくらですか？"（这个多少钱？），接着问"あれは いくらですか？"（那个多少钱？）时，由于后半部分"いくらですか？"与前一句相同，可省略，只说"あれは（？）"即可。此时"あれは（？）"须读升调。
+    
+    应用课文中，"*マンションの 隣{となり}は？（公寓的旁边是？）"也是同样将后半部分"何ですか？"省略了，句尾同样要读升调。
+  examples:
+  - type: dialogue
+    conversation:
+    - speaker: 甲
+      japanese: 'これは いくらですか。'
+      chinese: '这个多少钱？'
+    - speaker: 乙
+      japanese: '500円{ごひゃくえん}です。'
+      chinese: '500日元。'
+    - speaker: 甲
+      japanese: 'あれは（？）'
+      chinese: '那个呢？'
+    - speaker: 乙
+      japanese: '800円{はちひゃくえん}です。'
+      chinese: '800日元。'
+
+- idx: 18
+  lesson: '003'
+  expression: '*こちら／*そちら／*あちら／*どちら'
+  shortexplain: '"这里/那里/那儿/哪里"的礼貌说法'
+  explanation: |
+    "こちら／そちら／あちら／どちら"是"ここ／そこ／あそこ／どこ"的礼貌说法。
+    
+    - こちら：指说话人所在的位置或方向
+    - そちら：指听话人所在的位置或方向
+    - あちら：指离双方都较远的位置或方向
+    - どちら：用于询问方向或地点，相当于"哪边？"
+    
+    这些词常用于正式场合或对长辈、上司说话时。
+  examples:
+  - japanese: '受付{じゅふ}は どこですか。'
+    chinese: '接待处在哪儿？'
+    type: sentence
+  - japanese: '受付{じゅふ}は どちらですか。'
+    chinese: '接待处在哪儿？（礼貌说法）'
+    type: sentence
+  - japanese: 'あそこです。'
+    chinese: '在那儿。'
+    type: sentence
+  - japanese: 'あちらです。'
+    chinese: '在那儿。（礼貌说法）'
+    type: sentence
+
+- idx: 19
+  lesson: '003'
+  expression: 'お国{おくに}は どちらですか'
+  shortexplain: '询问国籍的礼貌表达'
+  explanation: |
+    "お国は どちらですか？"是询问对方来自哪个国家的礼貌说法，相当于"你是哪个国家的人？"
+    
+    注意：不是所有名词前都可以加"お"。在"国"前加"お"变成"お国"更礼貌一些。该句含两种含义：
+    
+    1. 询问公司所在地（如"在上海"）
+    2. 询问所属公司的名称（如"JC策划公司"）
+    
+    需根据上下文判断具体含义。
+  examples:
+  - type: dialogue
+    conversation:
+    - speaker: 甲
+      japanese: '会社{かいしゃ}は どちらですか。'
+      chinese: '你的公司在哪儿？'
+    - speaker: 乙
+      japanese: '上海{しんこう}です。'
+      chinese: '在上海。'
+  - type: dialogue
+    conversation:
+    - speaker: 甲
+      japanese: '会社{かいしゃ}は どちらですか。'
+      chinese: '你是哪个公司的？'
+    - speaker: 乙
+      japanese: 'J C企画{ジェーシーきかく}です。'
+      chinese: 'JC策划公司。'
+
+- idx: 20
+  lesson: '003'
+  expression: '縮略词'
+  shortexplain: '日语中将长词缩短的表达方式'
+  explanation: |
+    日语中有时会将一个长词缩写成较短的形式，这种形式称为"縮略词"。例如，"パソコン"由"パーソナルコンピュータ"（英语"personal computer"）缩略而来。
+    
+    常见例子包括：
+    - コンビニエンスストア → コンビニ（便利店）
+    - デジタルカメラ → デジカメ（数码相机）
+  examples:
+  - japanese: 'コンビニエンスストア → *コンビニ'
+    chinese: '便利店 → 便利店（缩略）'
+    type: sentence
+  - japanese: 'デジタルカメラ → *デジカメ'
+    chinese: '数码相机 → 数码相机（缩略）'
+    type: sentence
+
+- idx: 21
+  lesson: '003'
+  expression: '*あおう [搭话①]'
+  shortexplain: '用于引起对方注意或开启话题'
+  explanation: |
+    "あおう"用于向对方搭话，或引起对方注意。也可用于在说难以启齿的事情、开始一个新话题，或向别人提出请求时。
+    
+    例如："あのう，課長……。"（对不起，科长……）表示希望对方把注意力转向自己。
+  examples:
+  - type: dialogue
+    conversation:
+    - speaker: 甲
+      japanese: 'あのう，課長{かちょう}……。'
+      chinese: '对不起，科长……。'
+    - speaker: 乙
+      japanese: '何ですか。'
+      chinese: '什么事？'
+
+- idx: 22
+  lesson: '003'
+  expression: '~ですか [确认]'
+  shortexplain: '用于进一步确认对方所说的内容'
+  explanation: |
+    用于进一步确认对方所说的信息，句尾读升调。重复一遍对方的话并加"ですか"，表示理解了对方的意思，此时句尾读降调。
+    
+    例如："あのう，*東京{とうきょう}の *地図{ちず}は どこですか。"（请问，东京地图在什么地方？）→ "地図ですか（？）。そちらです。"（地图？在那儿。）
+    
+    又如："それは パソコンですか（？）。"（那是个人电脑吗？）→ "パソコンですね。"（是个人电脑啊。）
+  examples:
+  - type: dialogue
+    conversation:
+    - speaker: 甲
+      japanese: 'あのう，*東京{とうきょう}の *地図{ちず}は どこですか。'
+      chinese: '请问，东京地图在什么地方？'
+    - speaker: 乙
+      japanese: '地図{ちず}ですか（？）。そちらです。'
+      chinese: '地图？在那儿。'
+  - type: dialogue
+    conversation:
+    - speaker: 甲
+      japanese: 'それは パソコンですか（？）。'
+      chinese: '那是个人电脑吗？'
+    - speaker: 乙
+      japanese: 'パソコンですね。'
+      chinese: '是个人电脑啊。'
+
+- idx: 23
+  lesson: '004'
+  expression: '上 [表示范围]'
+  shortexplain: '日语"上"表示垂直上方，不包括表面'
+  explanation: |
+    日语的"上"表示垂直上方的范围，比汉语的"上"更窄。汉语的"墙上"指墙壁表面，而日语的"壁の 上"指墙面上方的天棚，不包括墙壁本身。
+    
+    例如："壁に スイッチが あります。"（墙上有关开关。）
+    不能说"壁の 上に スイッチが あります。"因为"上"不用于表示表面。
+  examples:
+  - japanese: '壁{かべ}に スイッチ{スイッチ}が あります。'
+    chinese: '墙上有关开关。'
+    type: sentence
+  - japanese: '×壁{かべ}の 上{うえ}に スイッチ{スイッチ}が あります。'
+    chinese: '×墙上有关开关。（错误用法）'
+    type: sentence
+
+- idx: 24
+  lesson: '004'
+  expression: '*ええと'
+  shortexplain: '思考如何回答时使用的语气词'
+  explanation: |
+    "ええと"是被别人问及某事时，思考该如何回答时说的话，相当于"嗯……"或"让我想想"。
+    
+    例如："小野さんは 会社は どこに ありますか。"（小野女士在哪儿？）→ "ええと，ここです。"（嗯……在这儿。）
+  examples:
+  - type: dialogue
+    conversation:
+    - speaker: 甲
+      japanese: '小野{おの}さん，会社{かいしゃ}は どこに ありますか。'
+      chinese: '小野女士，公司在哪里？'
+    - speaker: 乙
+      japanese: 'ええと，ここです。'
+      chinese: '嗯……在这儿。'
+
+- idx: 25
+  lesson: '004'
+  expression: '*ご家族／*ご兄弟／*ご両親 [礼节语言④]'
+  shortexplain: '对别人亲属的礼貌说法'
+  explanation: |
+    "ご家族""ご兄弟""ご両親"是提到别人亲属时的礼貌说法。
+    
+    - ご家族：指"对方的家人"，相当于"您家的人"
+    - ご兄弟：指"对方的兄弟姐妹"
+    - ご両親：指"对方的父母"
+    
+    在会话中，用"ご家族"来指"对方的家人"，而用"家族"来指"自己的家人"。但不是所有名词前都可以加"ご"。
+  examples:
+  - japanese: 'ご兄弟{ごきょうだい}が いますか。'
+    chinese: '你有兄弟姐妹吗？'
+    type: sentence
+  - japanese: '——ええ，*妹{いもうと}が います。'
+    chinese: '——有，有妹妹。'
+    type: sentence
+
+- idx: 26
+  lesson: '004'
+  expression: '兄弟'
+  shortexplain: '同父母的人，也用于同父异母或同母异父的情况'
+  explanation: '"兄弟"指同一父母的人，也可用于仅是同父或同母的情况。汉字写作"兄弟"，但不仅仅指男性兄弟之间，兄弟、姐妹、姐弟也称"きょうだい"。'
+  examples:
+  - japanese: 'ご兄弟{ごきょうだい}が いますか。'
+    chinese: '你有兄弟姐妹吗？'
+    type: sentence
+  - japanese: '——ええ，*妹{いもうと}が います。'
+    chinese: '——有，有妹妹。'
+    type: sentence
+
+- idx: 27
+  lesson: '004'
+  expression: '"J R" 和 "地下鉄"'
+  shortexplain: '日本铁路系统的简称'
+  explanation: |
+    "J R" 原本是国营的，叫做"国铁（こくてつ）"，是"日本国有鉄道"的简称，1987年民营化后，改为现在的名称。"J R"是"Japan Railways"的简称。
+    
+    人们出远门时，经常利用新干线等"JR"的列车，近距离移动时除"JR"之外，也常利用别的"私鉄（しだてつ）"。在札幌、仙台、东京、横滨、大阪、名古屋、福冈等大城市圈都有地铁运行。
+  examples:
+  - japanese: 'JR{ジェイアール}の 列車{れっしゃ}は 準確{じんくわ}に 運行{うんこう}します。'
+    chinese: 'JR的列车准时运行。'
+    type: sentence
+  - japanese: '東京{とうきょう}には 地下鉄{ちかてつ}があります。'
+    chinese: '东京有地铁。'
+    type: sentence
+
+- idx: 28
+  lesson: '004'
+  expression: '*一人暮らし'
+  shortexplain: '一个人生活'
+  explanation: '"一人暮らし"指一个人独自居住。小野的家人住在名古屋，而她的公司在东京，她不能每天从名古屋往返上班，因此一个人住在距东京较近的横滨。离开家人独自生活称为"一人暮らし"。'
+  examples:
+  - japanese: '小野{おの}さんは 一人暮らし{ひとりぐらし}です。'
+    chinese: '小野女士是一个人住。'
     type: sentence

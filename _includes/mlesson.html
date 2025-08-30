@@ -27,7 +27,7 @@
   {% if grammar.shortexplain and grammar.shortexplain != "" %}
     <div class="grammar-short">{{grammar.shortexplain}}</div>
   {% endif %}
-  <div class="grammar-explanation">{{grammar.explanation}}</div>
+  <div class="grammar-explanation">{{grammar.explanation | newline_to_br}}</div>
   
   {% if grammar.examples and grammar.examples.size > 0 %}
   <div class="grammar-examples">
