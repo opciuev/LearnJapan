@@ -243,3 +243,77 @@ html
   margin-left: 50px
   background: transparent
   border: none
+
+// 返回顶部按钮样式
+.scroll-to-top
+  position: fixed
+  right: 20px
+  bottom: 20px
+  width: 50px
+  height: 50px
+  background: #007bff
+  border-radius: 50%
+  display: flex
+  align-items: center
+  justify-content: center
+  cursor: pointer
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3)
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1)
+  z-index: 1000
+  opacity: 0
+  visibility: hidden
+  transform: translateY(20px)
+  border: none
+  user-select: none
+  -webkit-user-select: none
+  -moz-user-select: none
+  
+  &.show
+    opacity: 1
+    visibility: visible
+    transform: translateY(0)
+  
+  &:hover
+    background: #0056b3
+    transform: translateY(-2px)
+    box-shadow: 0 6px 20px rgba(0, 123, 255, 0.4)
+  
+  &:active,
+  &.touch-active
+    transform: translateY(0) scale(0.95)
+    background: #004085
+  
+  .arrow-up
+    width: 0
+    height: 0
+    border-left: 8px solid transparent
+    border-right: 8px solid transparent
+    border-bottom: 12px solid white
+    transition: all 0.3s ease
+
+// 响应式适配
+@media (max-width: 768px)
+  .scroll-to-top
+    right: 15px
+    bottom: 15px
+    width: 45px
+    height: 45px
+    
+    .arrow-up
+      border-left-width: 6px
+      border-right-width: 6px
+      border-bottom-width: 10px
+
+// 深色主题适配
+@media (prefers-color-scheme: dark)
+  .scroll-to-top
+    background: #0d6efd
+    box-shadow: 0 4px 12px rgba(13, 110, 253, 0.3)
+    
+    &:hover
+      background: #0b5ed7
+      box-shadow: 0 6px 20px rgba(13, 110, 253, 0.4)
+    
+    &:active,
+    &.touch-active
+      background: #0a58ca

@@ -69,3 +69,33 @@ function settheme(theme, persist) {
   $('link[title="theme"]').attr('href', themeurl);
   if (supports_storage && persist) localStorage.theme = theme;
 }
+
+// 返回顶部按钮功能
+$(document).ready(function() {
+  // 创建返回顶部按钮
+  var scrollToTopBtn = $('<div class="scroll-to-top" id="scrollToTop"><div class="arrow-up"></div></div>');
+  $('body').append(scrollToTopBtn);
+  
+  // 滚动检测
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 300) {
+      scrollToTopBtn.addClass('show');
+    } else {
+      scrollToTopBtn.removeClass('show');
+    }
+  });
+  
+  // 点击返回顶部
+  scrollToTopBtn.click(function() {
+    $('html, body').animate({
+      scrollTop: 0
+    }, 600, 'swing');
+  });
+  
+  // 添加触摸支持（移动端）
+  scrollToTopBtn.on('touchstart', function() {
+    $(this).addClass('touch-active');
+  }).on('touchend', function() {
+    $(this).removeClass('touch-active');
+  });
+});
