@@ -207,8 +207,19 @@ $(document).ready(function() {
   $('li:contains("-")').hide();
   $('.lesson>:not(.japan) li button').hide();
   $('.starttranslate').on('click', function(){
-    $(this).hide();
-    $(this).closest('.lesson').find('>:not(.japan) li button').show();
+    var $button = $(this);
+    var $lesson = $button.closest('.lesson');
+    var $translationButtons = $lesson.find('>:not(.japan) li button');
+    
+    if ($button.hasClass('active')) {
+      // 取消翻译模式
+      $button.removeClass('active').text('开始翻译');
+      $translationButtons.hide();
+    } else {
+      // 开始翻译模式
+      $button.addClass('active').text('取消翻译');
+      $translationButtons.show();
+    }
   });
 });
 
@@ -225,6 +236,18 @@ div.translation.active {
 }
 div.translation {
   display: none;
+}
+
+/* 翻译按钮样式 */
+.starttranslate.active {
+  background-color: #d9534f !important;
+  border-color: #d43f3a !important;
+  color: white !important;
+}
+
+.starttranslate.active:hover {
+  background-color: #c9302c !important;
+  border-color: #ac2925 !important;
 }
 </style>
 

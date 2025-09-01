@@ -20,14 +20,20 @@
 </div>
 <button class="btn btn-default btn-sm starttranslate">开始翻译</button>
 ## 基本课文译文
+<div class="text-translation basic-text-translation" markdown="1">
 {{lesson.basic4t}}
+</div>
 
+<div class="text-translation applied-text-translation" markdown="1">
 {{lesson.basicct}}
+</div>
 
 
 ## 应用课文译文 {{lesson.contitlet}}
 
+<div class="text-translation context-text-translation" markdown="1">
 {{lesson.contextt}}
+</div>
  
 ## 语法点
 {% assign lessonNum = include.num | prepend: '00' | slice: -3, 3 %}

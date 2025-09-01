@@ -101,5 +101,141 @@ $(document).ready(function() {
   };
   $(".loader").hide();
   $(".loading").removeClass('loading');
+  
+  // 添加复制功能到表格
+  setTimeout(function() {
+    addCopyToTable();
+  }, 500);
+  
+  // 表格重绘时重新添加复制功能
+  table.on('draw', function() {
+    setTimeout(addCopyToTable, 100);
+  });
 });
+
+function addCopyToTable() {
+  $('.display tbody td').each(function() {
+    const cellText = $(this).text().trim();
+    // 检查是否包含中文字符且不是空内容
+    if (/[\u4e00-\u9fff]/.test(cellText) && cellText.length > 0) {
+      // 避免重复添加
+      if ($(this).find('.copy-btn').length === 0) {
+        const $container = $('<span class="copy-container"></span>');
+        const $copyBtn = $('<button class="copy-btn" title="复制"><i class="fa fa-copy"></i></button>');
+        
+        $copyBtn.on('click', function(e) {
+          e.preventDefault();
+          e.stopPropagation();
+          
+          const text = cellText.replace(/\s+/g, ' ').trim();
+          
+          if (navigator.clipboard && window.isSecureContext) {
+            navigator.clipboard.writeText(text).then(function() {
+              showCopySuccess($copyBtn);
+            });
+          } else {
+            fallbackCopyText(text, $copyBtn);
+          }
+        });
+        
+        $(this).wrapInner($container);
+        $(this).find('.copy-container').append($copyBtn);
+      }
+    }
+  });
+}
+
+function showCopySuccess($btn) {
+  const originalHtml = $btn.html();
+  $btn.addClass('copied').html('<i class="fa fa-check"></i>');
+  setTimeout(function() {
+    $btn.removeClass('copied').html(originalHtml);
+  }, 1000);
+}
+
+function fallbackCopyText(text, $btn) {
+  const textArea = document.createElement("textarea");
+  textArea.value = text;
+  textArea.style.position = "fixed";
+  textArea.style.opacity = "0";
+  document.body.appendChild(textArea);
+  textArea.select();
+  
+  try {
+    document.execCommand('copy');
+    showCopySuccess($btn);
+  } catch (err) {
+    console.error('复制失败:', err);
+  }
+  
+  document.body.removeChild(textArea);
+}
 </script>
+
+<!-- 表格复制按钮样式 -->
+<style>
+.display tbody td {
+  position: relative;
+}
+
+.copy-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.copy-btn {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 2px 5px;
+  font-size: 10px;
+  cursor: pointer;
+  opacity: 0;
+  transition: all 0.2s ease;
+  z-index: 10;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+.copy-btn:hover {
+  background: #2980b9;
+  transform: translateY(-50%) scale(1.1);
+}
+
+.display tbody td:hover .copy-btn {
+  opacity: 1;
+}
+
+.copy-btn.copied {
+  background: #27ae60;
+  animation: copyTableSuccess 0.5s ease;
+}
+
+@keyframes copyTableSuccess {
+  0% { transform: translateY(-50%) scale(1); }
+  50% { transform: translateY(-50%) scale(1.2); }
+  100% { transform: translateY(-50%) scale(1); }
+}
+
+.copy-btn i {
+  font-size: 8px;
+}
+
+/* 移动端适配 */
+@media (max-width: 800px) {
+  .copy-btn {
+    opacity: 1;
+    position: static;
+    transform: none;
+    float: right;
+    margin-left: 5px;
+    font-size: 8px;
+    padding: 1px 3px;
+  }
+}
+</style>
