@@ -141,6 +141,93 @@ td .copy-btn {
   border-radius: 6px;
   border-left: 4px solid #17a2b8;
   margin-bottom: 20px;
+  position: relative;
+}
+
+/* 批量复制按钮样式 */
+.batch-copy-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: #17a2b8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 10px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: all 0.2s ease;
+  z-index: 50;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+.batch-copy-btn:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.batch-copy-btn.copied {
+  background: #28a745;
+  animation: batchCopySuccess 0.5s ease;
+}
+
+@keyframes batchCopySuccess {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+/* 语法点批量复制按钮 */
+.grammar-item {
+  position: relative;
+}
+
+.grammar-batch-copy {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #6f42c1;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 10px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: all 0.2s ease;
+  z-index: 50;
+}
+
+.grammar-batch-copy:hover {
+  opacity: 1;
+  background: #5a32a3;
+}
+
+/* 表达项目批量复制按钮 */
+.expression-item {
+  position: relative;
+}
+
+.expression-batch-copy {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #fd7e14;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 10px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: all 0.2s ease;
+  z-index: 50;
+}
+
+.expression-batch-copy:hover {
+  opacity: 1;
+  background: #e8690b;
 }
 
 .basic-text-translation {
@@ -193,6 +280,18 @@ td .copy-btn {
   
   .text-translation-item {
     padding-right: 10px;
+  }
+  
+  /* 移动端批量复制按钮样式调整 */
+  .batch-copy-btn,
+  .grammar-batch-copy,
+  .expression-batch-copy {
+    position: static;
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    opacity: 1;
+    transform: none;
   }
 }
 </style>
@@ -303,6 +402,32 @@ $(document).ready(function() {
   function addCopyButtonForTextTranslation(element) {
     const $element = $(element);
     
+    // 添加批量复制按钮
+    if ($element.find('.batch-copy-btn').length === 0) {
+      const $batchBtn = $('<button class="batch-copy-btn" title="复制整段译文"><i class="fa fa-files-o"></i> 全复制</button>');
+      
+      $batchBtn.on('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        
+        // 收集所有中文译文内容
+        const texts = [];
+        $element.find('p, li, blockquote > p').each(function() {
+          const text = $(this).text().trim();
+          if (/[\u4e00-\u9fff]/.test(text) && text.length > 0) {
+            texts.push(text);
+          }
+        });
+        
+        if (texts.length > 0) {
+          const fullText = texts.join('\n');
+          copyToClipboard(fullText, this);
+        }
+      });
+      
+      $element.append($batchBtn);
+    }
+    
     // 查找所有的段落和列表项
     $element.find('p, li, blockquote > p').each(function() {
       const $item = $(this);
@@ -334,6 +459,79 @@ $(document).ready(function() {
     });
   }
 
+  // 为语法点添加批量复制功能
+  function addBatchCopyForGrammar(element) {
+    const $element = $(element);
+    
+    // 避免重复添加
+    if ($element.find('.grammar-batch-copy').length > 0) return;
+    
+    const $batchBtn = $('<button class="grammar-batch-copy" title="复制语法点所有例句"><i class="fa fa-copy"></i> 全部例句</button>');
+    
+    $batchBtn.on('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      
+      // 收集语法点信息和所有例句的中文
+      const grammarTitle = $element.find('.grammar-expression').text().trim();
+      const texts = [grammarTitle]; // 先添加语法点标题
+      
+      // 收集所有例句的中文翻译
+      $element.find('.chinese.translation').each(function() {
+        const text = $(this).text().trim();
+        if (/[\u4e00-\u9fff]/.test(text) && text.length > 0) {
+          texts.push(text);
+        }
+      });
+      
+      if (texts.length > 1) { // 至少有标题和一个例句
+        const fullText = texts.join('\n');
+        copyToClipboard(fullText, this);
+      }
+    });
+    
+    $element.append($batchBtn);
+  }
+
+  // 为表达项目添加批量复制功能
+  function addBatchCopyForExpression(element) {
+    const $element = $(element);
+    
+    // 避免重复添加
+    if ($element.find('.expression-batch-copy').length > 0) return;
+    
+    const $batchBtn = $('<button class="expression-batch-copy" title="复制表达所有例句"><i class="fa fa-copy"></i> 全部例句</button>');
+    
+    $batchBtn.on('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      
+      // 收集表达项目信息和所有例句的中文
+      const expressionTitle = $element.find('.expression-title').text().trim();
+      const explanation = $element.find('.expression-explanation').text().trim();
+      const texts = [expressionTitle]; // 先添加表达标题
+      
+      if (explanation) {
+        texts.push(explanation); // 添加解释
+      }
+      
+      // 收集所有例句的中文翻译
+      $element.find('.chinese.translation').each(function() {
+        const text = $(this).text().trim();
+        if (/[\u4e00-\u9fff]/.test(text) && text.length > 0) {
+          texts.push(text);
+        }
+      });
+      
+      if (texts.length > 1) { // 至少有标题和一个内容
+        const fullText = texts.join('\n');
+        copyToClipboard(fullText, this);
+      }
+    });
+    
+    $element.append($batchBtn);
+  }
+
   // 初始化复制功能
   function initializeCopyFeature() {
     // 为课文中的中文翻译添加复制按钮
@@ -358,6 +556,16 @@ $(document).ready(function() {
     // 为例句中的中文部分添加复制按钮
     $('.example-sentence .chinese, .dialogue-line .chinese, .qa-answer .chinese').each(function() {
       addCopyButton(this);
+    });
+    
+    // 为语法点添加批量复制按钮
+    $('.grammar-item').each(function() {
+      addBatchCopyForGrammar(this);
+    });
+    
+    // 为表达项目添加批量复制按钮
+    $('.expression-item').each(function() {
+      addBatchCopyForExpression(this);
     });
   }
 
