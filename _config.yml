@@ -34,7 +34,6 @@ permalink: none
 
 plugins:
   - jekyll-redirect-from
-  - jekyll-feed
   - jekyll-sitemap
 
 # html minify
@@ -57,8 +56,6 @@ links:
   #   url: /series
   # - title: Tags
   #   url: /tags
-  - title: 关于
-    url: /about/index.html
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules', 'site.vfs', 'Gemfile.lock', 'Gemfile', 'CNAME', 'LICENSE', '*.bat', 'gulpfile.js', 'ionic']
