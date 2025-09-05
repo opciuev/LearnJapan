@@ -272,9 +272,22 @@
     type: sentence
 - idx: 31
   lesson: '003'
-  expression: こちら/そちら/あちら/どちら
-  shortexplain: ''
-  explanation: '"ここ／そこ／あそこ／どこ"的礼貌说法。'
+  expression: '*こちら／*そちら／*あちら／*どちら'
+  shortexplain: '"这里/那里/那儿/哪里"的礼貌说法'
+  explanation: '"こちら／そちら／あちら／どちら"是"ここ／そこ／あそこ／どこ"的礼貌说法。\n\n- こちら：指说话人所在的位置或方向\n- そちら：指听话人所在的位置或方向\n- あちら：指离双方都较远的位置或方向\n- どちら：用于询问方向或地点，相当于"哪边？"\n\n这些词常用于正式场合或对长辈、上司说话时。'
+  examples:
+  - japanese: '受付{じゅふ}は どこですか。'
+    chinese: '接待处在哪儿？'
+    type: sentence
+  - japanese: '受付{じゅふ}は どちらですか。'
+    chinese: '接待处在哪儿？（礼貌说法）'
+    type: sentence
+  - japanese: 'あそこです。'
+    chinese: '在那儿。'
+    type: sentence
+  - japanese: 'あちらです。'
+    chinese: '在那儿。（礼貌说法）'
+    type: sentence
 - idx: 32
   lesson: '020'
   expression: (～は) ～ことができます
@@ -388,8 +401,23 @@
 - idx: 52
   lesson: '003'
   expression: ～ですか，～ですか
-  shortexplain: ''
-  explanation: '[名]は　[名]ですか、[名]ですか。 选择疑问句 “是……还是……？”'
+  shortexplain: '选择疑问句："是……还是……？"'
+  explanation: '[名]は　[名]ですか、[名]ですか。 选择疑问句 "是……还是……？"\n\n在会话中，进一步提问时，一般省略已说过一遍的谓语部分。被省略的部分通常包含疑问句的后半部分。'
+  examples:
+  - type: dialogue
+    conversation:
+    - speaker: 甲
+      japanese: 'これは いくらですか。'
+      chinese: '这个多少钱？'
+    - speaker: 乙
+      japanese: '500円{ごひゃくえん}です。'
+      chinese: '500日元。'
+    - speaker: 甲
+      japanese: 'あれは（？）'
+      chinese: '那个呢？'
+    - speaker: 乙
+      japanese: '800円{はちひゃくえん}です。'
+      chinese: '800日元。'
 - idx: 53
   lesson: '010'
   expression: ても，～
@@ -408,8 +436,18 @@
 - idx: 56
   lesson: '004'
   expression: ～と～[并列]
-  shortexplain: ''
-  explanation: '[名]と　[名]　并列。 表示并列，“A和B”。'
+  shortexplain: '表示并列："A和B"'
+  explanation: '[名]と　[名]　并列。 表示并列，"A和B"。\n\n助词"と"用于连接两个或多个名词，表示并列关系。在列举时，"と"必须放在每两个名词之间。'
+  examples:
+  - japanese: 'パンと牛乳{ぎゅうにゅう}を買{か}いました。'
+    chinese: '买了面包和牛奶。'
+    type: sentence
+  - japanese: '机{つくえ}と椅子{いす}があります。'
+    chinese: '有桌子和椅子。'
+    type: sentence
+  - japanese: '田中{たなか}さんと佐藤{さとう}さんが来{き}ました。'
+    chinese: '田中先生和佐藤先生来了。'
+    type: sentence
 - idx: 57
   lesson: '006'
   expression: ～と～
@@ -554,9 +592,19 @@
   explanation: '[二类形/名]になります 示性质或状态的变化，“～变得～”。'
 - idx: 80
   lesson: '004'
-  expression: ～ね[确认]
-  shortexplain: ''
-  explanation: 终助词：ね [确认] 当说话人就某事征求听话人的同意时，句尾用助词“ね”，读升调。
+  expression: 'ね [确认]'
+  shortexplain: '用于征求对方同意或确认，句尾读升调'
+  explanation: '当说话人就某事征求听话人的同意时，句尾用助词"ね"，读升调。\n\n例如："あそこに 犬が いますね。"（那儿有一只狗啊。）\n"この 新聞{しんぶん}は 林{はやし}さんのですね。"（这报纸是林先生的吧。）\n"駅の 前{まえ}に 銀行{ぎんこう}が ありますね。"（车站前面有家银行吧。）'
+  examples:
+  - japanese: 'あそこに 犬{いぬ}が いますね。'
+    chinese: '那儿有一只狗啊。'
+    type: sentence
+  - japanese: 'この 新聞{しんぶん}は 林{はやし}さんのですね。'
+    chinese: '这报纸是林先生的吧。'
+    type: sentence
+  - japanese: '駅{えき}の 前{まえ}に 銀行{ぎんこう}が ありますね。'
+    chinese: '车站前面有家银行吧。'
+    type: sentence
 # - idx: 81
 #   lesson: '002'
 #   expression: '名の名 [所属]'
@@ -659,8 +707,25 @@
 - idx: 94
   lesson: '003'
   expression: ～は～です
-  shortexplain: ''
-  explanation: ～は+ [场所名词] +です。“……在……”
+  shortexplain: '询问国籍或公司的礼貌表达'
+  explanation: '～は+ [场所名词] +です。"……在……"\n\n"お国は どちらですか？"是询问对方来自哪个国家的礼貌说法，相当于"你是哪个国家的人？"\n\n注意：不是所有名词前都可以加"お"。在"国"前加"お"变成"お国"更礼貌一些。该句含两种含义：\n\n1. 询问公司所在地（如"在上海"）\n2. 询问所属公司的名称（如"JC策划公司"）\n\n需根据上下文判断具体含义。'
+  examples:
+  - type: dialogue
+    conversation:
+    - speaker: 甲
+      japanese: '会社{かいしゃ}は どちらですか。'
+      chinese: '你的公司在哪儿？'
+    - speaker: 乙
+      japanese: '上海{しんこう}です。'
+      chinese: '在上海。'
+  - type: dialogue
+    conversation:
+    - speaker: 甲
+      japanese: '会社{かいしゃ}は どちらですか。'
+      chinese: '你是哪个公司的？'
+    - speaker: 乙
+      japanese: 'J C企画{ジェーシーきかく}です。'
+      chinese: 'JC策划公司。'
 - idx: 95
   lesson: 009
   expression: ～は～(い)です
@@ -792,8 +857,12 @@
 - idx: 113
   lesson: '003'
   expression: ～も～です
-  shortexplain: ''
-  explanation: '[名]も　[名]です。 助词“も”：“也……” [数量词]＋も+肯定形式：强调数量多。'
+  shortexplain: '助词"も"："也……"'
+  explanation: '[名]も　[名]です。 助词"も"："也……" [数量词]＋も+肯定形式：强调数量多。\n\n"階"是量词，表示楼层。"1階"中的"階"是日语的量词，用于表示楼层。当与数词搭配时，有时会有多种读音情况。\n\n例如："1階"读作"いちかい"，"2階"读作"にかい"。具体读法请参考附录TV"数、量词搭配使用表"。'
+  examples:
+  - japanese: '1階{いちかい}は デパートの 入り口{いりぐち}です。'
+    chinese: '1楼是百货商店的入口。'
+    type: sentence
 - idx: 114
   lesson: '011'
   expression: ～や～/～や～など～
