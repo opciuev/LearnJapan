@@ -300,9 +300,11 @@ td .copy-btn {
 <script>
 $(document).ready(function() {
   // 复制到剪贴板函数
-  function copyToClipboard(text, button) {
-    // 清理文本，移除多余的空白字符和换行
-    const cleanText = text.replace(/\s+/g, ' ').trim();
+  function copyToClipboard(text, button, preserveNewlines = false) {
+    // 根据需要决定是否保留换行
+    const cleanText = preserveNewlines ? 
+      text.replace(/[ \t]+/g, ' ').trim() : // 只清理空格和制表符，保留换行
+      text.replace(/\s+/g, ' ').trim();     // 清理所有空白字符包括换行
     
     if (navigator.clipboard && window.isSecureContext) {
       // 现代浏览器的异步复制方法
@@ -410,10 +412,15 @@ $(document).ready(function() {
         e.preventDefault();
         e.stopPropagation();
         
-        // 收集所有中文译文内容
+        // 收集所有中文译文内容，排除日语和按钮文本
         const texts = [];
         $element.find('p, li, blockquote > p').each(function() {
-          const text = $(this).text().trim();
+          const $item = $(this);
+          // 克隆元素以避免修改原始DOM
+          const $clone = $item.clone();
+          // 移除日语内容和按钮
+          $clone.find('.japanese, .japan, button, .btn, .form-horizontal, .translation-input').remove();
+          const text = $clone.text().trim();
           if (/[\u4e00-\u9fff]/.test(text) && text.length > 0) {
             texts.push(text);
           }
@@ -421,7 +428,7 @@ $(document).ready(function() {
         
         if (texts.length > 0) {
           const fullText = texts.join('\n');
-          copyToClipboard(fullText, this);
+          copyToClipboard(fullText, this, true); // 保留换行
         }
       });
       
@@ -486,7 +493,7 @@ $(document).ready(function() {
       
       if (texts.length > 1) { // 至少有标题和一个例句
         const fullText = texts.join('\n');
-        copyToClipboard(fullText, this);
+        copyToClipboard(fullText, this, true); // 保留换行
       }
     });
     
@@ -525,7 +532,7 @@ $(document).ready(function() {
       
       if (texts.length > 1) { // 至少有标题和一个内容
         const fullText = texts.join('\n');
-        copyToClipboard(fullText, this);
+        copyToClipboard(fullText, this, true); // 保留换行
       }
     });
     
@@ -545,7 +552,8 @@ $(document).ready(function() {
     });
     
     // 为表格中的中文内容添加复制按钮（表达和语法表格）
-    $('table td').each(function() {
+    // 注意：DataTables表格由table.html中的addCopyToTable函数处理
+    $('table:not(.display) td').each(function() {
       const cellText = $(this).text().trim();
       // 检查是否包含中文字符
       if (/[\u4e00-\u9fff]/.test(cellText)) {

@@ -118,8 +118,8 @@ function addCopyToTable() {
     const cellText = $(this).text().trim();
     // 检查是否包含中文字符且不是空内容
     if (/[\u4e00-\u9fff]/.test(cellText) && cellText.length > 0) {
-      // 避免重复添加
-      if ($(this).find('.copy-btn').length === 0) {
+      // 避免重复添加 - 检查所有类型的复制按钮
+      if ($(this).find('.copy-btn, .copy-container').length === 0) {
         const $container = $('<span class="copy-container"></span>');
         const $copyBtn = $('<button class="copy-btn" title="复制"><i class="fa fa-copy"></i></button>');
         
