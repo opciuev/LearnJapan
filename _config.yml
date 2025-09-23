@@ -52,6 +52,8 @@ links:
     url: /tools/expressions.html
   - title: 单词
     url: /tools/wordlist.html
+  - title: 内容管理
+    url: /admin.html
   # - title: Series
   #   url: /series
   # - title: Tags
